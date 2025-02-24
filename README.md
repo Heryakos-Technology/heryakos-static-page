@@ -1,0 +1,1 @@
+# heryakos-static-page
