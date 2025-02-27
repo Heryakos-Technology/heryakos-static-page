@@ -34,7 +34,7 @@
     <div class="hidden lg:block lg:visible">
         <div class=" footer flex justify-between text-white pb-42 mt-10  pt-5 pl-4 pr-20  ">
     <div class=" ">
-        <img src="/Screenshot 2025-02-26 013401.png" alt="" class="">
+        <img src="/Screenshot 2025-02-26 013401.png" alt="" class="w-40">
     </div>
     <div>
         <div class="text-lg mb-4 ">Quick Links</div>
