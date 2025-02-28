@@ -5,15 +5,15 @@
             <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12" />
         </div>
         <div class="absolute top-28 left-5 lg:left-20 lg:top-56 text-white">
-            <h1 class="lg:text-4xl lg:font-bold">FINANCIAL FOCUS <br />& CONSULTING</h1>
-            <h2 class="mt-3 lg:mt-8 lg:text-lg lg:font-semibold">
+            <h1 class="lg:text-6xl lg:font-bold">FINANCIAL FOCUS <br />& CONSULTING</h1>
+            <h2 class="mt-3 lg:mt-8 lg:text-3xl lg:font-semibold">
                 With over years of experience <br class="lg:hidden" />
                 business to fine <br class="" />
                 comprehensive solutions
             </h2>
             <div class="lg:mt-12 mt-6">
-                <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-7 lg:py-3 mt-4 rounded-lg lg:rounded-xl">LEARN MORE</a>
-                <a href="#" class="button text-white px-5 py-2 lg:px-7 lg:py-3 mt-4 rounded-lg lg:rounded-xl ml-4">CONTACT US</a>
+                <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl lg:text-xl">LEARN MORE</a>
+                <a href="#" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
 
         <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 lg:hidden relative" />
         <div class="absolute middleContainer top-100 rounded-md shadow-sm ">
-            <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10">
+            <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 ">
             <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-2/3 lg:text-lg">
                 We are a passionate team dedicated to providing high-quality content and resources that inspire and inform our audience. With a focus on innovation and creativity, we strive to deliver engaging experiences that resonate with our visitors. Our mission is to connect, educate, and empower individuals through our carefully curated articles and insights.
@@ -33,10 +33,10 @@
         </div>
     </div>
     <div class="hidden lg:block lg:visible">
-        <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-20 lg:mr-20 ">
-        <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10">
+        <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-32 lg:mr-32 ">
+        <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 lg:w-4/5">
             <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
-            <h2 class="mt-5 text-sm w-60 lg:w-2/3 lg:text-lg">
+            <h2 class="mt-5 text-sm w-60 lg:w-4/5 lg:text-lg">
                 We are a passionate team dedicated to providing high-quality content and resources that inspire and inform our audience. With a focus on innovation and creativity, we strive to deliver engaging experiences that resonate with our visitors. Our mission is to connect, educate, and empower individuals through our carefully curated articles and insights.
             </h2>
             <div class="mt-6 lg:mt-5">
@@ -50,7 +50,7 @@
     </div>
     </div>
    
-    <div class="lastContainer mt-20 rounded-sm shadow-sm pb-5 ml-3 mr-3 lg:ml-20 lg:mr-20 lg:pl-10 lg:pr-10">
+    <div class="lastContainer mt-20 rounded-sm shadow-sm pb-5 ml-3 mr-3 lg:ml-32 lg:mr-32 lg:pl-10 lg:pr-10">
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10">
             <TeamCard 
