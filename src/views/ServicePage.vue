@@ -32,7 +32,7 @@
         Static Website Development
       </h2>
       <p class="text-sm text-center font-serif">
-        <span class="text-blue-500">🌐</span> "Beautifully Crafted Websites That Speak for Your Brand"
+        <span class="text-blue-500 text-lg">🌐</span> "Beautifully Crafted Websites That Speak for Your Brand"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         We design fast, secure, visually stunning static websites ideal for portfolios, landing pages, and informational platforms. Our static websites ensure top performance with minimal maintenance.
@@ -45,7 +45,7 @@
         Technology Consultancy
       </h2>
       <p class="text-sm text-center font-serif mb-2">
-        <span class="text-blue-500">🔍</span> "Empowering Ideas with the Right Technology"
+        <span class="text-blue-500 text-lg">🔍</span> "Empowering Ideas with the Right Technology"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         We provide expert guidance to help you choose the right technologies and strategies for your business. From project planning to tech stack selection, we ensure you make informed decisions that lead to success.
@@ -90,7 +90,7 @@
         Mobile Application Development (Android & iOS)
       </h2>
       <p class="text-sm text-center font-serif mb-2">
-        <span class="text-blue-500">📱</span> "Seamless Mobile Experiences at Your Fingertips"
+        <span class="text-blue-500 text-lg">📱</span> "Seamless Mobile Experiences at Your Fingertips"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         Reach a wider audience with intuitive and responsive mobile applications. We specialize in building high-performance Android and iOS apps with offline capabilities and real-time data sync for maximum user engagement.
@@ -103,7 +103,7 @@
         Dynamic Website Development
       </h2>
       <p class="text-sm text-center font-serif mb-2">
-        <span class="text-blue-500">⚡</span> "Interactive Web Solutions That Engage and Convert"
+        <span class="text-blue-500 text-lg">⚡</span> "Interactive Web Solutions That Engage and Convert"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         Transform your online presence with feature-rich, dynamic websites that adapt to user interactions. We build scalable platforms with powerful backends tailored for e-commerce, blogs, and web applications.
@@ -148,7 +148,7 @@
         Blockchain Integration
       </h2>
       <p class="text-sm text-center font-serif mb-2">
-        <span class="text-blue-500">🔗 </span> "Future-Proof Your Business with Blockchain"
+        <span class="text-blue-500 text-lg">🔗 </span> "Future-Proof Your Business with Blockchain"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         Leverage the power of blockchain for secure transactions, smart contracts, and decentralized applications. We integrate blockchain solutions tailored to your business needs, ensuring transparency and trust.
@@ -161,7 +161,7 @@
         Cloud Computing Solutions
       </h2>
       <p class="text-sm text-center font-serif mb-2">
-        <span class="text-gray-500">☁ </span> "Scalable, Secure, and Reliable Cloud Solutions"
+        <span class="text-gray-500 text-lg">☁ </span> "Scalable, Secure, and Reliable Cloud Solutions"
       </p>
       <p class="ml-6 mb-4 w-80 text-center">
         Optimize your business operations with our cloud computing services. We offer cloud integration, migration, and management solutions that ensure scalability, data security, and high availability.
@@ -300,7 +300,7 @@
 
     <!-- desktop size for pricing section -->
     <div class="hidden md:block section two">
-      <div class="flex px-40">
+      <div class="flex px-72">
         <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
           <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
             <h2 class="text-center text-xs font-medium">Static Website Development</h2>
@@ -347,7 +347,7 @@
     </div>
 
     <div class="hidden md:block section two flex mt-10 mb-10">
-      <div class="flex px-40">
+      <div class="flex px-72">
         <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
           <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
             <h2 class="text-center text-xs font-medium">Dynamic Website Development</h2>
