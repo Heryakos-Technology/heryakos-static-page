@@ -3,7 +3,7 @@
         <div>
             <img :src="imgSrc" alt="" class="w-full rounded-md h-44 lg:h-80" />
             <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
-                <div class="flex px-1 lg:w-80 lg:justify-between">
+                <div class="flex px-1 lg:w-80 lg:justify-between ">
                     <SocialIcon icon="facebook" />
                     <SocialIcon icon="twitter" />
                     <SocialIcon icon="linkedin" isBlack />

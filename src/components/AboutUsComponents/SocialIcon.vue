@@ -1,6 +1,6 @@
 <template>
-    <div :class="['social-icon', { 'bg-black text-white': isBlack, 'bg-white text-black': !isBlack }]">
-        <i :class="`fa-brands fa-${icon}`" :style="iconStyle"></i>
+    <div :class="[ { 'bg-black text-white': isBlack, 'bg-white text-black': !isBlack }]" class="flex align-middle justify-center rounded-full transition duration-300 ease-in-out w-8 h-8 mr-1 items-center lg:w-16 lg:h-16">
+        <i :class="`fa-brands fa-${icon}`"  class="text-xl lg:text-3xl"></i>
     </div>
 </template>
 
@@ -35,8 +35,8 @@ export default defineComponent({
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px; /* Adjust size */
-    height: 40px; /* Adjust size */
+    width: 40px;
+    height: 40px; 
     border-radius: 50%;
     transition: background-color 0.3s;
 }

@@ -17,7 +17,7 @@
             </div>
         </div>
     </div>
-    <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-12 lg:mr-12">
+    <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-20 lg:mr-20">
         <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10">
             <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-2/3 lg:text-lg">
@@ -32,14 +32,14 @@
             <img src="/teamlarge2.jpg" alt="" class="h-full w-full rounded-md hidden lg:block lg:visible lg:h-full lg:w-full lg:rounded-xl" />
         </div>
     </div>
-    <div class="lastContainer mt-20 rounded-sm shadow-sm pb-5 ml-3 mr-3 lg:ml-12 lg:mr-12">
+    <div class="lastContainer mt-20 rounded-sm shadow-sm pb-5 ml-3 mr-3 lg:ml-20 lg:mr-20 lg:pl-10 lg:pr-10">
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10">
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
                 imgSrc="/Victor.jpg" 
-                class="mr-4"
+                class="lg:mr-20 mr-4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
@@ -52,7 +52,7 @@
                 name="Maria José Jimenez" 
                 role="Architect" 
                 imgSrc="/MariaMale.jpg" 
-                class="mr-4"
+                class="lg:mr-20 mr-4"
             />
             <TeamCard 
                 name="Maria José Jimenez" 
@@ -65,7 +65,7 @@
                 name="Maria José Jimenez" 
                 role="UI/UX Designer" 
                 imgSrc="/MariaFemaleWithTablate.jpg" 
-                class="mr-4"
+                class= "lg:mr-20 mr-4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
