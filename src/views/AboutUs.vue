@@ -4,7 +4,7 @@
         <div>
             <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12" />
         </div>
-        <div class="absolute top-28 left-5 lg:left-20 lg:top-74 text-white">
+        <div class="absolute top-28 left-5 lg:left-20 lg:top-56 text-white">
             <h1 class="lg:text-4xl lg:font-bold">FINANCIAL FOCUS <br />& CONSULTING</h1>
             <h2 class="mt-3 lg:mt-8 lg:text-lg lg:font-semibold">
                 With over years of experience <br class="lg:hidden" />
