@@ -20,7 +20,7 @@
     <div class="lg:hidden mt-20">
 
         <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 lg:hidden relative" />
-        <div class="absolute middleContainer top-100 rounded-md shadow-sm ">
+        <div class="absolute middleContainer w-64 top-100 rounded-md shadow-sm ">
             <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 ">
             <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-2/3 lg:text-lg">
