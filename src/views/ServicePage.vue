@@ -391,7 +391,7 @@
 </div>
 <!-- /end of desktop view -->
     <div>
-      <p class="text-2xl mb-4  font-bold text-center ml-40 ">Ready to Showcase Your Products? <a href="#" class="text-[#984AF7]"><u>Click here</u></a> to sign up!</p>
+      <p class="text-md lg:text-2xl mb-4 w-full font-bold text-center  ">Ready to Showcase Your Products? <a href="#" class="text-[#984AF7]"><u>Click here</u></a> to sign up!</p>
     </div>
   </div>
 
