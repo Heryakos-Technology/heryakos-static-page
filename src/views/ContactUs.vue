@@ -5,10 +5,10 @@
           <img src="/threeProples.png" alt="" class="max-w-full max-h-full mx-auto">
         </div>
         <div class="mt-8">
-            <h1 class="text-center text-4xl">Need a replay fast?</h1>
+            <h1 class="text-center text-4xl">Need a reply fast?</h1>
             <h1 class="text-center text-6xl mt-12">Let's <span class="talk">talk!</span> </h1>
             <p class="text-2xl ml-6 mt-10 font-light w-90 leading-9">Share your project requirements
-here or send us an  email at
+here or send us an email at
 info@orizon.com we will follow up
  in <span class="font-bold">24 hrs</span>  </p>
         </div>
@@ -42,7 +42,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl">Project Description </p>
                 </div>
                 <div class="mt-4">
-                    <textarea cols="24" rows="6" type="text" placeholder="We need to launch Earth’s  new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border  border-pink-200 py-6 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl" style="white-space: pre-line;" />
+                    <textarea cols="24" rows="6" type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border  border-pink-200 py-6 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl" style="white-space: pre-line;" />
                 </div>
             </div>
             <div class="mt-16">
@@ -75,14 +75,14 @@ info@orizon.com we will follow up
             </div>
             <div class="text-xl font-semibold w-80 mt-16">
                 <p>Filling out the form above is the
-fastest wat to get an answer,
+fastest way to get an answer,
 but you can also schedule a cal
 l in the upcoming days if you
 prefer.</p>
             </div>
         </div>
         
-        <div class="ml-6 mt-24 bg-black text-white rounded-4xl pt-2 pb-5">
+        <div class="ml-2 mt-24 bg-black text-white rounded-4xl pt-2 pb-5">
             <div class="flex bg-black text-white rounded-4xl">
                 <div class="ml-4">
                     <img src="/groupImageBottom.png" alt="">
@@ -101,48 +101,56 @@ prefer.</p>
         </div>
         <div class="mt-28">
             <div class="flex ml-1 mr-1">
-<div class="flex cardDiv pl-3 pr-3 rounded-lg pt-3 pb-6 shadow-md">
-<div class="mr-2">
-    <i class="fa-solid fa-envelope text-black text-2xl"></i>
-</div>
-<div class="">
-    <h1 class="font-semibold">Email & Phone</h1>
-    <p class="text-sm text-gray-500 mt-2 font-semibold">yared123@gmail.com</p>
-    <p class="text-sm text-gray-500  font-semibold">+251916897173</p>
-</div>
-</div>
-<div class="flex cardDiv pl-3 pr-3 rounded-lg py-4 ml-3">
-<div class="mr-2">
-    <i class="fa-solid fa-location-dot text-black text-2xl"></i>
-</div>
-<div class="">
-    <h1 class="font-semibold ">Our Location</h1>
-    <p class="text-sm text-gray-500 font-semibold mt-2">Sherifa BLDG 8th
+                <div class="flex cardDiv pl-3 pr-3 rounded-lg pt-3 pb-6 shadow-md">
+                    <div class="mr-2">
+                        <i class="fa-solid fa-envelope text-black text-2xl"></i>
+                    </div>
+                    <div class="">
+                        <h1 class="font-semibold">Email & Phone</h1>
+                        <p class="text-sm text-gray-500 mt-2 font-semibold">yared123@gmail.com</p>
+                        <p class="text-sm text-gray-500  font-semibold">+251916897173</p>
+                    </div>
+                </div>
+                <div class="flex cardDiv pl-3 pr-3 rounded-lg py-4 ml-3">
+                    <div class="mr-2">
+                        <i class="fa-solid fa-location-dot text-black text-2xl"></i>
+                    </div>
+                    <div class="">
+                        <h1 class="font-semibold ">Our Location</h1>
+                        <p class="text-sm text-gray-500 font-semibold mt-2">Sherifa BLDG 8th
 floor,Meskel
 flowerAddid Ababa</p>
 
-</div>
-</div>
+                    </div>
+                </div>
             </div>
             <div class="flex cardDiv pl-3 pr-2 w-48  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10">
-<div class="mr-2">
-    <i class="fa-solid fa-phone text-black text-2xl"></i>
-</div>
-<div class=" ">
-    <h1 class="font-semibold">Project Inquiry</h1>
-    <p class="text-sm text-gray-500 font-semibold mt-2">+251916897173</p>
-    <p class="text-sm text-gray-500 font-semibold">+251916897173</p>
-</div>
-</div>
+                <div class="mr-2">
+                    <i class="fa-solid fa-phone text-black text-2xl"></i>
+                </div>
+                <div class=" ">
+                    <h1 class="font-semibold">Project Inquiry</h1>
+                    <p class="text-sm text-gray-500 font-semibold mt-2">+251916897173</p>
+                    <p class="text-sm text-gray-500 font-semibold">+251916897173</p>
+                </div>
+            </div>
         </div>
         
     </div>
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue';
 
-}
+export default defineComponent({
+    setup() {
+        // Define any reactive state or methods here if needed
+
+        return {
+            // Return any properties or methods you want to expose to the template
+        };
+    }
+});
 </script>
 
 <style>
@@ -168,4 +176,4 @@ export default {
         background: linear-gradient(to right, #D6C4F2 0%, #B693F5 100%);
     }
         
-</style> 
+</style>
