@@ -6,5 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <img :src="Logo" alt="Heryakos Logo" :class="props.class">
+  <div :class="props.class">
+    <img :src="Logo" alt="Heryakos Logo" class="w-fit">
+  </div>
 </template>

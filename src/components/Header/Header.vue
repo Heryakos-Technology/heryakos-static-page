@@ -41,7 +41,7 @@ const handleSidebarOpen = () => {
     </div>
     <!-- Desktop Heading -->
     <div
-      class="hidden md:flex cursor-pointer justify-between w-[90%] h-full my-auto bg-white  mx-auto py-4 rounded-4xl px-8   items-center  lg:py-3 max-w-[1280px] ">
+      class="hidden md:flex cursor-pointer justify-between w-[90%] h-full my-auto bg-white  mx-auto py-2 rounded-4xl px-8   items-center   max-w-[1100px] ">
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
@@ -51,7 +51,7 @@ const handleSidebarOpen = () => {
         <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</li>
       </ul>
       <button
-        class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-3 rounded-full font-medium lg:px-10 lg:py-4">Contact</button>
+        class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
     </div>
   </div>
 </template>
