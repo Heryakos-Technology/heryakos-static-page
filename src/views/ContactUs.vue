@@ -18,7 +18,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Name</p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="Don from Earth,Inc." class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl lg:w-7/8">
+                    <input type="text" placeholder="Don from Earth,Inc." class="input border focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl lg:w-7/8">
                 </div>
             </div>
             <div class="hidden lg:block mt-16">
@@ -28,7 +28,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Email</p>
                 </div>
                 <div class="mt-4 mr-2">
-                    <input type="text" placeholder="don@norman.me" class="input border  border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl ">
+                    <input type="text" placeholder="don@norman.me" class="input border focus:outline-none  border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl ">
                 </div>
                     </div>
                     <div class="ml-22">
@@ -36,7 +36,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Phone</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="(555) 555-555" class="input border border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
+                    <input type="text" placeholder="(555) 555-555" class="input border focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
                 </div>
                     </div>
                  
@@ -48,7 +48,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl">Email </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="don@norman.me" class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
+                    <input type="text" placeholder="don@norman.me" class="input border focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
                 </div>
             </div>
             <div class="mt-16 lg:hidden">
@@ -56,7 +56,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl">Phone Number </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="(555) 555-555" class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
+                    <input type="text" placeholder="(555) 555-555" class="input border focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
                 </div>
             </div>
             <div class="mt-16">
@@ -64,10 +64,10 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Project Description </p>
                 </div>
                 <div class="mt-4 lg:hidden">
-                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border  border-pink-200 py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl " style="white-space: pre-line;" />
+                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border focus:outline-none  border-pink-200 py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl " style="white-space: pre-line;" />
                 </div>
                 <div class="mt-4 hidden lg:block">
-                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border  border-pink-200 py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl " style="white-space: pre-line;" />
+                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border focus:outline-none border-pink-200 py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-black placeholder:text-2xl " style="white-space: pre-line;" />
                 </div>
             </div>
             <div class="mt-16">
@@ -75,7 +75,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Subject </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="enter your subject here." class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl lg:w-7/8">
+                    <input type="text" placeholder="enter your subject here." class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl focus:outline-none placeholder:text-black placeholder:text-2xl lg:w-7/8">
                 </div>
             </div>
             <div class="mt-16 ml-40 lg:ml-156 justify-end" >
