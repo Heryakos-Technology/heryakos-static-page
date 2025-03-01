@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-20 lg:w-2/3 lg:mx-auto  md:w-4/5 md:mx-auto">
+    <div class="mb-20 lg:w-3/5 lg:mx-auto  md:w-4/5 md:mx-auto">
 
         <div class="mt-20 md:">
           <img src="/threeProples.png" alt="" class="max-w-full max-h-full mx-auto lg:w-96">
@@ -22,21 +22,21 @@ info@orizon.com we will follow up
                 </div>
             </div>
             <div class="hidden lg:block mt-16">
-                <div class="flex w-full">
-                    <div class="mr-5">
+                <div class="flex">
+                    <div class="w-3/4">
                         <div class="">
                     <p class="text-2xl lg:text-xl">Email</p>
                 </div>
-                <div class="mt-4 mr-2">
-                    <input type="text" placeholder="don@norman.me" class="input border focus:outline-none  border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl ">
+                <div class="mt-4 ">
+                    <input type="text" placeholder="don@norman.me" class="input border focus:outline-none   border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl w-3/4">
                 </div>
                     </div>
-                    <div class="ml-22">
+                    <div class="w-3/4">
                         <div class="">
                     <p class="text-2xl lg:text-xl">Phone</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="(555) 555-555" class="input border focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl">
+                    <input type="text" placeholder="(555) 555-555" class="input border focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-black placeholder:text-2xl w-3/4">
                 </div>
                     </div>
                  
@@ -78,8 +78,8 @@ info@orizon.com we will follow up
                     <input type="text" placeholder="enter your subject here." class="input border w-13/14 border-pink-200 py-6 pl-6 rounded-xl focus:outline-none placeholder:text-black placeholder:text-2xl lg:w-7/8">
                 </div>
             </div>
-            <div class="mt-16 ml-40 lg:ml-156 justify-end" >
-                <button class="button text-white py-2 px-5 w-10/11 -ml-3    rounded-lg text-2xl lg:rounded-3xl lg:text-lg lg:px-8 lg:-ml-40">Send Message</button>
+            <div class="mt-16 ml-40  justify-end" >
+                <button class="button text-white py-2 px-5 w-10/11 -ml-3   rounded-lg text-2xl lg:rounded-3xl lg:text-lg lg:px-8 lg:ml-40 lg:w-1/2">Send Message</button>
                
             </div>
             <div class="text-xl   font-semibold  mt-8 lg:mx-auto">
@@ -137,14 +137,14 @@ prefer.</p>
 </div>
 <div>
     <div class="pt-4 ml-4 lg:mt-2">
-                    <h1 class="font-semibold">Want to jump on  a <br class="lg:hidden">
+                    <h1 class="font-semibold lg:text-2xl lg:w-90">Want to jump on  a <br class="lg:hidden">
                         telegram chat?</h1>
-                    <p class="mt-2 text-xl font-light">Book a 30 minute 
+                    <p class="mt-2 text-xl font-light ">Book a 30 minute 
                       <br class="lg:hidden">  chat</p>
                 </div>
 </div>
 <div class="ml-36 mt-5">
-                <button class="button text-white py-3 px-12 rounded-full mt-8 -ml-30 text-2xl">Continue</button>
+                <button class="button text-white py-3 px-12 rounded-full mt-8 -ml-46 text-2xl">Continue</button>
             </div>
 </div>
         </div>
@@ -160,7 +160,7 @@ prefer.</p>
                         <p class="text-sm text-gray-500  font-semibold lg:text-lg">+251916897173</p>
                     </div>
                 </div>
-                <div class="flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-4/5 lg:h-48 lg:mr-5 lg:pl-10 lg:pt-6">
+                <div class="flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48 lg:mr-5 lg:pl-10 lg:pt-6">
                     <div class="mr-2">
                         <i class="fa-solid fa-location-dot text-black text-2xl lg:text-4xl"></i>
                     </div>
@@ -173,7 +173,7 @@ flowerAddid Ababa</p>
                     </div>
                 </div>
             </div>
-            <div class="flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48 lg:w-107 lg:pr-1 lg:pl-10 lg:pt-6">
+            <div class="flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48  lg:pr-1 lg:pl-10  lg:pt-6 lg:w-98">
                 <div class="mr-2">
                     <i class="fa-solid fa-phone text-black text-2xl lg:text-4xl mt-2"></i>
                 </div>
@@ -183,8 +183,7 @@ flowerAddid Ababa</p>
                     <p class="text-sm text-gray-500 font-semibold lg:text-lg">+251916897173</p>
                 </div>
             </div>
-        </div>
-        
+        </div>  
     </div>
 </template>
 
