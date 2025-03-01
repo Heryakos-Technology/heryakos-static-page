@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - new  
+      - 14-contact-us-page-implementation  
 
 permissions:
   contents: write 
