@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header/Header.vue'
+import Footer from './components/Footer/Footer.vue'
 
 </script>
 
@@ -10,4 +11,5 @@ import Header from './components/Header/Header.vue'
   <div class="bg-[#f7f3fe]">
     <RouterView />
   </div>
+  <Footer />
 </template>
