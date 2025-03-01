@@ -1,15 +1,16 @@
 <template>
   
-    <div class="lg:px-20 lg:-mt-32 hidden hidden md:block">
-    <img src="/light-bulb-of-blog-page.png" alt="" class="w-64 mt-5 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28">
+    <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden hidden md:block">
+    <img src="/light-bulb-of-blog-page.png" alt="" class="w-2/3 mt-5 md:w-2/3 md:ml-72 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28">
     <div class="lg:-mt-40 lg:ml-36 ">
-        <div class="w-11/12 h-44 bg-white absolute -mt-14 lg:w-1/3 lg:h-96 lg:-mt-96">
-        <p class=" text-sm w-96 pt-5 pl-5 pr-4  lg:text-2xl lg:w-11/12 lg:mx-auto lg:mt-6"><span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration converge. Explore a curated collection of articles that delve into diverse topics, from industry trends to personal reflections. Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding.</p>
+        <div class="w-11/12 h-44 md:ml-20 md:w-4/5 bg-white absolute -mt-14 lg:w-1/3 lg:h-96 lg:-mt-96">
+        <p class=" text-sm w-96 pt-5 pl-5 pr-4 md:text-lg md:w-11/12  lg:text-2xl lg:w-11/12 lg:mx-auto lg:mt-6"><span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration converge. Explore a curated collection of articles that delve into diverse topics, from industry trends to personal reflections. Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding.</p>
     </div>
     </div>
     </div>
+
     <div class="block md:hidden">
-    <img src="/light-bulb-of-blog-page.png" alt="" class="w-64 ml-34 mt-5 relative ">
+    <img src="/light-bulb-of-blog-page.png" alt="" class="w-4/5 ml-20 mt-5 relative ">
     <div class="w-11/12 h-44 bg-white absolute -mt-14">
         <p class=" text-sm w-96 pt-5 pl-5 pr-4  "><span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration converge. Explore a curated collection of articles that delve into diverse topics, from industry trends to personal reflections. Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding.</p>
     </div>
@@ -70,9 +71,9 @@
 <!-- desktop -->
     <div class=" w-11/12 mx-auto px-10 hidden hidden md:block">
     <div class="flex ">
-        <div class="bg-[#ece3ff] w-1/2 mx-auto mt-20 pb-26 mb-10 mr-10">
-        <img src="/cardfirst-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
-        <div class="w-96 pb-6  bg-white ml-7 absolute -mt-16">
+        <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10 mr-10">
+        <img src="/cardfirst-blog.png" alt="" class="w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative">
+        <div class="w-96 md:4/5 pb-6  bg-white ml-7 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">The Future of Healthcare: Technology Meets Compassion</p>
             <p class="w-80 mx-auto text-md mt-2 font-semibold">August 30, 2024  <span class="font-bold text-lg ml-3 mr-3">. </span>  Healthcare</p>
             <p class="w-80 mx-auto mt-3 text-md">innovations like AI and telemedicine are reshaping healthcare. By blending cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
@@ -88,7 +89,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-1/2 mx-auto mt-20 pb-26 mb-10">
+    <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10">
         <img src="/cardsecond-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
         <div class="w-96 pb-6  bg-white ml-7 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">Exploring Web & Mobile Development</p>
