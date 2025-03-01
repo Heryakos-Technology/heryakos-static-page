@@ -12,10 +12,10 @@ const handleSidebarOpen = () => {
 </script>
 
 <template>
-  <div class="w-full sticky top-0 left-0">
+  <div class="w-full md:fixed  z-50 md:top-5 ">
     <!-- Mobile Header -->
-    <div class="px-4 justify-between items-center  flex py-4 ">
-      <HeryakosLogo :width="105" />
+    <div class="px-4 md:hidden fixed w-full bg-white top-0 left-0   justify-between items-center z-50  flex py-4  ">
+      <HeryakosLogo />
       <div @click="handleSidebarOpen" class="size-5 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path
@@ -24,7 +24,7 @@ const handleSidebarOpen = () => {
       </div>
       <!-- Mobile Sidebar -->
       <div
-        class="fixed max-w-sm md:hidden  bg-black h-screen flex  transition-all flex-col   origin-right ease-linear duration-700 top-0 right-0 w-0"
+        class="fixed max-w-sm  bg-black h-screen flex  transition-all flex-col   origin-right ease-linear duration-700 top-0 right-0 w-0"
         :class="{ 'w-screen': isSidebarOpen }">
         <svg @click="handleSidebarOpen" class="size-7 ml-auto mt-4 mr-5 fill-purple-600  "
           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -38,6 +38,20 @@ const handleSidebarOpen = () => {
           <li class="">Services</li>
         </ul>
       </div>
+    </div>
+    <!-- Desktop Heading -->
+    <div
+      class="hidden md:flex cursor-pointer justify-between w-[90%] h-full my-auto bg-white  mx-auto py-4 rounded-4xl px-8   items-center  lg:py-3 max-w-[1280px] ">
+
+      <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
+      <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
+        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</li>
+        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</li>
+        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</li>
+        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</li>
+      </ul>
+      <button
+        class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-3 rounded-full font-medium lg:px-10 lg:py-4">Contact</button>
     </div>
   </div>
 </template>
