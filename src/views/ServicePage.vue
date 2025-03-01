@@ -114,26 +114,26 @@
 
     <!-- desktop -->
     <div class="hidden lg:block md:block">
-      <div class="mb-96 ">
+      <div class="lg:mb-96 md:mb-64">
         <img
-          class="w-11/12 lg:w-11/12 md:w-11/12 md:ml-20 lg:mx-auto lg:h-screen lg:overflow-hidden ml-4 h-72 mt-6 rounded-4xl relative text-purple-300"
+          class="w-11/12 lg:w-11/12 md:w-11/12 md:ml-8 lg:mx-auto lg:h-screen lg:overflow-hidden ml-4 h-72 mt-6 rounded-4xl relative text-purple-300"
           src="/herosection-service.png" alt="Service Landing Image">
         <div class="-mt-64 w-64 mx-auto">
           <p
-            class="lg:text-5xl lg:text-center -ml-20 text-md -mt-96 pt-2 absolute font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
+            class="lg:text-5xl lg:text-center -ml-20 text-md md:mt-4 md:ml-20 -mt-96 pt-2 absolute font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
             OUR SERVICES
           </p>
         </div>
-        <div class="w-2/3 mx-auto -mt-96">
-          <p class="w-1/2 text-center p-2 absolute text-2xl ml-20 -mt-28 font-extralight text-white">We offer
+        <div class="w-2/3 mx-auto -mt-96 md:mt-44">
+          <p class="w-1/2 text-center p-2 absolute text-2xl ml-20 -mt-28 font-extralight text-white md:text-sm">We offer
             cutting-edge technology solutions designed to accelerate your business growth. From stunning web experiences
             to powerful mobile applications and future-ready blockchain solutions, we provide end-to-end services
             tailored to your unique needs.</p>
         </div>
       </div>
 
-      <div class="flex px-20 md-px-10">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 mr-5 rounded-lg h-1/3 mx-auto mt-8 mb-10">
+      <div class="flex px-20 md:px-4 md:-mt-20">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:mr-2 lr:mr-5 rounded-lg h-1/3 mx-auto mt-8 mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/first-service.png" alt="Static Website Development"
             class="mx-auto rounded-bl-2xl rounded-tr-full w-full mb-6">
@@ -149,7 +149,7 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 ml-5 rounded-lg h-1/3 mx-auto mt-8 mb-10">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg h-1/3 mx-auto mt-8 lg:mb-1 md:pb-8">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/second-service.png" alt="Static Website Development" class="mx-auto w-full h-1/2 mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -165,8 +165,8 @@
         </div>
       </div>
 
-      <div class="flex px-20 -mt-8">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] w-1/2 mr-5 h-1/3 rounded-lg mx-auto mt-8 mb-10">
+      <div class="flex px-20 md:px-4 -mt-8">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/third-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 w-4/5 mx-auto text-center">
@@ -182,7 +182,7 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] w-1/2 ml-5 h-1/3 rounded-lg pb-9 mx-auto mt-8 mb-10">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:ml-5 md:ml-4 h-1/3 rounded-lg pb-9 mx-auto mt-8 mb-10">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/fourth-servicee.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -198,8 +198,8 @@
         </div>
       </div>
 
-      <div class="flex px-20 -mt-8">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] w-1/2 mr-5 h-1/3 rounded-lg mx-auto mt-8 mb-10">
+      <div class="flex px-20 md:px-4 -mt-8">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/fifth-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -214,7 +214,7 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] w-1/2 h-1/3 ml-5 rounded-lg mx-auto mt-8 mb-10">
+        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 h-1/3 lg:ml-5 md:ml-4 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/sixth-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
