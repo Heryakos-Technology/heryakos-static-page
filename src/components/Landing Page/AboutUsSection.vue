@@ -5,7 +5,7 @@ import AboutUSideImage from '/images/About_Us_Side_Image.png';
 <template>
   <div class="pt-8 md:flex mx-auto   justify-between  md:px-4 gap-x-2 ">
     <div class="md:space-y-10  lg:space-y-12 2xl:space-y-16">
-      <h1 class="font-bold text-btnColor xs:px-6 md:px-0 ">Who We Are</h1>
+      <h1 class="font-bold text-btnColor xs:px-6 md:px-0 lg:text-xl ">Who We Are</h1>
       <div
         class="text-center mt-8 max-w-[300px] mx-auto xs:max-w-[330px] sm:max-w-[370px] md:text-left  lg:max-w-[490px]  md:space-y-10  lg:space-y-18 xl:max-w-[700px]">
         <h1 class="font-bold px-6 text-2xl  xs:text-3xl sm:text-4xl md:px-0 xl:text-5xl   ">We are Digital Experts,
