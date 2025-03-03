@@ -73,7 +73,7 @@
     <div class="flex ">
         <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10 mr-10">
         <img src="/cardfirst-blog.png" alt="" class="w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative">
-        <div class="w-96 md:4/5 pb-6  bg-white ml-7 absolute -mt-16">
+        <div class="w-1/4 h-64 md:4/5 pb-6  bg-white ml-7 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">The Future of Healthcare: Technology Meets Compassion</p>
             <p class="w-80 mx-auto text-md mt-2 font-semibold">August 30, 2024  <span class="font-bold text-lg ml-3 mr-3">. </span>  Healthcare</p>
             <p class="w-80 mx-auto mt-3 text-md">innovations like AI and telemedicine are reshaping healthcare. By blending cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
@@ -91,7 +91,7 @@
 
     <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10">
         <img src="/cardsecond-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
-        <div class="w-96 pb-6  bg-white ml-7 absolute -mt-16">
+        <div class="w-1/4 h-64 pb-6  bg-white ml-7 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">Exploring Web & Mobile Development</p>
             <p class="w-80 mx-auto text-md mt-2 font-semibold">August 2, 2024  <span class="font-bold text-lg ml-3 mr-3">. </span>  Software</p>
             <p class="w-80 mx-auto mt-3 text-md">Explore the dynamic world of web and mobile development, where creativity meets technology. From responsive designs to_</p>
@@ -113,7 +113,7 @@
     <div class="flex ">
  <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10 mr-10">
         <img src="/cardthird-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
-        <div class="w-96 pb-6  bg-white ml-8 absolute -mt-16">
+        <div class="w-1/4 h-64 pb-6  bg-white ml-8 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">Cloud Technology Revolutionizing Business in 2025</p>
             <p class="w-80 mx-auto text-md mt-2 font-semibold">january 30, 2025  <span class="font-bold text-lg ml-3 mr-3">. </span>  Technology</p>
             <p class="w-80 mx-auto mt-3 text-md">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and_</p>
@@ -131,7 +131,7 @@
 
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10">
         <img src="/cardfourth-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
-        <div class="w-96 pb-6  bg-white ml-7.5 absolute -mt-16">
+        <div class="w-1/4 h-64 pb-6  bg-white ml-7.5 absolute -mt-16">
             <p class="w-80 mx-auto mt-2  text-lg font-bold text-gray-800">Enhancing Business Operations Through Online Platforms</p>
             <p class="w-80 mx-auto text-md mt-2 font-semibold">march 2, 2025  <span class="font-bold text-lg ml-3 mr-3">. </span>  Business</p>
             <p class="w-80 mx-auto mt-3 text-md">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like_</p>
