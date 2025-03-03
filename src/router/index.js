@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutUs from '../views/AboutUs.vue'
 import ContactUs from '../views/ContactUs.vue'
 import ServicePage from '../views/ServicePage.vue'
+import BlogPage from '@/views/BlogPage.vue'
 
 
 
@@ -24,6 +25,12 @@ const router = createRouter({
       path: '/service',
       name: 'ServicePage',
       component: ServicePage,
+    },
+    {
+
+      path: '/blog',
+      name: 'BlogPage',
+      component: BlogPage,
     },
 
     {
