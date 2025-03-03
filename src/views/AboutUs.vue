@@ -1,6 +1,6 @@
 <template>
    
-    <div class="mt-12 z-0">
+    <div class=" z-0">
         <div>
             <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12 md:w-full" />
         </div>
