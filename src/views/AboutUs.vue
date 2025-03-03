@@ -1,8 +1,8 @@
 <template>
    
-    <div class=" z-0">
+    <div class="mt-16 lg:-mt-1 z-0">
         <div>
-            <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12 md:w-full" />
+            <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12 " />
         </div>
         <div class="absolute top-28 left-5 lg:left-20 lg:top-56 text-white">
             <h1 class="lg:text-6xl lg:font-bold">FINANCIAL FOCUS <br />& CONSULTING</h1>
@@ -17,23 +17,23 @@
             </div>
         </div>
     </div>
-    <div class="lg:hidden mt-20 md:w-4/5 md:ml-28 md:mr-28">
+    <div class="lg:hidden mt-20  md:ml-28 md:mr-28">
 
-        <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 lg:hidden relative" />
-        <div class="absolute middleContainer w-64 top-100 rounded-md shadow-sm ">
-            <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 ">
-            <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
-            <h2 class="mt-5 text-sm w-60 lg:w-2/3 lg:text-lg">
+        <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 hidden m lg:hidden relative" />
+        <div class="absolute middleContainer lg:w-64 w-94 ml-4  top-100 rounded-md shadow-sm md:w-2/3">
+            <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10">
+            <h1 class="font-semibold lg:text-3xl md:text-center">Welcome to Financial Company</h1>
+            <h2 class="mt-5 text-sm w-80 lg:w-2/3 lg:text-lg md:w-100 md:ml-10 ">
                 We are a passionate team dedicated to providing high-quality content and resources that inspire and inform our audience. With a focus on innovation and creativity, we strive to deliver engaging experiences that resonate with our visitors. Our mission is to connect, educate, and empower individuals through our carefully curated articles and insights.
             </h2>
-            <div class="mt-6 lg:mt-5">
+            <div class="mt-6 lg:mt-5 md:ml-9">
                 <a href="#" class="button text-white px-8 py-2 rounded-xl">KNOW MORE</a>
             </div>
         </div>
         </div>
     </div>
     <div class="hidden lg:block lg:visible">
-        <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-32 lg:mr-32 ">
+        <div class="middleContainer mt-20 rounded-md shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-32 lg:mr-32 md:w-full">
         <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 lg:w-4/5 md:w-full">
             <h1 class="font-semibold lg:text-3xl">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-4/5 lg:text-lg">
@@ -50,7 +50,7 @@
     </div>
     </div>
    
-    <div class="lastContainer mt-20 rounded-sm shadow-sm pb-5 ml-3 mr-3 lg:ml-32 lg:mr-32 lg:pl-10 lg:pr-10 md:ml-28 md:mr-28">
+    <div class="lastContainer mt-110 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-32 lg:mr-32 lg:pl-10 lg:pr-10 md:ml-28 md:mr-28 lg:mt-20 lg:mb-12 md:mb-10 w-94 mb-10">
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
             <TeamCard 
