@@ -1,9 +1,10 @@
 <script setup>
+import HeroSection from '@/components/Landing Page/HeroSection.vue';
 import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main class="py-24 ">
-    <TheWelcome />
+  <main class="pb-16   ">
+    <HeroSection />
   </main>
 </template>
