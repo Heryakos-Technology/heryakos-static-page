@@ -1,6 +1,6 @@
 <template>
   
-    <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden hidden md:block">
+    <div class="lg:px-20 lg:mb-4 md:mb-20 lg:-mt-32 hidden hidden md:block">
     <img src="/light-bulb-of-blog-page.png" alt="" class="w-2/3 mt-5 md:w-2/3 md:ml-72 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28">
     <div class="lg:-mt-40 lg:ml-36 ">
         <div class="w-11/12 h-44 md:ml-20 md:w-4/5 bg-white absolute -mt-14 lg:w-1/3 lg:h-96 lg:-mt-96">
