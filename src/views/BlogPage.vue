@@ -280,7 +280,6 @@
 
 <script>
 export default {
-howContent(){
     data() {
         return {
             readmore: false,
