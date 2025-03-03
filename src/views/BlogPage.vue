@@ -12,7 +12,7 @@
     <div class="block md:hidden">
     <img src="/light-bulb-of-blog-page.png" alt="" class="w-4/5 ml-20 mt-5 relative ">
     <div class="w-11/12 h-44 bg-white absolute -mt-14">
-        <p class=" text-sm w-96 pt-5 pl-5 pr-4  "><span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration converge. Explore a curated collection of articles that delve into diverse topics, from industry trends to personal reflections. Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding.</p>
+        <p class="text-wrap text-sm ml-2 pt-5 pl-5 pr-4  "><span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration converge. Explore a curated collection of articles that delve into diverse topics, from industry trends to personal reflections. Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding.</p>
     </div>
     </div>
     <!-- mobile size -->
