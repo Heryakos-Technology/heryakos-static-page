@@ -33,7 +33,9 @@
         </div>
     </div>
     <div class="hidden lg:block lg:visible lg:w-3/4 ">
-        <div class="middleContainer mt-20 rounded-md md:ml-28  shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-32 lg:mr-32 md:w-full">
+
+        <div class="middleContainer mt-20 rounded-md md:ml-28  shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-44 lg:mr-32 md:w-full">
+
         <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10  md:w-full">
             <h1 class="font-semibold lg:text-3xl ">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-4/5 lg:text-lg">
@@ -50,7 +52,9 @@
     </div>
     </div>
    
-    <div class="lastContainer mt-110 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-32 lg:mr-32 lg:pl-10 lg:pr-10 md:ml-28 md:mr-28 lg:mt-20 lg:mb-12 md:mb-10 lg:w-3/4 w-94 mb-10 md:w-3/4">
+
+    <div class="lastContainer mt-110 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10 md:ml-28 md:mr-28 lg:mt-20 lg:mb-12 md:mb-10 lg:w-3/4 w-94 mb-10 md:w-3/4 md:pl-6">
+
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
             <TeamCard 

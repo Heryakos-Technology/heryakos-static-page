@@ -1,5 +1,6 @@
 <template>
 
+
     <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden  md:pt-24 md:block">
         <img src="/light-bulb-of-blog-page.png" alt=""
             class="w-2/3 mt-5 md:w-2/3 md:ml-72 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28">
@@ -30,12 +31,14 @@
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-40 pb-56 mb-10 block md:hidden">
         <img src="/cardfirst-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8">
+
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">The Future of Healthcare: Technology Meets
                 Compassion</p>
             <p class="ml-4 text-sm mt-2 font-semibold">August 30, 2024 <span class="font-bold text-lg ml-3 mr-3">.
                 </span> Healthcare</p>
             <p class="w-56 ml-4 mt-3 text-sm">innovations like AI and telemedicine are reshaping healthcare. By blending
                 cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
+
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
@@ -47,10 +50,12 @@
         <img src="/cardsecond-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8">
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Exploring Web & Mobile Development</p>
+
             <p class="ml-4 text-sm mt-2 font-semibold">August 2, 2024 <span class="font-bold text-lg ml-3 mr-3">.
                 </span> Software</p>
             <p class="w-56 ml-4 mt-3 text-sm">Explore the dynamic world of web and mobile development, where creativity
                 meets technology. From responsive designs to_</p>
+
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
@@ -61,12 +66,14 @@
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden">
         <img src="/cardthird-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8">
+
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Cloud Technology Revolutionizing Business in 2025
             </p>
             <p class="ml-4 text-sm mt-2 font-semibold">january 30, 2025 <span class="font-bold text-lg ml-3 mr-3">.
                 </span> Technology</p>
             <p class="w-56 ml-4 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing
                 operational efficiency, enabling seamless collaboration, and_</p>
+
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
@@ -77,18 +84,21 @@
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden">
         <img src="/cardfourth-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8">
+
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Enhancing Business Operations Through Online
                 Platforms</p>
             <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
                 Business</p>
             <p class="w-56 ml-4 mt-3 text-sm">Business companies are increasingly leveraging online platforms to
                 optimize their operations and drive growth. Services like_</p>
+
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
         </div>
     </div>
+
     <!-- /end of mobile -->
     <!-- desktop -->
     <div class=" w-11/12 mx-auto px-10 hidden hidden md:block">
@@ -133,10 +143,12 @@
                             <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 
     <div class=" w-11/12 mx-auto px-10 hidden hidden md:block -mt-20">
         <div class="flex ">
@@ -181,11 +193,14 @@
                             <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
+
     <!-- /end of desktop -->
+ 
 
     <p class="w-40 text-xl mx-auto font-bold mb-5">Popular Posts</p>
 
@@ -197,9 +212,11 @@
             <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34">
                 <p class="font-bold text-2xl text-center">1</p>
             </div>
+
             <p class="w-64 text-md font-semibold mt-4 mx-auto">Enhancing Business Operations Through Online Platforms
             </p>
             <p class="text-sm w-64 mx-auto mt-6">march 15, 2024 . Business</p>
+
         </div>
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
@@ -208,7 +225,9 @@
                 <p class="font-bold text-2xl text-center">2</p>
             </div>
             <p class="w-64 text-md font-semibold mt-4 mx-auto">The Future of Healthcare: Technology Meets Compassion</p>
+
             <p class="text-sm w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
+ 
         </div>
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
@@ -217,6 +236,7 @@
                 <p class="font-bold text-2xl text-center">3</p>
             </div>
             <p class="w-64 text-md font-semibold mt-4 mx-auto">Exploring Web & Mobile Development</p>
+
             <p class="text-sm w-64 mx-auto mt-6"> july 30, 2024 . Software</p>
         </div>
     </div>
@@ -255,10 +275,12 @@
             </div>
         </div>
     </div>
+ 
 </template>
 
 <script>
 export default {
+howContent(){
     data() {
         return {
             readmore: false,
@@ -272,4 +294,6 @@ export default {
 }
 </script>
 
+
 <style></style>
+ 
