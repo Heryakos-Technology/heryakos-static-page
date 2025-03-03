@@ -1,18 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header/Header.vue'
+import Footer from './components/Footer/Footer.vue'
+
 </script>
 
 <template>
+  <Header />
+  <div class="bg-[#f7f3fe]">
     <RouterView />
-<!-- <div class="max-w-[1280px] mx-auto">
-
-
-</div> -->
-
+  </div>
+  <Footer />
 </template>
-<style>
-body{
-  background-color: #F7F3FE;
-}
-</style>
