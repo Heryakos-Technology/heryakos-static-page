@@ -4,6 +4,7 @@ import AboutUs from '../views/AboutUs.vue'
 import ContactUs from '../views/ContactUs.vue'
 import ServicePage from '../views/ServicePage.vue'
 import BlogPage from '@/views/BlogPage.vue'
+import PortfolioPage from '@/views/PortfolioPage.vue'
 
 
 
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/about',
       name: "AboutUs",
       component: AboutUs
+    },
+    {
+      path: '/works',
+      name: "PortfolioPage",
+      component: PortfolioPage
     },
 
 
