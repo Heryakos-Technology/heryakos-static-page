@@ -14,7 +14,8 @@ const handleSidebarOpen = () => {
 <template>
   <div class="w-full md:fixed  z-50 md:top-5 ">
     <!-- Mobile Header -->
-    <div class="px-4 md:hidden fixed w-full bg-white top-0 left-0   justify-between items-center z-50  flex py-4  ">
+    <div
+      class="px-4 md:hidden fixed w-full bg-transparent top-0 left-0   justify-between items-center z-50  flex py-4  ">
       <HeryakosLogo />
       <div @click="handleSidebarOpen" class="size-5 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

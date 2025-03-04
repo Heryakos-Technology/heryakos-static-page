@@ -4,7 +4,7 @@ import HeryakosLogoWhite from '../icons/HeryakosLogoWhite.vue';
 </script>
 
 <template>
-  <div class="w-full  text-white bg-[#0C0819] p-4 px-4">
+  <div class="w-full  text-white bg-[#0C0819]  p-4 px-4">
     <!-- Mobile Footers -->
     <div class="space-y-6 md:space-y-10 md:px-10 lg:hidden">
       <HeryakosLogoWhite class="w-[120px] md:w-[150px] ml-auto " />
