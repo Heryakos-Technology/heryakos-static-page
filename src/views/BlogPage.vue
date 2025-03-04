@@ -101,7 +101,7 @@
     </div>
 
     <!-- /end of mobile -->
-    <!-- desktop -->
+    <!-- desktop view-->
     <div class=" w-11/12 mx-auto px-10 hidden   md:block">
         <div class="flex ">
             <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10 mr-10">
