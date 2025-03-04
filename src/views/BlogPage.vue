@@ -1,6 +1,7 @@
+<script setup>
+</script>
+
 <template>
-
-
     <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden  md:pt-24 md:block">
         <img src="/light-bulb-of-blog-page.png" alt=""
             class="w-2/3 mt-5 md:w-2/3 md:ml-72 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28">
@@ -101,7 +102,7 @@
 
     <!-- /end of mobile -->
     <!-- desktop -->
-    <div class=" w-11/12 mx-auto px-10 hidden hidden md:block">
+    <div class=" w-11/12 mx-auto px-10 hidden   md:block">
         <div class="flex ">
             <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto mt-20 pb-26 mb-10 mr-10">
                 <img src="/cardfirst-blog.png" alt="" class="w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative">
@@ -200,7 +201,7 @@
     </div>
 
     <!-- /end of desktop -->
- 
+
 
     <p class="w-40 text-xl mx-auto font-bold mb-5">Popular Posts</p>
 
@@ -227,7 +228,7 @@
             <p class="w-64 text-md font-semibold mt-4 mx-auto">The Future of Healthcare: Technology Meets Compassion</p>
 
             <p class="text-sm w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
- 
+
         </div>
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
@@ -275,25 +276,4 @@
             </div>
         </div>
     </div>
- 
 </template>
-
-<script>
-export default {
-howContent(){
-    data() {
-        return {
-            readmore: false,
-        }
-    },
-    methods: {
-        showContent() {
-            this.readmore = !this.readmore
-        }
-    }
-}
-</script>
-
-
-<style></style>
- 

@@ -1,9 +1,18 @@
 <script setup>
+import HeroSection from '@/components/Landing Page/HeroSection.vue';
 import TheWelcome from '../components/TheWelcome.vue'
+import AboutUsSection from '@/components/Landing Page/AboutUsSection.vue';
+import ServiceSection from '@/components/Landing Page/ServiceSection.vue';
+import PortfolioSection from '@/components/Landing Page/PortfolioSection.vue';
+import ContactUsSection from '@/components/Landing Page/ContactUsSection.vue';
 </script>
 
 <template>
-  <main class="py-24 ">
-    <TheWelcome />
+  <HeroSection />
+  <main class="pb-16 px-5 lg:px-10 xl:px-15 2xl:px-24  ">
+    <AboutUsSection />
+    <ServiceSection />
+    <PortfolioSection />
+    <ContactUsSection />
   </main>
 </template>
