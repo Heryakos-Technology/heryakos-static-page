@@ -52,8 +52,11 @@ console.log(projects.value);
 <template>
   <div class="mt-20 max-w-[650px] mx-auto lg:max-w-full xl:py-16 ">
     <div class="text-center">
-      <h1 class="font-bold text-3xl mb-4 md:text-4xl">Featured <span class="text-btnColor">Work</span></h1>
-      <p class="max-w-[350px] mx-auto md:max-w-[450px] text-balance">Our team of creative professionals work in a
+      <h1 class="font-bold text-3xl mb-4 md:text-4xl xl:text-5xl">Featured <span class="text-btnColor">Work</span></h1>
+      <p class="max-w-[350px] mx-auto md:max-w-[450px] text-balance  xl:text-pretty">Our team of
+        creative
+        professionals
+        work in a
         collaborative
         fashion to craft
         tangible
