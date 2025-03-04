@@ -1,5 +1,5 @@
 <script setup>
-import Logo from '/public/Logo.png'
+import Logo from '/docs/Logo.png'
 const props = defineProps({
   class: String,
 })
