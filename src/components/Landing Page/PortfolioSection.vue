@@ -1,10 +1,9 @@
 <script setup>
 import { ref } from "vue";
-import AiPowered from "/images/AI-Powered Proposal Tool - SAAS UI.jpeg"
 import AIVision from "/images/AIVision ¨C Saas Hero Section Figma Template.jpeg"
 import CSVECommerce from "/images/CSV E-Commerce Application.jpeg"
 import HospitalManagement from "/images/Hospital Management System.jpeg"
-import SurfaceInsight from "/images/SurfaceInsight – Intelligent RPA Implementation Platform.jpeg"
+
 import TrustBroker from "/images/Trust-Broker Website .png"
 import arrowUpRight from "@/components/icons/arrow-up-right.png"
 
