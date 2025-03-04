@@ -298,6 +298,3 @@ export default {
 
 <style></style>
  
-=======
-</template>
->>>>>>> 38b2538a39dabadfaadddafd08f6afa06e5b3615
