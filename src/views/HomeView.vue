@@ -4,6 +4,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 import AboutUsSection from '@/components/Landing Page/AboutUsSection.vue';
 import ServiceSection from '@/components/Landing Page/ServiceSection.vue';
 import PortfolioSection from '@/components/Landing Page/PortfolioSection.vue';
+import ContactUsSection from '@/components/Landing Page/ContactUsSection.vue';
 </script>
 
 <template>
@@ -12,5 +13,6 @@ import PortfolioSection from '@/components/Landing Page/PortfolioSection.vue';
     <AboutUsSection />
     <ServiceSection />
     <PortfolioSection />
+    <ContactUsSection />
   </main>
 </template>
