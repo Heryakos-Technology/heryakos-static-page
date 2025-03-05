@@ -60,13 +60,13 @@
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
-                imgSrc="public/Victor.jpg" 
+                imgSrc="/Victor.jpg" 
                 class="lg:mr-20 mr-4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
-                imgSrc="/publuc/PedroMale.jpg" 
+                imgSrc="/PedroMale.jpg" 
             />
         </div>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
