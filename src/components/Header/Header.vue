@@ -1,6 +1,7 @@
 <script setup>
 import HeryakosLogo from '@/components/icons/HeryakosLogo.vue';
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
 
 const isSidebarOpen = ref(false);
 
@@ -8,7 +9,6 @@ const handleSidebarOpen = () => {
   isSidebarOpen.value = !isSidebarOpen.value
   console.log(isSidebarOpen.value);
 }
-
 </script>
 
 <template>
@@ -42,20 +42,24 @@ const handleSidebarOpen = () => {
     </div>
     <!-- Desktop Heading -->
     <div
-      class="hidden md:flex cursor-pointer justify-between w-[90%] h-full my-auto bg-white  mx-auto py-2 rounded-4xl px-8   items-center   max-w-[1100px] ">
+      class="hidden md:flex cursor-pointer justify-between w-[90%] lg:w-[80%] h-full my-auto bg-white  mx-auto py-2 rounded-4xl px-3   items-center   max-w-[900px] ">
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
-      <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
-        <router-link to="/" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</router-link>
-        <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Blog</router-link>
-        <router-link to="/works" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
-        <router-link to="/about" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
-        <router-link to="/service" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</router-link>
+      <ul class="flex gap-x-10 text-lg   font-semibold">
+        <RouterLink :to="{ name: 'home' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</RouterLink>
+        <RouterLink :to="{ name: 'BlogPage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Blog
+        </RouterLink>
+        <RouterLink :to="{ name: 'PortfolioPage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works
+        </RouterLink>
+        <RouterLink :to="{ name: 'AboutUs' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About
+        </RouterLink>
+        <RouterLink :to="{ name: 'ServicePage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services
+        </RouterLink>
       </ul>
-      <router-link to="/contact">
+      <RouterLink :to="{ name: 'ContactUs' }">
         <button
-          class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
-      </router-link>
+          class="bg-gradient-to-r cursor-pointer from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
+      </RouterLink>
     </div>
   </div>
 </template>
