@@ -60,7 +60,7 @@
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
-                imgSrc="/Victor.jpg" 
+                imgSrc="/public/Victor.jpg" 
                 class="lg:mr-20 mr-4"
             />
             <TeamCard 
