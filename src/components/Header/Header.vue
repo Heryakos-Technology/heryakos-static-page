@@ -46,13 +46,15 @@ const handleSidebarOpen = () => {
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</li>
+        <router-link to="/" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</router-link>
+        <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
+        <router-link to="/about" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
+        <router-link to="/service" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</router-link>
       </ul>
-      <button
-        class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
+      <router-link to="/contact">
+        <button
+          class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
+      </router-link>
     </div>
   </div>
 </template>

@@ -13,7 +13,7 @@
             </h2>
             <div class="lg:mt-12 mt-6">
                 <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl lg:text-xl">LEARN MORE</a>
-                <a href="#" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
+                <a href="/contact" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
             </div>
         </div>
     </div>
@@ -60,13 +60,13 @@
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
-                imgSrc="/Victor.jpg" 
+                imgSrc="public/Victor.jpg" 
                 class="lg:mr-20 mr-4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
-                imgSrc="/PedroMale.jpg" 
+                imgSrc="/publuc/PedroMale.jpg" 
             />
         </div>
         <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
