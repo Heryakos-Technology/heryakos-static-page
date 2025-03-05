@@ -9,6 +9,14 @@ const handleSidebarOpen = () => {
   isSidebarOpen.value = !isSidebarOpen.value
   console.log(isSidebarOpen.value);
 }
+
+const navLinks = [
+  { name: 'home', label: 'Home' },
+  { name: 'BlogPage', label: 'Blog' },
+  { name: 'PortfolioPage', label: 'Works' },
+  { name: 'AboutUs', label: 'About' },
+  { name: 'ServicePage', label: 'Services' },
+];
 </script>
 
 <template>
@@ -46,15 +54,8 @@ const handleSidebarOpen = () => {
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg   font-semibold">
-        <RouterLink :to="{ name: 'home' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</RouterLink>
-        <RouterLink :to="{ name: 'BlogPage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Blog
-        </RouterLink>
-        <RouterLink :to="{ name: 'PortfolioPage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works
-        </RouterLink>
-        <RouterLink :to="{ name: 'AboutUs' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About
-        </RouterLink>
-        <RouterLink :to="{ name: 'ServicePage' }" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services
-        </RouterLink>
+        <RouterLink v-for="(item, index) in navLinks" :key="index" :to="{ name: item.name }"
+          class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">{{ item.label }}</RouterLink>
       </ul>
       <RouterLink :to="{ name: 'ContactUs' }">
         <button
