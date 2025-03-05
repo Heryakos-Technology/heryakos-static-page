@@ -49,6 +49,7 @@ const handleSidebarOpen = () => {
         <router-link to="/" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</router-link>
         <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
         <router-link to="/about" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
+        <router-link to="/works" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
         <router-link to="/service" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</router-link>
       </ul>
       <router-link to="/contact">
