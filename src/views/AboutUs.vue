@@ -13,7 +13,7 @@
             </h2>
             <div class="lg:mt-12 mt-6">
                 <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl lg:text-xl">LEARN MORE</a>
-                <a href="#" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
+                <a href="/contact" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
             </div>
         </div>
     </div>
