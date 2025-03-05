@@ -47,7 +47,8 @@ const handleSidebarOpen = () => {
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
         <router-link to="/" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</router-link>
-        <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
+        <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Blog</router-link>
+        <router-link to="/works" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
         <router-link to="/about" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
         <router-link to="/service" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</router-link>
       </ul>
