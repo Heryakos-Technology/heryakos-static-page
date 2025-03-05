@@ -235,7 +235,7 @@
         </div>
       </div>
     </div>
-    <!-- /end of desktop -->
+    <!-- /end desktop -->
 
     <div class="w-64 mx-auto">
       <p class="text center font-bold text-2xl mb-10 ml-16">pricing plan</p>
