@@ -42,7 +42,7 @@ const handleSidebarOpen = () => {
     </div>
     <!-- Desktop Heading -->
     <div
-      class="hidden md:flex cursor-pointer justify-between w-[90%] h-full my-auto bg-white  mx-auto py-2 rounded-4xl px-8   items-center   max-w-[1100px] ">
+      class="hidden md:flex cursor-pointer justify-between w-[80%] h-full my-auto bg-white  mx-auto py-2 rounded-4xl px-2   items-center   max-w-[900px] ">
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
