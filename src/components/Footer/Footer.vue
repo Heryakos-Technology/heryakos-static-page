@@ -1,18 +1,28 @@
 <script setup>
 import HeryakosLogoWhite from '../icons/HeryakosLogoWhite.vue';
 
+
+const navLinks = [
+  { name: "Home", label: "Home" },
+  { name: "BlogPage", label: "Blog" },
+  { name: "PortfolioPage", label: "Works" },
+  { name: "AboutUs", label: "About" },
+  { name: "ServicePage", label: "Services" },
+]
+
 </script>
 
 <template>
-  <div class="w-full  text-white bg-[#0C0819]  p-4 px-4">
+  <div class="max-w-full overflow-x-hidden text-white bg-[#0C0819]  p-4 px-4">
     <!-- Mobile Footers -->
     <div class="space-y-6 md:space-y-10 md:px-10 lg:hidden">
       <HeryakosLogoWhite class="w-[120px] md:w-[150px] ml-auto " />
       <ul class="uppercase md:space-y-2 sm:text-lg max">
-        <li class="">Quick Links</li>
-        <li class="">Support</li>
-        <li class="">About Us</li>
-        <li class="">Contact</li>
+        <li v-for="(item, index) in navLinks" :key="index" class="py-1">
+          <RouterLink :to="{ name: item.name }">
+            {{ item.label }}
+          </RouterLink>
+        </li>
       </ul>
       <div class="flex gap-x-8">
         <div class="rounded-full border size-10 md:size-12 flex items-center justify-center border-white ">
@@ -65,9 +75,11 @@ import HeryakosLogoWhite from '../icons/HeryakosLogoWhite.vue';
         <div class="">
           <h1 class="font-bold xl:text-xl ">Quick Links</h1>
           <ul class="text-gray-300 mt-6 space-y-2 xl:text">
-            <li class=""> Location Pickups</li>
-            <li class="">Terms of Payment</li>
-            <li class="">Privacy Policy</li>
+            <li v-for="(item, index) in navLinks" :key="index">
+              <RouterLink :to="{ name: item.name }">
+                {{ item.label }}
+              </RouterLink>
+            </li>
           </ul>
         </div>
         <div class="">
