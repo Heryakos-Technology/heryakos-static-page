@@ -151,7 +151,7 @@
     </div>
 
 
-    <div class=" w-11/12 mx-auto px-10 hidden hidden md:block -mt-20">
+    <div class=" w-11/12 mx-auto px-10 hidden  md:block -mt-20">
         <div class="flex ">
             <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10 mr-10">
                 <img src="/cardthird-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
