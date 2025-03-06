@@ -125,7 +125,7 @@
 import { defineComponent } from 'vue';
 import {onMounted} from 'vue';
 import {animate,spring} from 'motion';
-import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; // Assuming TeamCard is a separate component
+import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; 
 
 export default defineComponent({
     components: {
@@ -135,15 +135,15 @@ export default defineComponent({
     onMounted(()=>{
         animate(
     ".box",
-    { rotate: [0, 360, 360] }, // Holds the final rotation before restarting
+    { rotate: [0, 360, 360] }, 
     { 
-      duration: 2, // 1s for rotation + 1s pause
+      duration: 2, 
       repeat: Infinity,
       easing: "linear",
-      offset: [0, 0.5, 1] // 50% for rotation, 50% for pause
+      offset: [0, 1, 1] 
     }
   );
-  const animation = animate(".box1",{scale:1.1},{
+  const animation = animate(".box1,.box",{scale:1.1},{
     duration:1,
     easing:spring(),
     repeat:Infinity,
