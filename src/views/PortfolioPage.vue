@@ -58,6 +58,10 @@ const projects = ref([
         <h1 class="text-center text-4xl font-bold sm:text-5xl lg:text-6xl xl:text-7xl"><span
             class="text-btnColor">Our</span> Works
         </h1>
+        <p class="text-sm text-center md:text-left max-w-[270px] lg:max-w-[370px] lg:text-base 2xl:max-w-[420px]">
+          Delivering innovative solutions and exceptional results. Browse our featured projects and client success
+          stories.
+        </p>
         <div class=" text-center">
           <button
             class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-12 py-2.5 rounded-4xl font-medium">Contact
