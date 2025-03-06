@@ -6,5 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <img :src="Logo" alt="Heryakos Logo" :class="props.class">
+  <RouterLink :to="{ name: 'Home' }">
+    <img :src="Logo" alt="Heryakos Logo" :class="props.class">
+  </RouterLink>
 </template>
