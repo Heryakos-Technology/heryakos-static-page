@@ -426,11 +426,11 @@ export default {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
                 } else {
-                    entry.target.classList.remove('visible'); /
+                    entry.target.classList.remove('visible'); 
                 }
             });
         }, {
-            threshold: 0.1, /
+            threshold: 0.1, 
         });
 
         onMounted(() => {
