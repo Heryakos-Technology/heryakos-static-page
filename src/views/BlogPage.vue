@@ -370,4 +370,25 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+ 
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            readmore: false,
+        }
+    },
+    methods: {
+        showContent() {
+            this.readmore = !this.readmore
+        }
+    }
+}
+</script>
+
+
+<style></style>
+ 
