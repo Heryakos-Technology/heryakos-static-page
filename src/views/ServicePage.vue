@@ -426,11 +426,11 @@ export default {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
                 } else {
-                    entry.target.classList.remove('visible'); // Optional: remove on scroll out
+                    entry.target.classList.remove('visible'); /
                 }
             });
         }, {
-            threshold: 0.1, // Trigger when 10% of the card is visible
+            threshold: 0.1, /
         });
 
         onMounted(() => {
@@ -438,14 +438,14 @@ export default {
                 ...document.querySelectorAll('.animated-card')
             ];
 
-            // Animate on mount
+            
             setTimeout(() => {
                 cards.value.forEach(card => {
                     card.classList.add('visible');
                 });
-            }, 100); // Adjust delay as needed
+            }, 100); 
 
-            // Observe cards for scroll animations
+           
             cards.value.forEach(card => {
                 observer.observe(card);
             });
@@ -463,33 +463,61 @@ export default {
     },
 };
 </script>
+
 <style>
+
 .animated-image {
     opacity: 0;
-    transform: translateY(-20px); /* Start slightly above */
-    transition: opacity 0.6s ease, transform 0.6s ease; /* Transition for the image */
+    transform: translateX(100px); 
+    animation: slideInImage 1s forwards; 
 }
 
 .animated-text {
     opacity: 0;
-    transform: translateY(-20px); /* Start slightly above */
-    transition: opacity 0.6s ease, transform 0.6s ease; /* Transition for the text */
+    transform: translateX(-100px); 
+    animation: slideInText 1s forwards; 
+    animation-delay: 0.5s; 
+}
+
+@keyframes slideInImage {
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+@keyframes slideInText {
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+.animated-image {
+    opacity: 0;
+    transform: translateY(-20px); 
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(-20px); 
+    transition: opacity 0.6s ease, transform 0.6s ease; 
 }
 
 .animated-card {
     transition: opacity 0.6s ease;
 }
 
-.visible .animated-image,
-.visible .animated-text {
-    opacity: 1;
-    transform: translateY(0); /* Move to original position */
-}
 
-/* Hover effect */
 .animated-card:hover .animated-image,
 .animated-card:hover .animated-text {
     opacity: 1;
-    transform: translateY(0); /* Move to original position */
+    transform: translateY(0); 
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0); 
 }
 </style>
