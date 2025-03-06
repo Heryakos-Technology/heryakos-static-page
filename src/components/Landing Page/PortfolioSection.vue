@@ -75,9 +75,10 @@ console.log(projects.value);
         </div>
       </div>
 
-      <div class="rounded-2xl mt-6    ">
-        <img :src="projects[currentProjectIndex]?.image" alt="AiPowered"
-          class="w-full aspect-video max-h-[350px] rounded-2xl min-[1200px]:max-h-[380px] xl:max-h-[450px] 2xl:max-[500px] 2xl:w-[700px]">
+      <div
+        class="rounded-2xl mt-6  w-full aspect-video max-h-[350px]   min-[1200px]:max-h-[380px] xl:max-h-[450px] 2xl:max-[500px] 2xl:w-[700px] bg-cover "
+        :style="{ backgroundImage: `url(${projects[currentProjectIndex]?.image})` }">
+
       </div>
       <div class="lg:hidden">
         <div class="mt-5 space-y-4 border-b-2 border-black pb-4">
@@ -112,5 +113,10 @@ console.log(projects.value);
         </div>
       </div>
     </div>
+    <RouterLink :to="{ name: 'PortfolioPage' }" class="mt-8 flex flex-col   md:items-start   2xl:mt-16 ">
+      <div
+        class="bg-gradient-to-r from-[#9B4AF7]   mx-auto to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">
+        More Projects</div>
+    </RouterLink>
   </div>
 </template>

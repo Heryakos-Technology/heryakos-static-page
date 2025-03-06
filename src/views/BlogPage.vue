@@ -1,4 +1,9 @@
 <script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    window.scrollTo(0, 0);
+});
 </script>
 
 <template>
@@ -107,7 +112,8 @@
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800"> Smart Hotels</p>
             <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
                 technology</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These innovations_</p>
+            <p class="w-56 ml-4 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest
+                experiences, utilizing automation, smart room features, and mobile apps. These innovations_</p>
 
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
@@ -123,7 +129,8 @@
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Preparing for Your Journey in the Digital Age</p>
             <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
                 Business</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps_</p>
+            <p class="w-56 ml-4 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for
+                booking, navigation, and local insights. By leveraging apps_</p>
 
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
@@ -139,7 +146,8 @@
             <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Enhancing Customer Experience with Tech</p>
             <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
                 Business</p>
-            <p class="w-56 ml-4 mt-3 text-sm">technology is used to improve customer experience, including chatbots, CRM systems, and personalized marketing_</p>
+            <p class="w-56 ml-4 mt-3 text-sm">technology is used to improve customer experience, including chatbots, CRM
+                systems, and personalized marketing_</p>
 
             <div class="flex ml-4">
                 <p class="text-purple-600">Read more</p>
@@ -203,7 +211,8 @@
                     <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Smart Hotels</p>
                     <p class="w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These innovations_</p>
+                    <p class="w-72 mx-auto mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest
+                        experiences, utilizing automation, smart room features, and mobile apps. These innovations_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
@@ -273,10 +282,12 @@
             <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10">
                 <img src="/digital-travling-blog.jpg" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
                 <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Preparing for Your Journey in the Digital Age</p>
+                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Preparing for Your Journey in the
+                        Digital Age</p>
                     <p class="w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps_</p>
+                    <p class="w-72 mx-auto mt-3 text-sm">Digital travel revolutionizes journey planning by using
+                        technology for booking, navigation, and local insights. By leveraging apps_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
@@ -290,7 +301,7 @@
 
                 </div>
             </div>
-            
+
         </div>
     </div>
 

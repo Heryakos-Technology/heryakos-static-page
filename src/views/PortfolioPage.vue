@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted } from 'vue';
+
 import ProjectCard from "@/components/PortfolioPage/ProjectCard.vue";
 import our_works_illustration from "/images/our_works_illustration.png";
 import AIVision from "/images/AIVision ¨C Saas Hero Section Figma Template.jpeg";
@@ -9,6 +11,10 @@ import TrustBroker from "/images/Trust-Broker Website .png";
 import AiPowered from "/images/AI-Powered Proposal Tool - SAAS UI.jpeg";
 import { ref } from 'vue';
 import ContactUsCard from "@/components/PortfolioPage/ContactUsCard.vue";
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 
 const projects = ref([
   {
@@ -63,7 +69,7 @@ const projects = ref([
         <img :src="our_works_illustration" alt="our_works_illustration" class="w-full">
       </div>
     </div>
-    <div class="mt-16 grid gap-y-8 place-items-center md:grid-cols-2 gap-x-2">
+    <div class="mt-16 grid gap-y-8 place-items-center md:grid-cols-2 gap-x-2 lg:gap-y-16">
       <ProjectCard v-for="(project, index) in projects" :key="index" :title="project.title"
         :description="project.description" :imageUrl="project.imageUrl" />
     </div>

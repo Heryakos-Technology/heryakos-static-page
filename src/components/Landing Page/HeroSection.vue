@@ -28,7 +28,9 @@ import developerIllustration from '/images/hero_developer_illustration.png'
             </svg>
             <p class="font-semibold text-xl">Watch Demo</p>
           </div>
-          <div class="border-3 font-semibold rounded-xl px-15 py-2 border-[#9946f7]">Our Services</div>
+          <RouterLink :to="{ name: 'ServicePage' }">
+            <div class="border-3 font-semibold rounded-xl px-15 py-2 border-[#9946f7]">Our Services</div>
+          </RouterLink>
         </div>
       </div>
       <div class="hidden lg:block max-w-[485.109px]  xl:max-w-full ">

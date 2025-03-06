@@ -1,3 +1,11 @@
+<script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+</script>
+
 <template>
 
   <div>
@@ -125,7 +133,8 @@
           </p>
         </div>
         <div class="w-2/3 mx-auto -mt-96 md:mt-20">
-          <p class="w-1/2 text-center p-2 absolute lg:text-2xl ml-20 lg:-mt-64 font-extralight text-white md:text-sm">We offer
+          <p class="w-1/2 text-center p-2 absolute lg:text-2xl ml-20 lg:-mt-64 font-extralight text-white md:text-sm">We
+            offer
             cutting-edge technology solutions designed to accelerate your business growth. From stunning web experiences
             to powerful mobile applications and future-ready blockchain solutions, we provide end-to-end services
             tailored to your unique needs.</p>
@@ -133,7 +142,8 @@
       </div>
 
       <div class="flex  lg:px-20 md:px-4 md:-mt-20">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:mr-2 lr:mr-5 rounded-lg h-1/3 mx-auto mt-8 lg:pb-8  mb-10">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:mr-2 lr:mr-5 rounded-lg h-1/3 mx-auto mt-8 lg:pb-8  mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/first-service.png" alt="Static Website Development"
             class="mx-auto rounded-bl-2xl rounded-tr-full w-full mb-6">
@@ -149,7 +159,8 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg h-1/3 mx-auto mt-8 lg:mb-1 md:pb-8">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg h-1/3 mx-auto mt-8 lg:mb-1 md:pb-8">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/second-service.png" alt="Static Website Development" class="mx-auto w-full h-1/2 mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -166,7 +177,8 @@
       </div>
 
       <div class="flex lg:px-20 md:px-4 -mt-8">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/third-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 w-4/5 mx-auto text-center">
@@ -182,7 +194,8 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:ml-5 md:ml-4 h-1/3 rounded-lg pb-9 mx-auto mt-8 mb-10">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:ml-5 md:ml-4 h-1/3 rounded-lg pb-9 mx-auto mt-8 mb-10">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/fourth-servicee.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -199,7 +212,8 @@
       </div>
 
       <div class="flex lg:px-20 md:px-4 -mt-8">
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 lg:mr-5 md:mr-2 h-1/3 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 450px;"
             src="/fifth-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -214,7 +228,8 @@
           </p>
         </div>
 
-        <div class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 h-1/3 lg:ml-5 md:ml-4 rounded-lg mx-auto mt-8 mb-10">
+        <div
+          class=" bg-gradient-to-b from-[#F7F3FE] to-[#eee6ff] lg:w-1/2 md:w-1/2 h-1/3 lg:ml-5 md:ml-4 rounded-lg mx-auto mt-8 mb-10">
           <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 450px;"
             src="/sixth-service.png" alt="Static Website Development" class="mx-auto w-full mb-6">
           <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center">
@@ -439,16 +454,3 @@
   </div>
 
 </template>
-
-
-<script>
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  setup() {
-
-  }
-});
-</script>
-
-<style></style>

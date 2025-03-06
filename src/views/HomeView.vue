@@ -5,6 +5,11 @@ import AboutUsSection from '@/components/Landing Page/AboutUsSection.vue';
 import ServiceSection from '@/components/Landing Page/ServiceSection.vue';
 import PortfolioSection from '@/components/Landing Page/PortfolioSection.vue';
 import ContactUsSection from '@/components/Landing Page/ContactUsSection.vue';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <template>

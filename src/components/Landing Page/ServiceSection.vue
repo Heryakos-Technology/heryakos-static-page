@@ -7,23 +7,23 @@ import Application_maintenance_and_support_Icon from "/images/Application_mainte
 
 const services = [
   {
-    title: 'Software Solutions',
-    description: 'We design and build custom software applications to meet the specific needs of our clients.',
+    title: 'Static Website Development',
+    description: 'We design fast, secure, visually stunning static websites ideal for portfolios and landing pages.',
     imageSrc: Software_Solutions_Icon
   },
   {
-    title: 'AI-driven technologies',
-    description: 'AI-driven Technologies: We create AI solutions to automate tasks and enhance decision-making.',
+    title: 'Cloud Computing Solutions',
+    description: 'Optimize your business with our cloud services, ensuring scalability, security, and high availability.',
     imageSrc: AI_Driven_Technologies_Icon
   },
   {
-    title: 'Client Engagement',
-    description: 'We build solutions to strengthen relationships and boost customer interactions.',
+    title: 'Technology Consultancy',
+    description: 'Expert guidance to help you choose the right technologies and strategies for your business success.',
     imageSrc: Client_Engagement_Icon
   },
   {
-    title: 'Application maintenance and support',
-    description: 'We ensure software applications run smoothly and efficiently through ongoing support and maintenance',
+    title: 'Mobile Application Development (Android & iOS)',
+    description: 'Build high-performance Android and iOS apps with offline capabilities and real-time data sync.',
     imageSrc: Application_maintenance_and_support_Icon
   },
 ];
@@ -36,5 +36,11 @@ const services = [
       <ServiceSectionCards v-for="(service, index) in services" :key="index" :title="service.title"
         :description="service.description" :imageSrc="service.imageSrc" />
     </div>
+    <RouterLink :to="{ name: 'ServicePage' }" class="mt-8 flex flex-col   md:items-start   2xl:mt-24 ">
+      <div
+        class="bg-gradient-to-r from-[#9B4AF7]   mx-auto to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">
+        See
+        More Services</div>
+    </RouterLink>
   </div>
 </template>
