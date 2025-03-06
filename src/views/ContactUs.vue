@@ -207,6 +207,7 @@ import { animate, spring, inView, delay,hover } from 'motion';
 export default defineComponent({
     setup() {
         onMounted(() => {
+            //chnagee
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
                     duration: 3,
