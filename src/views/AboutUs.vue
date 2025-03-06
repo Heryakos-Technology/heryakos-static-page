@@ -135,44 +135,44 @@ export default defineComponent({
     setup() {
      
         onMounted(() => {
-            // Function to start animation
+           
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
                     duration: 3,
                     easing: [0.17, 0.55, 0.55, 1],
-                    repeat: Infinity,
+                    repeat: 1,
                     direction: 'alternate',
                   
                 });
             };
 
-            // Animate .box when it comes into view
+          
             inView(".box", (element, isInView) => {
                 if (isInView) {
                     startAnimation(element, { opacity: 1, x: [-100, 500] },{delay:100});
                 } else {
-                    // Stop the animation or reset properties
+            
                     animate(element, { opacity: 0, x: 0 });
                 }
             });
 
-            // Animate .box1 when it comes into view
+         
             inView(".box1", (element, isInView) => {
                 if (isInView) {
                     animate(element, { opacity: 0, x: 0 });
                     startAnimation(element, { opacity: 1, x: [0, -500] },{delay:100});
                 } else {
-                    // Stop the animation or reset properties
+                  
                     animate(element, { opacity: 0, x: 0 });
                 }
             });
 
-            // Animate .box3 when it comes into view
+           
             inView(".box3", (element, isInView) => {
                 if (isInView) {
                     startAnimation(element, { scale: 1.1 },{delay:100});
                 } else {
-                    // Stop the animation or reset properties
+                  
                     animate(element, { scale: 1 });
                 }
             });

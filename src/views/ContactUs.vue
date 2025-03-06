@@ -209,7 +209,7 @@ export default defineComponent({
         onMounted(() => {
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
-                    duration: 4,
+                    duration: 3,
                     repeat:1,
                     easing: [0.17, 0.55, 0.55, 1],
                     direction: 'alternate',
