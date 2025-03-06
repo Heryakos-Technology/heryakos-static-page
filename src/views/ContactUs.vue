@@ -188,6 +188,7 @@ flowerAddid Ababa</p>
                 </div>
             </div>
         </div>  
+        
     </div>
 </template>
 
@@ -195,8 +196,53 @@ flowerAddid Ababa</p>
 import { defineComponent } from 'vue';
 import { ref } from 'vue';
 import emailjs from 'emailjs-com';
+import { onMounted } from 'vue';
+import { animate, spring, inView, delay } from 'motion';
 export default defineComponent({
     setup() {
+        onMounted(() => {
+            const startAnimation = (element, animationProps) => {
+                animate(element, animationProps, {
+                    duration: 3,
+                    easing: [0.17, 0.55, 0.55, 1],
+                    repeat: Infinity,
+                    direction: 'alternate',
+                  
+                });
+            };
+
+            
+            inView(".last", (element, isInView) => {
+                if (isInView) {
+                    startAnimation(element, { opacity: 1, x: [-100, 500] },{delay:100});
+                } else {
+                  
+                    animate(element, { opacity: 0, x: 0 });
+                }
+            });
+
+          
+            // inView(".box1", (element, isInView) => {
+            //     if (isInView) {
+            //         animate(element, { opacity: 0, x: 0 });
+            //         startAnimation(element, { opacity: 1, x: [0, -500] },{delay:100});
+            //     } else {
+                
+            //         animate(element, { opacity: 0, x: 0 });
+            //     }
+            // });
+
+        
+            // inView(".box3", (element, isInView) => {
+            //     if (isInView) {
+            //         startAnimation(element, { scale: 1.1 },{delay:100});
+            //     } else {
+                    
+            //         animate(element, { scale: 1 });
+            //     }
+            // });
+        });
+
         const formData = ref({
       name: '',
       email: '',
@@ -230,7 +276,11 @@ export default defineComponent({
       status,
       sendEmail
         };
+
+        
+
     }
+
 });
 </script>
 
@@ -255,6 +305,7 @@ export default defineComponent({
     }
     .cardDiv{
         background: linear-gradient(to right, #D6C4F2 0%, #B693F5 100%);
+        
     }
         
 </style>
