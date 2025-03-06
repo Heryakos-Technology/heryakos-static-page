@@ -94,13 +94,13 @@
                 name="Maria José Jimenez" 
                 role="Architect" 
                 imgSrc="/MariaMale.jpg" 
-                class="box1 lg:mr-20 mr-4 w-1/4"
+                class="box3 lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="Manager Partner" 
                 imgSrc="/MariaFemale.jpg" 
-                class="box w-1/4"
+                class="box3 w-1/4"
             />
         </div>
         <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
@@ -124,7 +124,7 @@
 <script>
 import { defineComponent } from 'vue';
 import {onMounted} from 'vue';
-import {animate,spring,hover,inView} from 'motion';
+import {animate,spring,hover,inView,scroll} from 'motion';
 import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; 
 
 export default defineComponent({
@@ -133,30 +133,34 @@ export default defineComponent({
     },
     setup() {
     onMounted(()=>{
-//         animate(
-//     ".box",
-//     { rotate: [0, 360, 360] }, 
-//     { 
-//       duration: 2, 
-//       repeat: Infinity,
-//       easing: "linear",
-//       offset: [0, 1, 1] 
-//     }
-//   );
-//   const animation = animate(".box1,.box",{scale:1.1},{
-//     duration:1,
-//     easing:spring(),
-//     repeat:Infinity,
-//     direction:'alternate'
-//   })
-// hover(".box", (element) => {
-//   const animation = animate(element, { rotate: 360 })
+        
+    animate(
+    ".box",
+ { opacity: 1, x: [-100, 500] },
+            {
+                duration: 3,
+                easing: [0.17, 0.55, 0.55, 1],
+                repeat:Infinity,
+                direction:'alternate'
+            })
 
-//   return () => animation.stop()
-// })
-inView(".box", (element) => {
-  animate(element, { scale:1.4 ,repeat: Infinity,})
-})
+            animate(
+    ".box1",
+ { opacity: 1, x: [0, -500] },
+            {
+                duration: 3,
+                easing: [0.17, 0.55, 0.55, 1],
+                repeat:Infinity,
+                direction:'alternate'
+            })
+            
+  const animation = animate(".box3",{scale:1.1},{
+    duration:3,
+    easing:spring(),
+    repeat:Infinity,
+    direction:'alternate'
+  })
+ 
 })
 
   },
