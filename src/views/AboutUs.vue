@@ -135,7 +135,7 @@ export default defineComponent({
     setup() {
      
         onMounted(() => {
-            // Function to start animation
+          
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
                     duration: 3,
