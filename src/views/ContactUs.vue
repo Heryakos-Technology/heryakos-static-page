@@ -203,7 +203,7 @@ import { defineComponent } from 'vue';
 import { ref } from 'vue';
 import emailjs from 'emailjs-com';
 import { onMounted } from 'vue';
-import { animate, spring, inView, delay,hover } from 'motion';
+import { animate, inView,hover } from 'motion';
 export default defineComponent({
     setup() {
         onMounted(() => {
