@@ -4,7 +4,7 @@
  
     <div class="block md:hidden mb-36 mt-16">
         <img src="/intro-service.jpg" alt="" class="w-4/5 ml-16 mt-5 relative animated-image">
-        <div class="w-11/12 h-44 bg-white absolute -mt-14 animated-text">
+        <div class="w-11/12 h-44 bg-white absolute -mt-14 animated-text-intro">
           <p
         class="w-full text-center  font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
         OUR SERVICES
@@ -118,7 +118,7 @@
         <img
             class="pt-32 ml-96 relative text-purple-300 animated-image"
             src="/intro-service.jpg" alt="Service Landing Image">
-        <div class="w-2/6 -ml- h-88 -mt-96 bg-white absolute animated-text">
+        <div class="w-2/6 -ml- h-88 -mt-96 bg-white absolute animated-text-intro">
             <div class="">
                 <p class="lg:text-3xl text-center text-md md:mt-4 pt-2 font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
                     OUR SERVICES
@@ -314,9 +314,9 @@
     <div class="hidden lg:block md:block">
       <div class="section two lg:px-56">
         <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium">Static Website Development</h2>
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1">
+            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+              <h2 class="text-center text-xs font-medium ">Static Website Development</h2>
             </div>
             <div class="flex justify-center mb-4 w-32 mx-auto">
               <img src="/globe.png" alt="" class="w-20 mt-5 mx-auto">
@@ -328,9 +328,9 @@
               </button>
             </div>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium">Technology Consultancy</h2>
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1">
+            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+              <h2 class="text-center text-xs font-medium ">Technology Consultancy</h2>
             </div>
             <div class="flex justify-center w-40 mx-auto">
               <img src="/lens.png" alt="" class="w-64 mt-2">
@@ -342,9 +342,9 @@
               </button>
             </div>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium w-56 mx-auto">Mobile Application Development (Android & iOS)
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1">
+            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+              <h2 class="text-center text-xs font-medium  w-56 mx-auto">Mobile Application Development (Android & iOS)
               </h2>
             </div>
             <div class="flex justify-center mb-4 mt-5">
@@ -362,9 +362,9 @@
 
       <div class="section two mt-10 lg:px-56 mb-10">
         <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium">Dynamic Website Development</h2>
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1">
+            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+              <h2 class="text-center text-xs font-medium ">Dynamic Website Development</h2>
             </div>
             <div class="flex justify-center mb-6">
               <img src="/flash.png" alt="" class="mt-2">
@@ -376,9 +376,9 @@
               </button>
             </div>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1 ">
             <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium">Blockchain Integration</h2>
+              <h2 class="text-center text-xs font-medium ">Blockchain Integration</h2>
             </div>
             <div class="flex justify-center mb-4">
               <img src="/chain.png" alt="" class="mt-6">
@@ -390,9 +390,9 @@
               </button>
             </div>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72">
+          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-text1 ">
             <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium">Cloud Computing Solutions</h2>
+              <h2 class="text-center text-xs font-medium ">Cloud Computing Solutions</h2>
             </div>
             <div class="flex justify-center mb-4">
               <img src="/cloud.png" alt="" class="mt-5">
@@ -416,6 +416,7 @@
 
 <script>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { animate, inView } from 'motion';
 
 export default {
     setup() {
@@ -426,31 +427,41 @@ export default {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
                 } else {
-                    entry.target.classList.remove('visible'); 
+                    entry.target.classList.remove('visible');
                 }
             });
         }, {
-            threshold: 0.1, 
+            threshold: 0.1,
         });
 
         onMounted(() => {
+          const startAnimation = (element, animationProps) => {
+                animate(element, animationProps, {
+                    duration: 4,
+                    repeat:1,
+                    easing: [0.17, 0.55, 0.55, 1],
+                    direction: 'alternate',
+                  
+                });
+            };
+
             cards.value = [
                 ...document.querySelectorAll('.animated-card')
             ];
 
-            
-            setTimeout(() => {
-                cards.value.forEach(card => {
-                    card.classList.add('visible');
-                });
-            }, 100); 
-
-           
+      
             cards.value.forEach(card => {
                 observer.observe(card);
             });
+            inView(".animated-text1", (element, isInView) => {
+                    if (isInView) {
+                        startAnimation(element, { opacity: 1, y: [-100, 1] },{delay:100});
+                    } else {
+                      
+                        animate(element, { opacity: 0, x: 0 });
+                    }
+                });
         });
-
         onBeforeUnmount(() => {
             cards.value.forEach(card => {
                 observer.unobserve(card);
@@ -464,7 +475,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 
 .animated-image {
     opacity: 0;
@@ -472,21 +483,35 @@ export default {
     animation: slideInImage 1s forwards; 
 }
 
-.animated-text {
+.animated-text-intro {
+    opacity: 0;
+    transform: translateX(-100px); 
+    animation: slideInTextIntro 1s forwards; 
+    animation-delay: 0.5s; 
+}
+
+.animated-content {
     opacity: 0;
     transform: translateX(-100px); 
     animation: slideInText 1s forwards; 
     animation-delay: 0.5s; 
 }
 
-@keyframes slideInImage {
+@keyframes slideInText {
     to {
         opacity: 1;
         transform: translateX(0); 
     }
 }
 
-@keyframes slideInText {
+@keyframes slideInTextIntro {
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+} 
+
+@keyframes slideInImage {
     to {
         opacity: 1;
         transform: translateX(0); 
@@ -503,7 +528,10 @@ export default {
     opacity: 0;
     transform: translateY(-20px); 
     transition: opacity 0.6s ease, transform 0.6s ease; 
+    animation: slideInTextIntro 1s forwards; 
+    animation-delay: 0.5s; 
 }
+
 
 .animated-card {
     transition: opacity 0.6s ease;

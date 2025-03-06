@@ -405,7 +405,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .card {
     opacity: 0.3;
     transition: opacity 1s ease-in-out; 

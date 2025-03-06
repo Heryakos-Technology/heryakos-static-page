@@ -23,7 +23,7 @@
   };
   </script>
   
-  <style>
+  <style scoped>
   #app {
     display: flex;
     justify-content: center;

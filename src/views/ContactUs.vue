@@ -18,7 +18,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Name</p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="Don from Earth,Inc." class="input  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300 placeholder:text-xl lg:w-7/8 lg:h-20"  v-model="formData.name" required >
+                    <input type="text" placeholder="Don from Earth,Inc." class="input  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl lg:w-7/8 lg:h-20"  v-model="formData.name" required >
                   
                 </div>
             </div>
@@ -29,7 +29,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Email</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="don@norman.me" class="input  focus:outline-none   border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-300 lg:h-20 placeholder:text-xl w-3/4 "  v-model="formData.email" required >
+                    <input type="text" placeholder="don@norman.me" class="input  focus:outline-none   border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  lg:h-20 placeholder:text-xl w-3/4 "  v-model="formData.email" required >
                 </div>
                     </div>
                     <div class="w-3/4">
@@ -37,7 +37,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Phone</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-300 placeholder:text-xl w-3/4"  v-model="formData.phone" required >
+                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl w-3/4"  v-model="formData.phone" required >
                 </div>
                     </div>
                  
@@ -49,7 +49,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl">Email </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-300 placeholder:text-xl" v-model="formData.email" required>
+                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl" v-model="formData.email" required>
                 </div>
             </div>
             <div class="mt-16 lg:hidden">
@@ -57,7 +57,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl">Phone Number </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-300 placeholder:text-xl" v-model="formData.phone" required>
+                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl" v-model="formData.phone" required>
                 </div>
             </div>
             <div class="mt-16">
@@ -65,10 +65,10 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Details </p>
                 </div>
                 <div class="mt-4 lg:hidden">
-                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none  border-pink-200 py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-300 placeholder:text-xl " style="white-space: pre-line;"   v-model="formData.detail" required />
+                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none  border-pink-200 py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-500  placeholder:text-xl " style="white-space: pre-line;"   v-model="formData.detail" required />
                 </div>
                 <div class="mt-4 hidden lg:block">
-                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none border-pink-200 py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-gray-300 placeholder:text-xl " style="white-space: pre-line;" v-model="formData.detail" required />
+                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none border-pink-200 py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-gray-500  placeholder:text-xl " style="white-space: pre-line;" v-model="formData.detail" required />
                 </div>
             </div>
             <div class="mt-16">
@@ -76,7 +76,7 @@ info@orizon.com we will follow up
                     <p class="text-2xl lg:text-xl">Subject </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="enter your subject here." class="lg:h-20 input  w-13/14 border-pink-200 py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-300 placeholder:text-xl lg:w-7/8"  v-model="formData.subject" required>
+                    <input type="text" placeholder="enter your subject here." class="lg:h-20 input  w-13/14 border-pink-200 py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-500  placeholder:text-xl lg:w-7/8"  v-model="formData.subject" required>
                 </div>
             </div>
             <div class="mt-16 ml-40  justify-end" >
@@ -296,7 +296,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
     .talk {
             font-size: 48px; 
             background: linear-gradient(to right, 
@@ -309,7 +309,7 @@ export default defineComponent({
             text-fill-color: transparent; 
         }
         .input{
-            background-color:#ede4f0 ;
+            background-color:#e6d3f0 ;
         }
     .button{
         background: linear-gradient(to right, #9B4AF7 0%, #8523F5 100%);
