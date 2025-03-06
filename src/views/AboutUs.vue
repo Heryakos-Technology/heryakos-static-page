@@ -75,12 +75,13 @@
     <div class="lastContainer mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
 
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 lg:mt-10">
+        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 lg:mt-10" >
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
                 imgSrc="/Victor.jpg" 
-                class="box lg:mr-20 mr-4 w-1/4"
+                :class="['box', { animate: isAnimating }]"
+                class=" lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
@@ -122,51 +123,63 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-import {onMounted} from 'vue';
-import {animate,spring,hover,inView,scroll} from 'motion';
+import { defineComponent, onMounted } from 'vue';
+import { animate, spring, inView, delay } from 'motion';
 import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; 
+import { ref } from 'vue';
 
 export default defineComponent({
     components: {
         TeamCard
     },
     setup() {
-    onMounted(()=>{
-        
-    animate(
-    ".box",
- { opacity: 1, x: [-100, 500] },
-            {
-                duration: 3,
-                easing: [0.17, 0.55, 0.55, 1],
-                repeat:Infinity,
-                direction:'alternate'
-            })
+     
+        onMounted(() => {
+            // Function to start animation
+            const startAnimation = (element, animationProps) => {
+                animate(element, animationProps, {
+                    duration: 3,
+                    easing: [0.17, 0.55, 0.55, 1],
+                    repeat: Infinity,
+                    direction: 'alternate',
+                  
+                });
+            };
 
-            animate(
-    ".box1",
- { opacity: 1, x: [0, -500] },
-            {
-                duration: 3,
-                easing: [0.17, 0.55, 0.55, 1],
-                repeat:Infinity,
-                direction:'alternate'
-            })
-            
-  const animation = animate(".box3",{scale:1.1},{
-    duration:3,
-    easing:spring(),
-    repeat:Infinity,
-    direction:'alternate'
-  })
- 
-})
+            // Animate .box when it comes into view
+            inView(".box", (element, isInView) => {
+                if (isInView) {
+                    startAnimation(element, { opacity: 1, x: [-100, 500] },{delay:100});
+                } else {
+                    // Stop the animation or reset properties
+                    animate(element, { opacity: 0, x: 0 });
+                }
+            });
 
-  },
+            // Animate .box1 when it comes into view
+            inView(".box1", (element, isInView) => {
+                if (isInView) {
+                    animate(element, { opacity: 0, x: 0 });
+                    startAnimation(element, { opacity: 1, x: [0, -500] },{delay:100});
+                } else {
+                    // Stop the animation or reset properties
+                    animate(element, { opacity: 0, x: 0 });
+                }
+            });
+
+            // Animate .box3 when it comes into view
+            inView(".box3", (element, isInView) => {
+                if (isInView) {
+                    startAnimation(element, { scale: 1.1 },{delay:100});
+                } else {
+                    // Stop the animation or reset properties
+                    animate(element, { scale: 1 });
+                }
+            });
+        });
+    },
 });
 </script>
-
 <style>
 .middleContainer {
     background-color: #f0eafb;
