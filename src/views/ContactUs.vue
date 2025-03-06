@@ -152,31 +152,37 @@ prefer.</p>
         </div>
         <div class="mt-28 lg:w-4/5 lg:mx-auto">
             <div class="flex ml-1 mr-1 ">
-                <div class="flex cardDiv pl-3 pr-3 w-3/4 rounded-lg pt-3 pb-6 shadow-md lg:w-4/5 lg:mr-5 lg:pl-10 lg:pt-6">
-                    <div class="mr-2">
-                        <i class="fa-solid fa-envelope text-black text-2xl lg:text-4xl"></i>
-                    </div>
-                    <div class="lg:ml-5">
-                        <h1 class="font-semibold lg:text-xl">Email & Phone</h1>
-                        <p class="text-sm text-gray-500 mt-2 font-semibold lg:text-lg">yared123@gmail.com</p>
-                        <p class="text-sm text-gray-500  font-semibold lg:text-lg">+251916897173</p>
+                <div class="card flex cardDiv pl-3 pr-3 w-3/4 rounded-lg pt-3 pb-6 shadow-md lg:w-4/5 lg:mr-5 lg:pl-10 lg:pt-6">
+                    <div class="last flex">
+
+                        <div class="mr-2">
+                            <i class="fa-solid fa-envelope text-black text-2xl lg:text-4xl"></i>
+                        </div>
+                        <div class="lg:ml-5">
+                            <h1 class="font-semibold lg:text-xl">Email & Phone</h1>
+                            <p class="text-sm text-gray-500 mt-2 font-semibold lg:text-lg">yared123@gmail.com</p>
+                            <p class="text-sm text-gray-500  font-semibold lg:text-lg">+251916897173</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48 lg:mr-5 lg:pl-10 lg:pt-6">
-                    <div class="mr-2">
-                        <i class="fa-solid fa-location-dot text-black text-2xl lg:text-4xl"></i>
-                    </div>
-                    <div class="lg:ml-5">
-                        <h1 class="font-semibold lg:text-xl">Our Location</h1>
-                        <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">Sherifa BLDG 8th
-floor,Meskel
-flowerAddid Ababa</p>
+                <div class="card flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48 lg:mr-5 lg:pl-10 lg:pt-6">
+                    <div class="last flex">
 
+                        <div class="mr-2">
+                            <i class="fa-solid fa-location-dot text-black text-2xl lg:text-4xl"></i>
+                        </div>
+                        <div class="lg:ml-5">
+                            <h1 class="font-semibold lg:text-xl">Our Location</h1>
+                            <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">Sherifa BLDG 8th
+    floor,Meskel
+    flowerAddid Ababa</p>
+    
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48  lg:pr-1 lg:pl-10  lg:pt-6 lg:w-1/2 lg:mx-auto">
-                <div class="last">
+            <div class="card flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48  lg:pr-1 lg:pl-10  lg:pt-6 lg:w-1/2 lg:mx-auto">
+                <div class="last flex">
                     <div class="mr-2">
                         <i class="fa-solid fa-phone text-black text-2xl lg:text-4xl mt-2"></i>
                     </div>
@@ -197,15 +203,15 @@ import { defineComponent } from 'vue';
 import { ref } from 'vue';
 import emailjs from 'emailjs-com';
 import { onMounted } from 'vue';
-import { animate, spring, inView, delay } from 'motion';
+import { animate, spring, inView, delay,hover } from 'motion';
 export default defineComponent({
     setup() {
         onMounted(() => {
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
-                    duration: 3,
+                    duration: 4,
+                    repeat:1,
                     easing: [0.17, 0.55, 0.55, 1],
-                    repeat: Infinity,
                     direction: 'alternate',
                   
                 });
@@ -214,13 +220,19 @@ export default defineComponent({
             
             inView(".last", (element, isInView) => {
                 if (isInView) {
-                    startAnimation(element, { opacity: 1, x: [-100, 500] },{delay:100});
+                    startAnimation(element, { opacity: 1, y: [-100, 10] },{delay:100});
                 } else {
                   
                     animate(element, { opacity: 0, x: 0 });
                 }
             });
+            hover(".card", (element) => {
+                startAnimation(element, {scale:0.9,duration:2})
 
+  return () => animation.stop()
+})
+            
+            
           
             // inView(".box1", (element, isInView) => {
             //     if (isInView) {
