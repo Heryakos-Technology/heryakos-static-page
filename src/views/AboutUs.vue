@@ -1,6 +1,6 @@
 <template>
    
-    <div class="mt-16 lg:-mt-1 z-0 lg:w-full">
+    <!-- <div class="mt-16 lg:-mt-1 z-0 lg:w-full">
         <div>
             <img src="/team_photo1.png" alt="" class="h-68 relative lg:w-full lg:h-8/12 md:w-full" />
         </div>
@@ -13,14 +13,33 @@
             </h2>
             <div class="lg:mt-12 mt-6">
                 <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl lg:text-xl">LEARN MORE</a>
-                <a href="#" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
+                <a href="/contact" class="button text-white px-5 py-2 lg:px-10 lg:py-5 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-xl lg:ml-10">CONTACT US</a>
             </div>
         </div>
+    </div> -->
+    <div class=" mb-1 lg:w-1/2 lg:mx-auto lg:pt-50">
+<div>
+    <img src="/team_photo1.png" alt="" class="h-50  w-4/5  ml-19 md:w-3/4 md:ml-48 md:h-60 relative lg:w-3/4  lg:h-115 " />
+</div>
+<div class="bg-white absolute w-11/12 md:w-3/4 md:h-60 md:mx-auto md:left-6 mx-auto py-5 px-4 top-30 right-10 lg:top-44 lg:h-8/12 lg:w-1/3 lg:right-130">
+    <div class="  lg:top-56 text-black">
+            <h1 class="lg:text-xl lg:font-bold w-15/15 text-purple-700 font-bold text-sm">FINANCIAL FOCUS & CONSULTING</h1>
+            <h2 class="mt-3 lg:mt-8 lg:text-xl lg:font-semibold w-11/11 md:w-3/4 md:mt-8 lg:w-10/10 lg:mx-auto">
+                With over years of experience <br class="lg:hidden" />
+                business to fine <br class="md:hidden" />
+                comprehensive solutions Join us on this journey of discovery and knowledge, as we share thought-provoking content designed to engage and elevate your understanding
+            </h2>
+            <div class="lg:mt-20 mt-6 md:mt-14 lg:w-10/10 lg:mx-auto ">
+                <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-6 lg:py-3 mt-4 rounded-lg lg:rounded-2xl lg:text-lg  border border-purple-200">LEARN MORE</a>
+                <a href="/contact" class="button text-white px-5 py-2 lg:px-6 lg:py-3 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-lg lg:ml-10">CONTACT US</a>
+            </div>
+        </div>
+</div>
     </div>
-    <div class="lg:hidden mt-20  md:ml-26 md:mr-28 ">
+    <div class="lg:hidden md:ml-26 md:mr-28 ">
 
         <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 hidden m lg:hidden relative" />
-        <div class="absolute middleContainer lg:w-64 w-94 ml-4  top-100 rounded-md shadow-sm md:w-3/4">
+        <div class=" middleContainer  lg:w-64 w-10/11 mx-auto ml-4 mt-50 rounded-md shadow-sm md:w-12/12  md:mx-auto">
             <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 md:w-3/4">
             <h1 class="font-semibold lg:text-3xl md:text-center">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-80 lg:w-2/3 lg:text-lg md:w-100 md:ml-10 ">
@@ -33,7 +52,9 @@
         </div>
     </div>
     <div class="hidden lg:block lg:visible lg:w-3/4 ">
-        <div class="middleContainer mt-20 rounded-md md:ml-28  shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-32 lg:mr-32 md:w-full">
+
+        <div class="middleContainer  mt-20 rounded-md md:ml-28  shadow-sm flex lg:justify-between ml-3 mr-3 lg:ml-44 lg:mr-32 md:w-full">
+
         <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10  md:w-full">
             <h1 class="font-semibold lg:text-3xl ">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-60 lg:w-4/5 lg:text-lg">
@@ -50,45 +71,50 @@
     </div>
     </div>
    
-    <div class="lastContainer mt-110 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-32 lg:mr-32 lg:pl-10 lg:pr-10 md:ml-28 md:mr-28 lg:mt-20 lg:mb-12 md:mb-10 lg:w-3/4 w-94 mb-10 md:w-3/4">
+
+    <div class="lastContainer mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
+
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
+        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 lg:mt-10">
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
                 imgSrc="/Victor.jpg" 
-                class="lg:mr-20 mr-4"
+                class="box lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
                 imgSrc="/PedroMale.jpg" 
+                class="box1 w-1/4"
             />
         </div>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
+        <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10  md:mx-14 md:w-10/11 lg:mt-20 ">
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="Architect" 
                 imgSrc="/MariaMale.jpg" 
-                class="lg:mr-20 mr-4"
+                class="box1 lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="Manager Partner" 
                 imgSrc="/MariaFemale.jpg" 
+                class="box w-1/4"
             />
         </div>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:ml-9 md:mr-9">
+        <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="UI/UX Designer" 
                 imgSrc="/MariaFemaleWithTablate.jpg" 
-                class= "lg:mr-20 mr-4"
+                class= "box lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
                 imgSrc="/PedroFemale.jpg" 
+                class="box1 w-1/4"
             />
         </div>
     </div>
@@ -97,12 +123,34 @@
 
 <script>
 import { defineComponent } from 'vue';
-import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; // Assuming TeamCard is a separate component
+import {onMounted} from 'vue';
+import {animate,spring} from 'motion';
+import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; 
 
 export default defineComponent({
     components: {
         TeamCard
+    },
+    setup() {
+    onMounted(()=>{
+        animate(
+    ".box",
+    { rotate: [0, 360, 360] }, 
+    { 
+      duration: 2, 
+      repeat: Infinity,
+      easing: "linear",
+      offset: [0, 1, 1] 
     }
+  );
+  const animation = animate(".box1,.box",{scale:1.1},{
+    duration:1,
+    easing:spring(),
+    repeat:Infinity,
+    direction:'alternate'
+  })
+})
+  },
 });
 </script>
 
@@ -110,9 +158,7 @@ export default defineComponent({
 .middleContainer {
     background-color: #f0eafb;
 }
-.lastContainer {
-    background-color: #E5DAFB;
-}
+
 .photoContainer {
     background-color: #debcf7d3;
 }

@@ -14,7 +14,8 @@ const handleSidebarOpen = () => {
 <template>
   <div class="w-full md:fixed  z-50 md:top-5 ">
     <!-- Mobile Header -->
-    <div class="px-4 md:hidden fixed w-full bg-white top-0 left-0   justify-between items-center z-50  flex py-4  ">
+    <div
+      class="px-4 md:hidden fixed w-full bg-transparent top-0 left-0   justify-between items-center z-50  flex py-4  ">
       <HeryakosLogo />
       <div @click="handleSidebarOpen" class="size-5 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -45,13 +46,16 @@ const handleSidebarOpen = () => {
 
       <HeryakosLogo class="w-[140px] lg:w-[160px]  " />
       <ul class="flex gap-x-10 text-lg lg:text-xl  xl:text-2xl font-semibold">
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</li>
-        <li class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</li>
+        <router-link to="/" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Home</router-link>
+        <router-link to="/blog" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Blog</router-link>
+        <router-link to="/works" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Works</router-link>
+        <router-link to="/about" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">About</router-link>
+        <router-link to="/service" class="hover:border-b-3 hover:font-bold border-[#9B4AF7]">Services</router-link>
       </ul>
-      <button
-        class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
+      <router-link to="/contact">
+        <button
+          class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-6 py-2 rounded-full font-medium lg:px-10 lg:py-3">Contact</button>
+      </router-link>
     </div>
   </div>
 </template>
