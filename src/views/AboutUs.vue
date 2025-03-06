@@ -124,7 +124,7 @@
 <script>
 import { defineComponent } from 'vue';
 import {onMounted} from 'vue';
-import {animate,spring} from 'motion';
+import {animate,spring,hover,inView} from 'motion';
 import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; 
 
 export default defineComponent({
@@ -133,23 +133,32 @@ export default defineComponent({
     },
     setup() {
     onMounted(()=>{
-        animate(
-    ".box",
-    { rotate: [0, 360, 360] }, 
-    { 
-      duration: 2, 
-      repeat: Infinity,
-      easing: "linear",
-      offset: [0, 1, 1] 
-    }
-  );
-  const animation = animate(".box1,.box",{scale:1.1},{
-    duration:1,
-    easing:spring(),
-    repeat:Infinity,
-    direction:'alternate'
-  })
+//         animate(
+//     ".box",
+//     { rotate: [0, 360, 360] }, 
+//     { 
+//       duration: 2, 
+//       repeat: Infinity,
+//       easing: "linear",
+//       offset: [0, 1, 1] 
+//     }
+//   );
+//   const animation = animate(".box1,.box",{scale:1.1},{
+//     duration:1,
+//     easing:spring(),
+//     repeat:Infinity,
+//     direction:'alternate'
+//   })
+// hover(".box", (element) => {
+//   const animation = animate(element, { rotate: 360 })
+
+//   return () => animation.stop()
+// })
+inView(".box", (element) => {
+  animate(element, { scale:1.4 ,repeat: Infinity,})
 })
+})
+
   },
 });
 </script>
