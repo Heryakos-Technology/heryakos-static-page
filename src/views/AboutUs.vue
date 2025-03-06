@@ -39,7 +39,7 @@
     <div class="lg:hidden md:ml-26 md:mr-28 ">
 
         <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 hidden m lg:hidden relative" />
-        <div class=" middleContainer lg:w-64 w-10/11 mx-auto ml-4 mt-38 rounded-md shadow-sm md:w-12/12  md:mx-auto">
+        <div class=" middleContainer  lg:w-64 w-10/11 mx-auto ml-4 mt-50 rounded-md shadow-sm md:w-12/12  md:mx-auto">
             <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 md:w-3/4">
             <h1 class="font-semibold lg:text-3xl md:text-center">Welcome to Financial Company</h1>
             <h2 class="mt-5 text-sm w-80 lg:w-2/3 lg:text-lg md:w-100 md:ml-10 ">
@@ -72,46 +72,49 @@
     </div>
    
 
-    <div class="lastContainer mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20 lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
+    <div class="lastContainer mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
 
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 ">
+        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 lg:mt-10">
             <TeamCard 
                 name="Victor Vivas" 
                 role="UI/UX Designer" 
-                imgSrc="/public/Victor.jpg" 
-                class="lg:mr-20 mr-4 "
+                imgSrc="/Victor.jpg" 
+                class="box lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
                 imgSrc="/PedroMale.jpg" 
+                class="box1 w-1/4"
             />
         </div>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10  md:mx-14 md:w-10/11">
+        <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10  md:mx-14 md:w-10/11 lg:mt-20 ">
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="Architect" 
                 imgSrc="/MariaMale.jpg" 
-                class="lg:mr-20 mr-4"
+                class="box1 lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="Manager Partner" 
                 imgSrc="/MariaFemale.jpg" 
+                class="box w-1/4"
             />
         </div>
-        <div class="flex ml-6 mr-6 mt-6 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11">
+        <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
             <TeamCard 
                 name="Maria José Jimenez" 
                 role="UI/UX Designer" 
                 imgSrc="/MariaFemaleWithTablate.jpg" 
-                class= "lg:mr-20 mr-4"
+                class= "box lg:mr-20 mr-4 w-1/4"
             />
             <TeamCard 
                 name="Pedro Sanin" 
                 role="Manager Partner" 
                 imgSrc="/PedroFemale.jpg" 
+                class="box1 w-1/4"
             />
         </div>
     </div>
@@ -120,12 +123,34 @@
 
 <script>
 import { defineComponent } from 'vue';
+import {onMounted} from 'vue';
+import {animate,spring} from 'motion';
 import TeamCard from '@/components/AboutUsComponents/TeamCard.vue'; // Assuming TeamCard is a separate component
 
 export default defineComponent({
     components: {
         TeamCard
+    },
+    setup() {
+    onMounted(()=>{
+        animate(
+    ".box",
+    { rotate: [0, 360, 360] }, // Holds the final rotation before restarting
+    { 
+      duration: 2, // 1s for rotation + 1s pause
+      repeat: Infinity,
+      easing: "linear",
+      offset: [0, 0.5, 1] // 50% for rotation, 50% for pause
     }
+  );
+  const animation = animate(".box1",{scale:1.1},{
+    duration:1,
+    easing:spring(),
+    repeat:Infinity,
+    direction:'alternate'
+  })
+})
+  },
 });
 </script>
 

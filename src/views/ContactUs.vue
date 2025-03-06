@@ -184,6 +184,7 @@ flowerAddid Ababa</p>
                 </div>
             </div>
         </div>  
+        
     </div>
 </template>
 
@@ -222,6 +223,7 @@ export default defineComponent({
     }
     .cardDiv{
         background: linear-gradient(to right, #D6C4F2 0%, #B693F5 100%);
+        
     }
         
 </style>

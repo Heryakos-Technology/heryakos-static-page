@@ -39,6 +39,12 @@ const router = createRouter({
       name: 'PortfolioPage',
       component: PortfolioPage
     },
+    {
+      path: '/animate',
+      name: 'Animation',
+      component: Animation
+    },
+    
   ],
 });
 
