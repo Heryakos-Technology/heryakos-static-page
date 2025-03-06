@@ -176,13 +176,15 @@ flowerAddid Ababa</p>
                 </div>
             </div>
             <div class="flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48  lg:pr-1 lg:pl-10  lg:pt-6 lg:w-1/2 lg:mx-auto">
-                <div class="mr-2">
-                    <i class="fa-solid fa-phone text-black text-2xl lg:text-4xl mt-2"></i>
-                </div>
-                <div class="lg:ml-5">
-                    <h1 class="font-semibold lg:text-xl">Project Inquiry</h1>
-                    <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">+251916897173</p>
-                    <p class="text-sm text-gray-500 font-semibold lg:text-lg">+251916897173</p>
+                <div class="last">
+                    <div class="mr-2">
+                        <i class="fa-solid fa-phone text-black text-2xl lg:text-4xl mt-2"></i>
+                    </div>
+                    <div class="lg:ml-5">
+                        <h1 class="font-semibold lg:text-xl">Project Inquiry</h1>
+                        <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">+251916897173</p>
+                        <p class="text-sm text-gray-500 font-semibold lg:text-lg">+251916897173</p>
+                    </div>
                 </div>
             </div>
         </div>  
