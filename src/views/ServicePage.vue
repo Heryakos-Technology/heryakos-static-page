@@ -434,7 +434,7 @@ onMounted(() => {
       </div>
     </div>
     <!-- /end of desktop view -->
-
+<!-- //////// -->
   </div>
 
 </template>
