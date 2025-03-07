@@ -112,7 +112,9 @@ onMounted(() => {
                     @click="sendEmail">Send Message</button>
 
             </div>
-            <div v-if="status" class="font-semibold text-center lg:w-2/3 md:2/3 md:mx-auto bg-pink-50 rounded-md lg:mx-auto shadow-md mt-10 py-4">{{ status }}</div>
+            <div v-if="status"
+                class="font-semibold text-center lg:w-2/3 md:2/3 md:mx-auto bg-pink-50 rounded-md lg:mx-auto shadow-md mt-10 py-4">
+                {{ status }}</div>
             <div v-if="loading">Loading</div>
 
             <div class="text-xl   font-semibold  mt-8 lg:mx-auto">
@@ -242,8 +244,8 @@ import { onMounted } from 'vue';
 import { animate, inView, hover } from 'motion';
 export default defineComponent({
     setup() {
-        
-       
+
+
         onMounted(() => {
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
@@ -287,37 +289,28 @@ export default defineComponent({
         });
 
         const formData = ref({
-      name: '',
-      email: '',
-      phone:'',
-      detail: '',
-      subject: ''
-    });
-    const status = ref('');
-    const sendEmail = () => {
-        status.value = 'Loading'
-      emailjs.send('service_39uy8wh', 'template_0bvbznb', formData.value, '4dKz9Oxhr-ezR17-0')
-        .then(() => {
-          status.value = 'Email sent successfully!';
-          console.log('data',formData.value)
-          resetForm();
-         
-        })
-        .catch(() => {
-          status.value = 'Failed to send email. Please try again.';
- 
+            name: '',
+            email: '',
+            phone: '',
+            detail: '',
+            subject: ''
         });
         const status = ref('');
+
         const sendEmail = () => {
+            status.value = 'Loading'
             emailjs.send('service_39uy8wh', 'template_0bvbznb', formData.value, '4dKz9Oxhr-ezR17-0')
                 .then(() => {
                     status.value = 'Email sent successfully!';
                     console.log('data', formData.value)
                     resetForm();
+
                 })
                 .catch(() => {
                     status.value = 'Failed to send email. Please try again.';
+
                 });
+
         };
 
 
