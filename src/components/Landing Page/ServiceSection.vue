@@ -22,7 +22,7 @@ const services = [
     imageSrc: Client_Engagement_Icon
   },
   {
-    title: 'Mobile Application Development (Android & iOS)',
+    title: 'Mobile Application Development',
     description: 'Build high-performance Android and iOS apps with offline capabilities and real-time data sync.',
     imageSrc: Application_maintenance_and_support_Icon
   },
