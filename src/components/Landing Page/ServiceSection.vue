@@ -31,7 +31,6 @@ const services = [
 ];
 
 onMounted(() => {
-  // Use inView to trigger the animation when service cards come into view
   inView(".service-cards-container", () => {
     animate(".service-card",
       {
@@ -42,9 +41,13 @@ onMounted(() => {
         delay: stagger(0.3),
         duration: 0.4,
         easing: [0.17, 0.55, 0.55, 1]
-      }
+      },
     );
-  });
+  },
+    {
+      amount: 0.6
+    }
+  );
 });
 </script>
 
