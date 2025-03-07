@@ -11,7 +11,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: HomeView
     },
     {
@@ -39,6 +39,12 @@ const router = createRouter({
       name: 'PortfolioPage',
       component: PortfolioPage
     },
+    {
+      path: '/animate',
+      name: 'Animation',
+      component: Animation
+    },
+    
   ],
 });
 
