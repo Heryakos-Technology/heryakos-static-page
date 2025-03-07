@@ -76,7 +76,7 @@ console.log(projects.value);
       </div>
 
       <div
-        class="rounded-2xl mt-6  w-full aspect-video max-h-[350px]   min-[1200px]:max-h-[380px] xl:max-h-[450px] 2xl:max-[500px] 2xl:w-[700px] bg-cover "
+        class="rounded-2xl mt-6  w-full aspect-video max-h-[350px] lg:max-w-[60%]   min-[1200px]:max-h-[380px] min-[1200px]:max-w-full xl:max-h-[450px] 2xl:max-[500px] 2xl:w-[700px] bg-cover "
         :style="{ backgroundImage: `url(${projects[currentProjectIndex]?.image})` }">
 
       </div>
