@@ -1,13 +1,15 @@
 <template>
-    <div class="mb-20 lg:w-2/3 lg:mx-auto  md:w-4/5 md:mx-auto lg:pt-10">
+    <div class=" lg:w-1/2 shadow-md lg:mx-auto  md:w-4/5 md:mx-auto lg:pt-20 bg-purple-100 lg:mt-23 lg:mb-23">
+<div class="bg-purple-300 rounded-t-md py-3 -mt-20">
 
-        <div class="mt-20 md:">
-          <img src="/threeProples.png" alt="" class="max-w-full max-h-full mx-auto lg:w-1/3">
-        </div>
+<div class="">
+  <img src="/images/contact2.jpg" alt="" class="max-w-full max-h-full mx-auto lg:w-1/2 lg:h-40 rounded-2xl">
+</div>
+</div>
         <div class="mt-8 ">
-            <h1 class="text-center text-4xl lg:text-3xl">Need a reply fast?</h1>
-            <h1 class="text-center text-4xl mt-10">Let's <span class="talk">talk!</span> </h1>
-            <p class="text-xl  mt-10 font-light w-5/6 mx-auto leading-9 lg:w-2/3 lg:mx-auto md:w-120 md:mx-auto">Share your project requirements
+            <h1 class="text-center text-4xl lg:text-2xl">Need a reply fast?</h1>
+            <h1 class="text-center text-4xl mt-10 lg:mt-3 lg:text-2xl">Let's <span class="talk">talk!</span> </h1>
+            <p class="text-xl lg:text-lg mt-10 font-light w-5/6 mx-auto leading-9 lg:w-2/3 lg:mx-auto md:w-120 md:mx-auto">Share your project requirements
 here or send us an email at
 info@orizon.com we will follow up
  in <span class="font-bold">24 hrs</span>  </p>
@@ -15,29 +17,29 @@ info@orizon.com we will follow up
         <div class="ml-8 mt-10 text-xl font-light lg:w-3/4 lg:mx-auto md:mx-auto">
             <div>
                 <div class="">
-                    <p class="text-2xl lg:text-xl">Name</p>
+                    <p class="text-2xl lg:text-lg">Name:</p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="Don from Earth,Inc." class="input  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl lg:w-7/8 lg:h-20"  v-model="formData.name" required >
+                    <input type="text" placeholder="Don from Earth,Inc." class="input border-2 border-purple-300 bg-white   focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg lg:w-7/8 lg:h-10"  v-model="formData.name" required >
                   
                 </div>
             </div>
-            <div class="hidden lg:block mt-16">
+            <div class="hidden lg:block mt-10">
                 <div class="flex">
                     <div class="w-3/4">
                         <div class="">
-                    <p class="text-2xl lg:text-xl">Email</p>
+                    <p class="text-2xl lg:text-lg">Email</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="don@norman.me" class="input  focus:outline-none   border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  lg:h-20 placeholder:text-xl w-3/4 "  v-model="formData.email" required >
+                    <input type="text" placeholder="don@norman.me" class="input border-2 border-purple-300 bg-white  focus:outline-none   py-6 pl-6 rounded-xl placeholder:text-gray-300  lg:h-10 placeholder:text-lg w-3/4 "  v-model="formData.email" required >
                 </div>
                     </div>
                     <div class="w-3/4">
                         <div class="">
-                    <p class="text-2xl lg:text-xl">Phone</p>
+                    <p class="text-2xl lg:text-lg">Phone</p>
                 </div>
                 <div class="mt-4 ">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl w-3/4"  v-model="formData.phone" required >
+                    <input type="text" placeholder="(555) 555-555" class=" input border-2 border-purple-300 bg-white lg:h-10  focus:outline-none  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg w-3/4"  v-model="formData.phone" required >
                 </div>
                     </div>
                  
@@ -46,47 +48,47 @@ info@orizon.com we will follow up
             </div>
             <div class="mt-16 lg:hidden">
                 <div>
-                    <p class="text-2xl">Email </p>
+                    <p class="text-lg">Email </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl" v-model="formData.email" required>
+                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input border-purple-300 bg-white  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.email" required>
                 </div>
             </div>
             <div class="mt-16 lg:hidden">
                 <div>
-                    <p class="text-2xl">Phone Number </p>
+                    <p class="text-lg">Phone Number </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input  focus:outline-none w-13/14 border-pink-200 py-6 pl-6 rounded-xl placeholder:text-gray-500  placeholder:text-xl" v-model="formData.phone" required>
+                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input border-2 border-purple-300 bg-white  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.phone" required>
                 </div>
             </div>
-            <div class="mt-16">
+            <div class="mt-10">
                 <div>
-                    <p class="text-2xl lg:text-xl">Details </p>
+                    <p class="text-2xl lg:text-lg">Subject </p>
+                </div>
+                <div class="mt-4">
+                    <input type="text" placeholder="enter your subject here." class="lg:h-10 input  w-13/14 border-2 border-purple-300 bg-white py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-300  placeholder:text-lg lg:w-7/8"  v-model="formData.subject" required>
+                </div>
+            </div>
+            <div class="mt-10">
+                <div>
+                    <p class="text-2xl lg:text-lg">Details </p>
                 </div>
                 <div class="mt-4 lg:hidden">
-                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none  border-pink-200 py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-500  placeholder:text-xl " style="white-space: pre-line;"   v-model="formData.detail" required />
+                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border-2 border-purple-300 bg-white focus:outline-none   py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-300  placeholder:text-lg " style="white-space: pre-line;"   v-model="formData.detail" required />
                 </div>
                 <div class="mt-4 hidden lg:block">
-                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input  focus:outline-none border-pink-200 py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-gray-500  placeholder:text-xl " style="white-space: pre-line;" v-model="formData.detail" required />
+                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input focus:outline-none border-2 border-purple-300 bg-white py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-gray-300  placeholder:text-lg " style="white-space: pre-line;" v-model="formData.detail" required />
                 </div>
             </div>
-            <div class="mt-16">
-                <div>
-                    <p class="text-2xl lg:text-xl">Subject </p>
-                </div>
-                <div class="mt-4">
-                    <input type="text" placeholder="enter your subject here." class="lg:h-20 input  w-13/14 border-pink-200 py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-500  placeholder:text-xl lg:w-7/8"  v-model="formData.subject" required>
-                </div>
+          
+            <div class="mt-16 lg:w-2/3 lg:mx-auto  justify-end" >
+                <button v-if="!status" class=" button text-white py-2 px-5 w-10/11 -ml-3   rounded-lg text-2xl lg:rounded-xl lg:text-lg lg:px-8" @click="sendEmail">Send Message</button>
             </div>
-            <div class="mt-16 ml-40  justify-end" >
-                <button v-if="!status" class=" button text-white py-2 px-5 w-10/11 -ml-3   rounded-lg text-2xl lg:rounded-3xl lg:text-lg lg:px-8 lg:ml-40 lg:w-1/2" @click="sendEmail">Send Message</button>
-               
-            </div>
-            <div v-if="status" class="font-semibold text-center lg:w-2/3 md:2/3 md:mx-auto bg-pink-50 rounded-md lg:mx-auto shadow-md mt-10 py-4">{{ status }}</div>
-            <div v-if="loading">Loading</div>
-            <div class="text-xl   font-semibold  mt-8 lg:mx-auto">
-                 <h1 class="w-4/5 ml-12 md:w-1/2 md:ml-auto">⭐️ Join 100+ happy customers</h1>
+            <div v-if="status" class="font-semibold text-center lg:w-2/3 md:2/3 md:mx-auto bg-purple-300 text-black rounded-md lg:mx-auto shadow-md mt-10 py-4">{{ status }}</div>
+            
+            <div class="text-lg   font-semibold  mt-8 lg:5/6 lg:mx-auto">
+                 <h1 class="w-4/5 ml-12 md:w-1/2 md:ml-auto lg:mx-auto lg:w-3/4">⭐️ Join 100+ happy customers</h1>
             </div>
             <div class="flex mt-20 mx-auto lg:mx-auto lg:mr-20">
                 <!-- <div>
@@ -107,7 +109,7 @@ info@orizon.com we will follow up
 
 </div>
             </div>
-            <div class="text-xl font-semibold w-6/7 mx-auto mt-16 lg:w-3/4 lg:mx-auto">
+            <div class="text-xl font-semibold lg:text-lg w-6/7 mx-auto mt-16 lg:w-3/4 lg:mx-auto">
                 <p>Filling out the form above is the
 fastest way to get an answer,
 but you can also schedule a cal
@@ -133,7 +135,7 @@ prefer.</p>
                 <button class="button text-white py-3 px-12 rounded-2xl text-2xl">Continue</button>
             </div>
         </div>
-        <div class="hidden lg:block text-white  bg-black mt-20 pr-10 pl-16 rounded-full pb-10 pt-5  w-4/5 mx-auto">
+        <div class="hidden lg:block text-white  bg-black mt-20 pr-10 pl-16 rounded-full pb-10 pt-5  w-8/9 mx-auto">
 <div class="flex">
 <div>
     <img src="/groupImageBottom.png" alt="">
@@ -151,9 +153,9 @@ prefer.</p>
             </div>
 </div>
         </div>
-        <div class="mt-28 lg:w-4/5 lg:mx-auto">
-            <div class="flex ml-1 mr-1 ">
-                <div class="card flex cardDiv pl-3 pr-3 w-3/4 rounded-lg pt-3 pb-6 shadow-md lg:w-4/5 lg:mr-5 lg:pl-10 lg:pt-6">
+        <div class="mt-20  lg:mx-auto lg:pb-5">
+            <div class="flex ml-1 mr-1 lg:w-10/10 lg:mx-auto lg:px-3 ">
+                <div class="card flex cardDiv pl-3 pr-3 w-3/4 rounded-lg pt-3 pb-6 shadow-md lg:w-4/5  lg:pl-10 lg:pt-6">
                     <div class="last flex">
 
                         <div class="mr-2">
@@ -166,7 +168,7 @@ prefer.</p>
                         </div>
                     </div>
                 </div>
-                <div class="card flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48 lg:mr-5 lg:pl-10 lg:pt-6">
+                <div class="card flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48  lg:pl-10 lg:pt-6">
                     <div class="last flex">
 
                         <div class="mr-2">
@@ -213,7 +215,6 @@ export default defineComponent({
             const startAnimation = (element, animationProps) => {
                 animate(element, animationProps, {
                     duration: 4,
-                    repeat:1,
                     easing: [0.17, 0.55, 0.55, 1],
                     direction: 'alternate',
                   
@@ -221,19 +222,34 @@ export default defineComponent({
             };
 
             
-            inView(".last", (element, isInView) => {
-                if (isInView) {
-                    startAnimation(element, { opacity: 1, y: [-100, 10] },{delay:100});
-                } else {
+            // inView(".last", (element, isInView) => {
+            //     if (isInView) {
+            //         startAnimation(element, { opacity: 1, y: [-100, 10] },{delay:100});
+            //     } else {
                   
-                    animate(element, { opacity: 0, x: 0 });
-                }
-            });
-            hover(".card", (element) => {
-                startAnimation(element, {scale:0.9,duration:2})
+            //         animate(element, { opacity: 0, x: 0 });
+            //     }
+            // });
+//             hover(".card", (element) => {
+//                 startAnimation(element, {scale:0.9,duration:2})
 
-  return () => animation.stop()
-})
+//   return () => animation.stop()
+// })inView(".last", (element, isInView) => {
+    inView(".card", (element, isInView) => {
+    if (isInView) {
+        startAnimation(element, { 
+            opacity: 1, 
+            y: [-100, 10],
+            filter: ['blur(4px)', 'blur(0px)'] // Start with blur and end with normal
+        }, { delay: 100 });
+    } else {
+        animate(element, { 
+            opacity: 0, 
+            x: 0, 
+            filter: 'blur(4px)' // Ensure it stays blurred when out of view
+        });
+    }
+});
             
             
           
@@ -260,7 +276,9 @@ export default defineComponent({
     });
     const status = ref('');
     const sendEmail = () => {
-        status.value = 'Loading'
+        const isFormFilled = Object.values(formData.value).every(value => value !== '');
+        if(isFormFilled){
+            status.value = 'Sending...'
       emailjs.send('service_39uy8wh', 'template_0bvbznb', formData.value, '4dKz9Oxhr-ezR17-0')
         .then(() => {
           status.value = 'Email sent successfully!';
@@ -281,7 +299,9 @@ export default defineComponent({
       formData.value.detail = '';
       formData.value.subject = '';
     };
-        return {
+   
+        }
+         return {
       formData,
       status,
       sendEmail
@@ -296,7 +316,7 @@ export default defineComponent({
 
 <style scoped>
     .talk {
-            font-size: 48px; 
+            font-size: 24px; 
             background: linear-gradient(to right, 
                 #9B4AF7 0%,   
                 #8523F5 100%  
@@ -307,7 +327,7 @@ export default defineComponent({
             text-fill-color: transparent; 
         }
         .input{
-            background-color:#e6d3f0 ;
+            /* background-color:#e6d3f0 ; */
         }
     .button{
         background: linear-gradient(to right, #9B4AF7 0%, #8523F5 100%);
@@ -319,3 +339,5 @@ export default defineComponent({
     }
         
 </style>
+
+
