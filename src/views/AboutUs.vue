@@ -49,16 +49,16 @@
     </div>
     <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden md:pt-24 md:block">
     <img src="/images/team-image.avif" alt=""
-        class="w-2/3 mt-5 md:w-2/3 md:ml-72 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28 animated-image">
+        class="w-2/3 mt-5 md:w-2/3 md:ml-52 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28 animated-image">
     <div class="lg:-mt-46 lg:ml-24 animated-text">
-        <div class="w-11/12 h-44 md:ml-20 md:w-4/5 bg-white absolute -mt-10 lg:w-2/5 lg:h-96 lg:-mt-83">
+        <div class="w-11/12 h-44 md:h-70  md:w-1/2 md:-mt-75  bg-white absolute -mt-10 lg:w-2/5 lg:h-96 lg:-mt-83">
             <p class="text-sm   pl-5 pr-4 md:text-lg md:w-11/12 lg:text-2xl lg:w-11/12 lg:mx-auto lg:mt-10">
                 <span class="text-purple-700 font-bold ">FINANCIAL FOCUS</span> where insights and inspiration
                 converge. Explore a curated collection of articles that delve into diverse topics, from industry
                 trends to personal reflections. Join us on this journey of discovery and knowledge
             </p>
   
-            <div class="lg:mt-6 mt-6 md:mt-14 lg:w-9/10 lg:mx-auto ">
+            <div class="lg:mt-6 mt-6 md:mt-14 lg:w-9/10 lg:mx-auto md:w-3/4 md:mx-auto">
                   <a href="#" class="bg-white text-purple-800 px-5 py-2 lg:px-6 lg:py-3 mt-4 rounded-lg lg:rounded-2xl lg:text-lg  border border-purple-200">LEARN MORE</a>
                   <a href="/contact" class="button text-white px-5 py-2 lg:px-6 lg:py-3 mt-4 rounded-lg lg:rounded-2xl ml-4 lg:text-lg lg:ml-10">CONTACT US</a>
               </div>
@@ -68,7 +68,7 @@
       <div class="lg:hidden md:ml-26 md:mr-28 ">
   
           <img src="/teamlarge2.jpg" alt="" class=" rounded-md h-84 hidden m lg:hidden relative" />
-          <div class=" middleContainer  lg:w-64 w-10/11 mx-auto ml-4 mt-50 rounded-md shadow-sm md:w-12/12  md:mx-auto">
+          <div class=" middleContainer  lg:w-64 w-10/11 mx-auto ml-4 mt-50 rounded-md shadow-sm md:w-12/12 md:mt-10  md:mx-auto">
               <div class="pl-4 pt-6 pb-5 lg:mt-5 lg:ml-10 md:w-3/4">
               <h1 class="font-semibold lg:text-3xl md:text-center">Welcome to Financial Company</h1>
               <h2 class="mt-5 text-sm w-80 lg:w-2/3 lg:text-lg md:w-100 md:ml-10 ">
@@ -101,55 +101,317 @@
       </div>
      
   
-      <div class="lastContainer hidden lg-block md:block  mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
+      <div class="lastContainer hidden lg:block md:hidden  mt-10 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
   
   
         <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
-          <div class="flex  ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 lg:mt-10" >
-              <TeamCard 
-                  name="Victor Vivas" 
-                  role="UI/UX Designer" 
-                  imgSrc="/Victor.jpg" 
-                  :class="['box', { animate: isAnimating }]"
-                  class=" lg:mr-20 mr-4 w-1/4"
-              />
-              <TeamCard 
-                  name="Pedro Sanin" 
-                  role="Manager Partner" 
-                  imgSrc="/PedroMale.jpg" 
-                  class="box1 w-1/4"
-              />
-          </div>
-          <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10  md:mx-14 md:w-10/11 lg:mt-20 ">
-              <TeamCard 
-                  name="Maria José Jimenez" 
-                  role="Architect" 
-                  imgSrc="/MariaMale.jpg" 
-                  class="box3 lg:mr-20 mr-4 w-1/4"
-              />
-              <TeamCard 
-                  name="Maria José Jimenez" 
-                  role="Manager Partner" 
-                  imgSrc="/MariaFemale.jpg" 
-                  class="box3 w-1/4"
-              />
-          </div>
-          <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
-              <TeamCard 
+        <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
+              <!-- <TeamCard 
                   name="Maria José Jimenez" 
                   role="UI/UX Designer" 
                   imgSrc="/MariaFemaleWithTablate.jpg" 
                   class= "box lg:mr-20 mr-4 w-1/4"
-              />
-              <TeamCard 
+              /> -->
+              <div class="box photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60 lg:mr-20 mr-4 w-1/4">
+          <div>
+              <img src="/Victor.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Maria José Jimenez<br />
+                  <span class="span">UI/UX Designer</span>
+              </h1>
+          </div>
+      </div>
+              <!-- <TeamCard 
                   name="Pedro Sanin" 
                   role="Manager Partner" 
                   imgSrc="/PedroFemale.jpg" 
                   class="box1 w-1/4"
-              />
+              /> -->
+              <div class="box1 photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60  w-1/4">
+          <div>
+              <img src="/PedroMale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Pedro Sanin<br />
+                  <span class="span">Manager Partner</span>
+              </h1>
           </div>
       </div>
-      
+          </div>
+          <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
+              <!-- <TeamCard 
+                  name="Maria José Jimenez" 
+                  role="UI/UX Designer" 
+                  imgSrc="/MariaFemaleWithTablate.jpg" 
+                  class= "box lg:mr-20 mr-4 w-1/4"
+              /> -->
+              <div class="box3 photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60 lg:mr-20 mr-4 w-1/4">
+          <div>
+              <img src="/MariaMale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Maria José Jimenez<br />
+                  <span class="span">UI/UX Designer</span>
+              </h1>
+          </div>
+      </div>
+              <!-- <TeamCard 
+                  name="Pedro Sanin" 
+                  role="Manager Partner" 
+                  imgSrc="/PedroFemale.jpg" 
+                  class="box1 w-1/4"
+              /> -->
+              <div class="box3 photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60  w-1/4">
+          <div>
+              <img src="/MariaFemale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Pedro Sanin<br />
+                  <span class="span">Manager Partner</span>
+              </h1>
+          </div>
+      </div>
+          </div>
+          <div class="flex ml-6 mr-6 mt-16 lg:justify-between lg:ml-10 lg:mr-10 md:mx-14 md:w-10/11 lg:mt-20">
+              <!-- <TeamCard 
+                  name="Maria José Jimenez" 
+                  role="UI/UX Designer" 
+                  imgSrc="/MariaFemaleWithTablate.jpg" 
+                  class= "box lg:mr-20 mr-4 w-1/4"
+              /> -->
+              <div class="box photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60 lg:mr-20 mr-4 w-1/4">
+          <div>
+              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Maria José Jimenez<br />
+                  <span class="span">UI/UX Designer</span>
+              </h1>
+          </div>
+      </div>
+              <!-- <TeamCard 
+                  name="Pedro Sanin" 
+                  role="Manager Partner" 
+                  imgSrc="/PedroFemale.jpg" 
+                  class="box1 w-1/4"
+              /> -->
+              <div class="box1 photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60  w-1/4">
+          <div>
+              <img src="/PedroFemale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+              <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+                  <div class="flex  lg:w-3/4 lg:justify-between ">
+                      <SocialIcon icon="facebook" />
+                      <SocialIcon icon="twitter" />
+                      <SocialIcon icon="linkedin" isBlack />
+                      <SocialIcon icon="instagram" />
+                  </div>
+              </div>
+          </div>
+          <div class="pl-3 text-sm lg:mt-2 mt-2">
+              <h1>Pedro Sanin<br />
+                  <span class="span">Manager Partner</span>
+              </h1>
+          </div>
+      </div>
+          </div>
+      </div>
+      <div class="lastContainer hidden md:block lg:hidden  mt-10 rounded-sm shadow-sm  w-10/10 mx-auto md:pl-6">
+  
+  
+  <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
+    <div class="flex  ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 ">
+        <!-- <TeamCard 
+            name="Victor Vivas" 
+            role="UI/UX Designer" 
+            imgSrc="/Victor.jpg" 
+            :class="['box', { animate: isAnimating }]"
+            class=" lg:mr-20 mr-4 w-1/4"
+        /> -->
+        <div class="mdbox w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group  -ml-7 mr-5">
+    <div>
+        <img src="/Victor.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Victor Vivas <br />
+            <span class="span">UI/UX Designer</span>
+        </h1>
+    </div>
+</div>
+        <!-- <TeamCard 
+            name="Pedro Sanin" 
+            role="Manager Partner" 
+            imgSrc="/PedroMale.jpg" 
+            class="box1 w-1/4"
+        /> -->
+        <div class="mdbox1 w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group ">
+    <div>
+        <img src="/PedroMale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Pedro Sanin<br />
+            <span class="span">Manager Partner</span>
+        </h1>
+    </div>
+</div>
+    </div>
+    <div class="flex  ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 ">
+        <!-- <TeamCard 
+            name="Maria José Jimenez" 
+            role="Architect" 
+            imgSrc="/MariaMale.jpg" 
+            class="box3 lg:mr-20 mr-4 w-1/4"
+        /> -->
+        <div class="mdbox3 w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group  -ml-7 mr-5 ">
+    <div>
+        <img src="/MariaMale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Maria José Jimenez<br />
+            <span class="span">Architect</span>
+        </h1>
+    </div>
+</div>
+        <!-- <TeamCard 
+            name="Maria José Jimenez" 
+            role="Manager Partner" 
+            imgSrc="/MariaFemale.jpg" 
+            class="box3 w-1/4"
+        /> -->
+        <div class="mdbox3 w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group">
+    <div>
+        <img src="/MariaFemale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Maria José Jimenez<br />
+            <span class="span">Manager Partner</span>
+        </h1>
+    </div>
+</div>
+    </div>
+    <div class="flex  ml-6 mr-6 mt-6 lg:justify-between lg:ml-10  mx-auto lg:mr-10 md:mx-14 md:w-10/11 ">
+        <!-- <TeamCard 
+            name="Maria José Jimenez" 
+            role="UI/UX Designer" 
+            imgSrc="/MariaFemaleWithTablate.jpg" 
+            class= "box lg:mr-20 mr-4 w-1/4"
+        /> -->
+        <div class="mdbox w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group  -ml-7 mr-5">
+    <div>
+        <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Maria José Jimenez<br />
+            <span class="span">UI/UX Designer</span>
+        </h1>
+    </div>
+</div>
+        <!-- <TeamCard 
+            name="Pedro Sanin" 
+            role="Manager Partner" 
+            imgSrc="/PedroFemale.jpg" 
+            class="box1 w-1/4"
+        /> -->
+        <div class="mdbox1 w-1/2 photoContainer rounded-md shadow-md shadow-gray-400 relative group">
+    <div>
+        <img src="/PedroFemale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
+        <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
+            <div class="flex  lg:w-3/4 lg:justify-between ">
+                <SocialIcon icon="facebook" />
+                <SocialIcon icon="twitter" />
+                <SocialIcon icon="linkedin" isBlack />
+                <SocialIcon icon="instagram" />
+            </div>
+        </div>
+    </div>
+    <div class="pl-3 text-sm lg:mt-2 mt-2">
+        <h1>Pedro Sanin<br />
+            <span class="span">Manager Partner</span>
+        </h1>
+    </div>
+</div>
+    </div>
+</div>
       <div class="lastContainer lg:hidden md:hidden  mt-6 rounded-sm shadow-sm pb-5 ml-4 mr-3 lg:ml-44 lg:mr-32 lg:pl-10 lg:pr-10  lg:mt-20  lg:mb-12 md:mb-10 lg:w-3/4 w-10/11 mx-auto mb-10 md:w-9/11 md:mx-auto md:pl-6">
   
   <h1 class="text-center font-semibold pt-5 lg:text-3xl">Our Teams</h1>
@@ -288,7 +550,7 @@
           imgSrc="/PedroFemale.jpg" 
           class="smbox1 w-1/4"
       /> -->
-      <div class="photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60 smbox1 lg:mr-20 mr-4 w-4/5">
+      <div class=" photoContainer rounded-md shadow-md shadow-gray-400 relative group lg:w-1/2 lg:h-96 h-60 smbox1 lg:mr-20 mr-4 w-4/5">
           <div>
               <img src="/PedroFemale.jpg" alt="" class="w-full rounded-md h-44 lg:h-80" />
               <div class="hoverContainer absolute inset-0 rounded-md opacity-0 group-hover:opacity-75 flex items-center justify-center transition-opacity h-44 lg:h-80">
@@ -384,6 +646,15 @@
                       animate(element, { opacity: 0, x: 0 });
                   }
               });
+              inView(".mdbox", (element, isInView) => {
+                  if (isInView) {
+                      startAnimation(element, { opacity: 1, x: [-100, 360] },{delay:100});
+                  } else {
+                   
+                      animate(element, { opacity: 0, x: 0 });
+                  }
+              });
+       
        
               inView(".box1", (element, isInView) => {
                   if (isInView) {
@@ -403,15 +674,24 @@
                       animate(element, { opacity: 0, x: 0 });
                   }
               });
-              inView(".smbox1", (element, isInView) => {
+              inView(".mdbox1", (element, isInView) => {
                   if (isInView) {
                       animate(element, { opacity: 0, x: 0 });
-                      startAnimation(element, { opacity: 1, x: [0, -160] },{delay:100});
+                      startAnimation(element, { opacity: 1, x: [0, -360] },{delay:100});
                   } else {
                    
                       animate(element, { opacity: 0, x: 0 });
                   }
               });
+            //   inView(".smbox1", (element, isInView) => {
+            //       if (isInView) {
+            //           animate(element, { opacity: 0, x: 0 });
+            //           startAnimation(element, { opacity: 1, x: [0, -160] },{delay:100});
+            //       } else {
+                   
+            //           animate(element, { opacity: 0, x: 0 });
+            //       }
+            //   });
   
            
               inView(".box3", (element, isInView) => {
@@ -423,6 +703,14 @@
                   }
               });
               inView(".smbox3", (element, isInView) => {
+                  if (isInView) {
+                      startAnimation(element, { scale: 0.9 },{delay:100});
+                  } else {
+                   
+                      animate(element, { scale: 1 });
+                  }
+              });
+              inView(".mdbox3", (element, isInView) => {
                   if (isInView) {
                       startAnimation(element, { scale: 0.9 },{delay:100});
                   } else {
