@@ -21,13 +21,12 @@ import AboutUSideImage from '/images/About_Us_Side_Image.png';
           and technological platform. Our passion lies in enhancing the human experience with technology by crafting
           impactful connections between businesses and their clients, defining our identity</p>
       </div>
-      <div class="mt-8  flex flex-col  md:items-start   2xl:mt-24 ">
+      <RouterLink :to="{ name: 'AboutUs' }" class="mt-8  flex flex-col  md:items-start   2xl:mt-24 ">
         <div class="space-y-1 text-center">
-          <button
-            class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">More
-            about us</button>
+          <div class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">More
+            about us</div>
         </div>
-      </div>
+      </RouterLink>
     </div>
     <div class="hidden md:block max-w-[450px] xl:max-w-full">
       <img :src="AboutUSideImage" alt="About Us ide Image" class="w-full">

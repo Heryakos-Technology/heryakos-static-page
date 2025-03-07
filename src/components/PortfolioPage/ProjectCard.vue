@@ -19,9 +19,8 @@ defineProps({
 
 <template>
   <div
-    class="drop-shadow-xl bg-secondaryColor   pb-8 rounded-2xl border border-btnColor max-w-[400px] md:h-[520px] lg:max-w-full lg:h-[600px]  ">
-    <div class="w-full h-64  bg-cover bg-center rounded-t-xl lg:h-[400px] "
-      :style="{ backgroundImage: `url(${imageUrl})` }">
+    class="drop-shadow-xl bg-thirdColor   pb-8   border border-btnColor max-w-[400px] md:h-[520px] lg:max-w-[80%] lg:h-[600px]  ">
+    <div class="w-full h-64  bg-cover bg-center  lg:h-[400px] " :style="{ backgroundImage: `url(${imageUrl})` }">
     </div>
     <div class="space-y-4 px-2 mt-4">
       <h1 class="font-semibold text-lg lg:h-6">{{ title }}</h1>

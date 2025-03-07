@@ -3,7 +3,7 @@
 
 <template>
   <div
-    class="mt-16 bg-radial from-[#e7ddf9] from-0% to-[#d9c7fa] to-95%  pt-10 pb-16 rounded-2xl drop-shadow-xl  mx-auto sm:max-w-[425px] md:max-w-[700px] md:pt-16 lg:max-w-[80%] lg:h-[400px]   xl:max-w-[1050px] xl:h-[500px] xl:pt-28    ">
+    class="mt-16 bg-radial from-[#e7ddf9] from-0% to-[#d9c7fa] to-95%  pt-10 pb-16 rounded-2xl drop-shadow-xl  mx-auto xs:w-[80%]  md:pt-16 max-w-[310px]  lg:h-[380px]  sm:max-w-[360px] md:max-w-[470px] lg:max-w-[560px]    xl:max-w-[600px] xl:h-[450px] xl:pt-28    ">
 
     <div class="text-center space-y-3  xl:space-y-10">
       <div class="text-3xl font-semibold md:text-4xl xl:text-6xl ">

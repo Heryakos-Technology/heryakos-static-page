@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted } from 'vue';
+
 import ProjectCard from "@/components/PortfolioPage/ProjectCard.vue";
 import our_works_illustration from "/images/our_works_illustration.png";
 import AIVision from "/images/AIVision ¨C Saas Hero Section Figma Template.jpeg";
@@ -9,6 +11,10 @@ import TrustBroker from "/images/Trust-Broker Website .png";
 import AiPowered from "/images/AI-Powered Proposal Tool - SAAS UI.jpeg";
 import { ref } from 'vue';
 import ContactUsCard from "@/components/PortfolioPage/ContactUsCard.vue";
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 
 const projects = ref([
   {
@@ -52,6 +58,10 @@ const projects = ref([
         <h1 class="text-center text-4xl font-bold sm:text-5xl lg:text-6xl xl:text-7xl"><span
             class="text-btnColor">Our</span> Works
         </h1>
+        <p class="text-sm text-center md:text-left max-w-[270px] lg:max-w-[370px] lg:text-base 2xl:max-w-[420px]">
+          Delivering innovative solutions and exceptional results. Browse our featured projects and client success
+          stories.
+        </p>
         <div class=" text-center">
           <button
             class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-12 py-2.5 rounded-4xl font-medium">Contact
@@ -63,7 +73,7 @@ const projects = ref([
         <img :src="our_works_illustration" alt="our_works_illustration" class="w-full">
       </div>
     </div>
-    <div class="mt-16 grid gap-y-8 place-items-center md:grid-cols-2 gap-x-2">
+    <div class="mt-16 grid gap-y-8 place-items-center md:grid-cols-2 gap-x-2 lg:gap-y-16">
       <ProjectCard v-for="(project, index) in projects" :key="index" :title="project.title"
         :description="project.description" :imageUrl="project.imageUrl" />
     </div>
