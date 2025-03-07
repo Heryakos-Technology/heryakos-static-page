@@ -18,17 +18,17 @@ defineProps({
   },
 });
 
-// Create a ref to target the specific card element
+
 const cardRef = ref(null);
 
 onMounted(() => {
   if (cardRef.value) {
     inView(
-      cardRef.value, // Target the specific DOM element
+      cardRef.value,
       (element) => {
         animate(
           element,
-          { opacity: [0, 1], x: [-100, 0] }, // Explicitly use array for from-to
+          { opacity: [0, 1], x: [-100, 0] },
           {
             duration: 0.9,
             easing: [0.17, 0.55, 0.55, 1],
