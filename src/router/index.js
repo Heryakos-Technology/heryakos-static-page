@@ -44,8 +44,21 @@ const router = createRouter({
       name: 'Animation',
       component: Animation
     },
-    
+
   ],
 });
 
 export default router;
+
+{/* <div class="lg:flex flex-col gap-y-4  hidden  2xl:gap-x-4 ">
+        <div v-for="(project, index) in projects" :key="index" class="space-y-1"
+          :class="{ 'font-bold text-2xl ': index === currentProjectIndex }">
+          <h1 @click="goToSpecificProject(index + 1)" class="text-xl cursor-pointer min-[1200px]:text-2xl 2xl:text-3xl">
+            {{
+              project?.name }}</h1>
+          <div class="flex gap-x-4 items-center mr-20  border-b-2 border-black pb-3">
+            <p class="font-semibold text-lg ">LEARN MORE</p>
+            <img class="size-4" :src="arrowUpRight" alt="" srcset="">
+          </div>
+        </div>
+      </div> */}

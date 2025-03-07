@@ -1,8 +1,10 @@
 @import "tailwindcss";
 @theme {
   --breakpoint-xs: 425px;
+  --breakpoint-desktop: 1380px;
   --color-btnColor: #8a2bf5;
   --color-secondaryColor: #e5dafb;
   --color-thirdColor: #eee7ff;
   --drop-shadow-coloredDropShadow: 0 4px 5px rgba(135, 77, 201, 0.75);
+  --drop-shadow-flying: 0 20px 20px rgba(0, 0, 0, 0.2);
 }

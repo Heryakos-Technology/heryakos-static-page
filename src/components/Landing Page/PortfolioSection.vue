@@ -61,30 +61,31 @@ console.log(projects.value);
         tangible
         solutions.</p>
     </div>
-    <div class="lg:flex mt-16 justify-between lg:items-center">
-      <div class="lg:flex flex-col gap-y-4  hidden  2xl:gap-x-4 ">
-        <div v-for="(project, index) in projects" :key="index" class="space-y-1"
-          :class="{ 'font-bold text-2xl ': index === currentProjectIndex }">
-          <h1 @click="goToSpecificProject(index + 1)" class="text-xl cursor-pointer min-[1200px]:text-2xl 2xl:text-3xl">
+    <div class="lg:flex mt-16 justify-center  lg:gap-x-8 xl:gap-x-16 ">
+      <div class=" hidden lg:flex flex-col gap-y-4     ">
+        <div @click="goToSpecificProject(index + 1)" v-for="(project, index) in projects" :key="index"
+          class="space-y-1 hover:bg-btnColor/90  bg-btnColor cursor-pointer text-white py-2 px-5 rounded-xl w-[350px] h-[105px] xl:[370px]"
+          :class="{ 'font-bold text-2xl  drop-shadow-flying scale-105': index === currentProjectIndex }">
+          <h1 class="text-xl cursor-pointer  ">
             {{
               project?.name }}</h1>
-          <div class="flex gap-x-4 items-center mr-20  border-b-2 border-black pb-3">
+          <RouterLink :to="{ name: 'PortfolioPage' }" class="flex gap-x-4 items-center mr-20  w-fit ">
             <p class="font-semibold text-lg ">LEARN MORE</p>
             <img class="size-4" :src="arrowUpRight" alt="" srcset="">
-          </div>
+          </RouterLink>
         </div>
       </div>
 
       <div
-        class="rounded-2xl mt-6  w-full aspect-video max-h-[350px] lg:max-w-[60%]   min-[1200px]:max-h-[380px] min-[1200px]:max-w-full xl:max-h-[450px] 2xl:max-[500px] 2xl:w-[700px] bg-cover "
+        class="rounded-2xl mt-6  w-full  bg-cover  max-h-[390px] xl:max-w-[760px] xl:max-h-[400px]  2xl:max-h-[500px] 2xl:max-w-[800px]   "
         :style="{ backgroundImage: `url(${projects[currentProjectIndex]?.image})` }">
 
       </div>
       <div class="lg:hidden">
-        <div class="mt-5 space-y-4 border-b-2 border-black pb-4">
+        <div class="mt-5 space-y-4 border-b-2 border-btnColor pb-4">
           <h1 class="text-4xl font-light md:text-5xl">{{ projects[currentProjectIndex].name }}</h1>
           <div class="flex gap-x-4 items-center">
-            <p class="font-semibold text-lg md:text-xl min-[1200px]: ">LEARN MORE</p>
+            <p class="font-semibold text-lg md:text-xl  ">LEARN MORE</p>
             <img class="size-6" :src="arrowUpRight" alt="" srcset="">
           </div>
         </div>
@@ -113,7 +114,7 @@ console.log(projects.value);
         </div>
       </div>
     </div>
-    <RouterLink :to="{ name: 'PortfolioPage' }" class="mt-8 flex flex-col   md:items-start   2xl:mt-16 ">
+    <RouterLink :to="{ name: 'PortfolioPage' }" class="mt-8 flex flex-col   md:items-start   2xl:mt-32 ">
       <div
         class="bg-gradient-to-r from-[#9B4AF7]   mx-auto to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">
         More Projects</div>
