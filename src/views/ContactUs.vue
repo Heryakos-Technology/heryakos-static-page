@@ -1,15 +1,15 @@
 <template>
     <div class=" lg:w-1/2 shadow-md lg:mx-auto  md:w-4/5 md:mx-auto lg:pt-20 bg-purple-100 lg:mt-23 lg:mb-23">
-<div class="bg-purple-300 rounded-t-md py-3 -mt-20">
+<div class="bg-purple-300 rounded-t-md py-3 lg:-mt-20">
 
 <div class="">
-  <img src="/images/contact2.jpg" alt="" class="max-w-full max-h-full mx-auto lg:w-1/2 lg:h-40 rounded-2xl">
+  <img src="/images/contact2.jpg" alt="" class="w-1/2 mx-auto lg:w-1/2 lg:h-40 rounded-2xl">
 </div>
 </div>
         <div class="mt-8 ">
-            <h1 class="text-center text-4xl lg:text-2xl">Need a reply fast?</h1>
-            <h1 class="text-center text-4xl mt-10 lg:mt-3 lg:text-2xl">Let's <span class="talk">talk!</span> </h1>
-            <p class="text-xl lg:text-lg mt-10 font-light w-5/6 mx-auto leading-9 lg:w-2/3 lg:mx-auto md:w-120 md:mx-auto">Share your project requirements
+            <h1 class="text-center text-2xl lg:text-2xl">Need a reply fast?</h1>
+            <h1 class="text-center text-2xl mt-3 lg:mt-3 lg:text-2xl">Let's <span class="talk">talk!</span> </h1>
+            <p class="text-lg lg:text-lg mt-10 font-light w-5/6 mx-auto leading-9 lg:w-2/3 lg:mx-auto md:w-120 md:mx-auto">Share your project requirements
 here or send us an email at
 info@orizon.com we will follow up
  in <span class="font-bold">24 hrs</span>  </p>
@@ -17,10 +17,10 @@ info@orizon.com we will follow up
         <div class="ml-8 mt-10 text-xl font-light lg:w-3/4 lg:mx-auto md:mx-auto">
             <div>
                 <div class="">
-                    <p class="text-2xl lg:text-lg">Name:</p>
+                    <p class="text-lg lg:text-lg">Name:</p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="Don from Earth,Inc." class="input border-2 border-purple-300 bg-white   focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg lg:w-7/8 lg:h-10"  v-model="formData.name" required >
+                    <input type="text" placeholder="Don from Earth,Inc." class="input border-2 border-purple-300 bg-white   focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg lg:w-7/8 lg:h-10 h-10"  v-model="formData.name" required >
                   
                 </div>
             </div>
@@ -46,33 +46,33 @@ info@orizon.com we will follow up
                 </div>
               
             </div>
-            <div class="mt-16 lg:hidden">
+            <div class="mt-10 lg:hidden">
                 <div>
                     <p class="text-lg">Email </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input border-purple-300 bg-white  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.email" required>
+                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input w-13/14 border-2  border-purple-300 bg-white  py-6 pl-6 rounded-xl placeholder:text-gray-300 h-10   placeholder:text-lg" v-model="formData.email" required>
                 </div>
             </div>
-            <div class="mt-16 lg:hidden">
+            <div class="mt-10 lg:hidden">
                 <div>
                     <p class="text-lg">Phone Number </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-20 input border-2 border-purple-300 bg-white  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.phone" required>
+                    <input type="text" placeholder="(555) 555-555" class="lg:h-10 h-10 input border-2 border-purple-300 bg-white  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.phone" required>
                 </div>
             </div>
             <div class="mt-10">
                 <div>
-                    <p class="text-2xl lg:text-lg">Subject </p>
+                    <p class="text-lg lg:text-lg">Subject </p>
                 </div>
                 <div class="mt-4">
-                    <input type="text" placeholder="enter your subject here." class="lg:h-10 input  w-13/14 border-2 border-purple-300 bg-white py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-300  placeholder:text-lg lg:w-7/8"  v-model="formData.subject" required>
+                    <input type="text" placeholder="enter your subject here." class="lg:h-10 h-10 input  w-13/14 border-2 border-purple-300 bg-white py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-300  placeholder:text-lg lg:w-7/8"  v-model="formData.subject" required>
                 </div>
             </div>
             <div class="mt-10">
                 <div>
-                    <p class="text-2xl lg:text-lg">Details </p>
+                    <p class="text-lg lg:text-lg">Details </p>
                 </div>
                 <div class="mt-4 lg:hidden">
                     <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border-2 border-purple-300 bg-white focus:outline-none   py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-300  placeholder:text-lg " style="white-space: pre-line;"   v-model="formData.detail" required />
@@ -239,7 +239,7 @@ export default defineComponent({
     if (isInView) {
         startAnimation(element, { 
             opacity: 1, 
-            y: [-100, 10],
+            y: [-100, 0],
             filter: ['blur(4px)', 'blur(0px)'] // Start with blur and end with normal
         }, { delay: 100 });
     } else {
