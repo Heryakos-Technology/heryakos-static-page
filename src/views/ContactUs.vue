@@ -245,14 +245,7 @@ export default defineComponent({
             // });
 
         
-            // inView(".box3", (element, isInView) => {
-            //     if (isInView) {
-            //         startAnimation(element, { scale: 1.1 },{delay:100});
-            //     } else {
-                    
-            //         animate(element, { scale: 1 });
-            //     }
-            // });
+          
         });
 
         const formData = ref({
