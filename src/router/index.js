@@ -7,11 +7,11 @@ import BlogPage from '@/views/BlogPage.vue'
 import PortfolioPage from '@/views/PortfolioPage.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL), // Fixed to match import
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: HomeView
     },
     {
