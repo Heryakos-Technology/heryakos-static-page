@@ -9,7 +9,14 @@ const navLinks = [
   { name: "AboutUs", label: "About" },
   { name: "ServicePage", label: "Services" },
 ]
-
+const redirectToTelegram = () => {
+  const username = 'yared123yared'
+      if (username) {
+        window.location.href = `https://t.me/${username}`;
+      } else {
+        alert('Please enter a username.');
+      }
+    };
 </script>
 
 <template>
@@ -54,7 +61,7 @@ const navLinks = [
       <div class="mt-8  flex flex-col items-end ">
         <div class="space-y-1 text-center">
           <p class="">Contact Us</p>
-          <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-8 py-2 rounded-lg font-medium">On
+          <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-8 py-2 rounded-lg font-medium" @click="redirectToTelegram">On
             Telegram</button>
         </div>
       </div>
@@ -145,7 +152,7 @@ const navLinks = [
       <div class="mt-8  flex flex-col items-end mr-10 ">
         <div class="space-y-1 text-center">
           <p class="">Contact Us</p>
-          <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-8 py-2 rounded-lg font-medium">On
+          <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white px-8 py-2 rounded-lg font-medium" @click="redirectToTelegram">On
             Telegram</button>
         </div>
       </div>
