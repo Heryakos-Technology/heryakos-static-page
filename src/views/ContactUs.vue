@@ -149,7 +149,7 @@ prefer.</p>
                 </div>
 </div>
 <div class="ml-36 mt-5">
-                <button class="button text-white py-3 px-12 rounded-full mt-8 -ml-46 text-2xl">Continue</button>
+                <button class="button text-white py-3 px-12 rounded-full mt-8 -ml-46 text-2xl" @click="redirectToTelegram">Continue</button>
             </div>
 </div>
         </div>
@@ -274,6 +274,8 @@ export default defineComponent({
       detail: '',
       subject: ''
     });
+   
+ 
     const status = ref('');
     const sendEmail = () => {
         const isFormFilled = Object.values(formData.value).every(value => value !== '');
@@ -304,7 +306,9 @@ export default defineComponent({
          return {
       formData,
       status,
-      sendEmail
+      sendEmail,
+      username,
+      redirectToTelegram
         };
 
         
