@@ -25,7 +25,7 @@
         </div>
     </div>
     <!-- mobile size -->
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-40 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-40 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/cardfirst-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/cardsecond-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/cardthird-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -81,7 +81,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/cardfourth-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -100,7 +100,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/smart-hotel-blog.jpg" alt="" class="w-11/12 h-72 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -118,7 +118,7 @@
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden card" :class="{ visible: isVisible }"
+    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden " 
         ref="card">
         <img src="/digital-travling-blog.jpg" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
         <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8 animated-content">
@@ -141,7 +141,7 @@
     <!-- desktop view-->
     <div class=" w-11/12 mx-auto px-10 hidden  md:block">
         <div class="flex">
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto pb-26 mb-10 mr-10 " 
                 ref="card">
                 <img src="/cardfirst-blog.png" alt="" class="rounded-lg w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 md:4/5 pb-6 bg-white rounded-lg ml-5 absolute -mt-16  animated-content">
@@ -149,29 +149,29 @@
                         Meets Compassion</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 30, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Healthcare</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Innovations like AI and telemedicine are reshaping healthcare.
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Innovations like AI and telemedicine are reshaping healthcare.
                         By blending cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
                     <div class="ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             Outcomes but also fosters a more efficient healthcare system that can adapt to the evolving
                             needs of society.
                         </div>
-                        <div class="flex -ml-6">
+                        <div class="flex -ml-2">
                             <p class="text-purple-600">{{ readmore ? 'Read less' : 'Read more' }}</p>
                             <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md- mr-10 pb-26 mb-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md- mr-10 pb-26 mb-10 " 
                 ref="card">
                 <img src="/cardsecond-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Exploring Web & Mobile Development</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the journey continues_</p>
-                    <div class=" ml-8 cursor-pointer" @click="showContent">
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the_</p>
+                    <div class=" ml-12 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
                             across various platforms.
@@ -186,20 +186,20 @@
             </div>
 
 
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md-  pb-26 mb-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md-  pb-26 mb-10 " 
                 ref="card">
                 <img src="/smart-hotel-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Smart Hotels</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These innovations are transforming _</p>
-                    <div class=" ml-8 cursor-pointer" @click="showContent">
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These  _</p>
+                    <div class=" ml-10 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
                             across various platforms.
                         </div>
-                        <div class="flex -ml-6">
+                        <div class="flex -ml-4">
                             <p class="text-purple-600">{{ readmore ? 'Read less' : 'Read more' }}</p>
                             <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
                         </div>
@@ -215,7 +215,7 @@
 
     <div class=" w-11/12 mx-auto px-10 hidden  md:block -mt-20">
         <div class="flex ">
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 mr-10 " 
                 ref="card">
                 <img src="/cardthird-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
@@ -223,8 +223,8 @@
                         Business in 2025</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">january 30, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Technology</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to powerful analytics_</p>
-                    <div class=" ml-8 cursor-pointer" @click="showContent">
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to_</p>
+                    <div class=" ml-12 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             providing businesses with scalable solutions that adapt to ever-changing demands. Companies
                             can now access powerful tools and resources from anywhere.
@@ -237,15 +237,15 @@
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mr-10 mb-10 card" :class="{ visible: isVisible }" ref="card">
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mr-10 mb-10 "  ref="card">
                 <img src="/cardfourth-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Enhancing Business Operations Through
                         Online Platforms</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital marketing, and data_</p>
-                    <div class=" ml-8 cursor-pointer" @click="showContent">
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital_</p>
+                    <div class=" ml-12 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
                             allow businesses to streamline processes and reach wider audiences.
@@ -259,15 +259,15 @@
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 card" :class="{ visible: isVisible }" ref="card">
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 "  ref="card">
                 <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Preparing for Your Journey in the
                         Digital Age</p>
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
-                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can enhance their experiences and_</p>
-                    <div class=" ml-8 cursor-pointer" @click="showContent">
+                    <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can_</p>
+                    <div class=" ml-12 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
                             allow businesses to streamline processes and reach wider audiences.
@@ -330,7 +330,7 @@
     <div class="w-11/12  pb-10 mx-auto hidden md:block mb-20">
 
         <div class="flex">
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg card last-three"  ref="card">
                 <img src="/popularpostfirst-blog.png" alt="" class="w-full relative">
                 <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">1</p>
@@ -340,7 +340,7 @@
                 <p class="text-md font-medium text-center w-64 mx-auto mt-6">march 15, 2024 . Business</p>
             </div>
 
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg card last-three"  ref="card">
                 <img src="/popularpostssecond-blog.png" alt="" class="w-full relative">
                 <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">2</p>
@@ -350,7 +350,7 @@
                 <p class="text-md font-medium text-center w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
             </div>
 
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-lg">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-lg card last-three"  ref="card">
                 <img src="/popularpoststhird-blog.png" alt="" class="w-full relative">
                 <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">3</p>
@@ -363,7 +363,6 @@
 <!-- end of section -->
 
 </template>
-
 <script>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
@@ -371,8 +370,8 @@ export default {
     setup() {
         const isVisible = ref(false);
         const readmore = ref(false);
-        const card = ref(null);
-        let observer = null;
+        const cards = ref([]);
+        const observer = ref(null);
 
         const showContent = () => {
             readmore.value = !readmore.value;
@@ -381,27 +380,32 @@ export default {
         const handleIntersect = (entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    isVisible.value = true;
+                    entry.target.classList.add('visible');
                 } else {
-                    isVisible.value = false;
+                    entry.target.classList.remove('visible');
                 }
             });
         };
 
         onMounted(() => {
-            observer = new IntersectionObserver(handleIntersect);
-            if (card.value) {
-                observer.observe(card.value);
-            }
+            observer.value = new IntersectionObserver(handleIntersect);
+            cards.value = document.querySelectorAll('.last-three');
 
+            cards.value.forEach(card => {
+                observer.value.observe(card);
+            });
+
+            
             setTimeout(() => {
-                isVisible.value = true;
+                cards.value.forEach(card => {
+                    card.classList.add('visible');
+                });
             }, 200);
         });
 
         onBeforeUnmount(() => {
-            if (observer) {
-                observer.disconnect();
+            if (observer.value) {
+                observer.value.disconnect();
             }
         });
 
@@ -409,17 +413,16 @@ export default {
             isVisible,
             readmore,
             showContent,
-            card,
+            
         };
     },
 };
 </script>
 
-
 <style scoped>
 .card {
     opacity: 0.3;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 .card.visible {
@@ -436,7 +439,7 @@ export default {
     opacity: 0;
     transform: translateX(-100px);
     animation: slideInText 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
 }
 
 @keyframes slideInImage {
@@ -456,16 +459,19 @@ export default {
 .animated-image {
     opacity: 0;
     transform: translateY(-50px);
-    animation: slideInImage 0.5s forwards;
+    animation: slideInImage 1s forwards;
 }
 
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    animation: slideInContent 0.5s forwards;
+    animation: slideInContent 1s forwards;
     animation-delay: 0.4s;
 }
 
+.right-entry {
+  transform: translateX(100px);
+}
 @keyframes slideInImage {
     to {
         opacity: 1;
@@ -478,5 +484,17 @@ export default {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+
+.last-three {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.last-three.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 </style>
