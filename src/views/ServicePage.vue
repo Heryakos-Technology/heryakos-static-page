@@ -405,7 +405,7 @@
     </div>
   </div>
   </div>
-  <!-- /end of desktop view -->
+  <!-- /end of desktop view for pricing-->
 </template>
 
 <script>
