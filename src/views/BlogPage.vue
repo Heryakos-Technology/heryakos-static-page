@@ -1,11 +1,3 @@
-<script setup>
-import { onMounted } from 'vue';
-
-onMounted(() => {
-    window.scrollTo(0, 0);
-});
-</script>
-
 <template>
     <div class="lg:px-20 md:mb-20 lg:-mt-32 hidden md:pt-24 md:block">
         <img src="/light-bulb-of-blog-page.png" alt=""
@@ -144,37 +136,21 @@ onMounted(() => {
         </div>
     </div>
 
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-56 mb-10 block md:hidden">
-        <img src="/customer-blog.jpg" alt="" class="w-11/12 h-72 pt-6 mx-auto relative">
-        <div class="w-64 h-56 bg-white ml-3.5 absolute -mt-8">
-
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Enhancing Customer Experience with Tech</p>
-            <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
-                Business</p>
-            <p class="w-56 ml-4 mt-3 text-sm">technology is used to improve customer experience, including chatbots, CRM
-                systems, and personalized marketing_</p>
-
-            <div class="flex ml-4">
-                <p class="text-purple-600">Read more</p>
-                <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
-            </div>
-        </div>
-    </div>
 
     <!-- /end of mobile -->
     <!-- desktop view-->
     <div class=" w-11/12 mx-auto px-10 hidden  md:block">
         <div class="flex">
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
                 ref="card">
-                <img src="/cardfirst-blog.png" alt="" class="w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
-                <div class="w-1/5 h-56 md:4/5 pb-6 bg-white ml-5 absolute -mt-16  animated-content">
-                    <p class="w-64 mx-auto mt-2 text-md font-bold text-gray-800">The Future of Healthcare Technology
+                <img src="/cardfirst-blog.png" alt="" class="rounded-lg w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 md:4/5 pb-6 bg-white rounded-lg ml-5 absolute -mt-16  animated-content">
+                    <p class=" h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">The Future of Healthcare Technology
                         Meets Compassion</p>
-                    <p class="w-64 mx-auto text-sm mt-2 font-semibold">August 30, 2024 <span
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 30, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Healthcare</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Innovations like AI and telemedicine are reshaping healthcare.
-                        By blending cutting-edge technology with heartfelt care, we can ensure that every patient...</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Innovations like AI and telemedicine are reshaping healthcare.
+                        By blending cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
                     <div class="ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             Outcomes but also fosters a more efficient healthcare system that can adapt to the evolving
@@ -187,15 +163,14 @@ onMounted(() => {
                     </div>
                 </div>
             </div>
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto md- mr-10 pb-26 mb-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md- mr-10 pb-26 mb-10 card" :class="{ visible: isVisible }"
                 ref="card">
-                <img src="/cardsecond-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-                <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16 animated-content">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Exploring Web & Mobile Development</p>
-                    <p class="w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
+                <img src="/cardsecond-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
+                    <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Exploring Web & Mobile Development</p>
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Explore the dynamic world of web and mobile development, where
-                        creativity meets technology. From responsive designs to_</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the journey continues_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
@@ -211,15 +186,14 @@ onMounted(() => {
             </div>
 
 
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 mx-auto md-  pb-26 mb-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md-  pb-26 mb-10 card" :class="{ visible: isVisible }"
                 ref="card">
-                <img src="/smart-hotel-blog.jpg" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-                <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16 animated-content">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Smart Hotels</p>
-                    <p class="w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
+                <img src="/smart-hotel-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
+                    <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Smart Hotels</p>
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest
-                        experiences, utilizing automation, smart room features, and mobile apps. These innovations_</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These innovations are transforming _</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
@@ -241,16 +215,15 @@ onMounted(() => {
 
     <div class=" w-11/12 mx-auto px-10 hidden  md:block -mt-20">
         <div class="flex ">
-            <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 mr-10 card" :class="{ visible: isVisible }"
                 ref="card">
-                <img src="/cardthird-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-                <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16 animated-content">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Cloud Technology Revolutionizing
+                <img src="/cardthird-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
+                    <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Cloud Technology Revolutionizing
                         Business in 2025</p>
-                    <p class="w-64 mx-auto text-sm mt-2 font-semibold">january 30, 2025 <span
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">january 30, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Technology</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by
-                        enhancing operational efficiency, enabling seamless collaboration, and_</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to powerful analytics_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             providing businesses with scalable solutions that adapt to ever-changing demands. Companies
@@ -264,15 +237,14 @@ onMounted(() => {
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10 card" :class="{ visible: isVisible }" ref="card">
-                <img src="/cardfourth-blog.png" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-                <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16 animated-content">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Enhancing Business Operations Through
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mr-10 mb-10 card" :class="{ visible: isVisible }" ref="card">
+                <img src="/cardfourth-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
+                    <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Enhancing Business Operations Through
                         Online Platforms</p>
-                    <p class="w-64 mx-auto text-md mt-2 font-semibold">march 2, 2025 <span
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Business companies are increasingly leveraging online platforms
-                        to optimize their operations and drive growth. Services like_</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital marketing, and data_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
@@ -287,15 +259,14 @@ onMounted(() => {
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 mx-auto mt-20 pb-26 mb-10">
-                <img src="/digital-travling-blog.jpg" alt="" class="w-9/10 h-4/5 pt-6 mx-auto relative">
-                <div class="w-1/5 h-56 pb-6  bg-white ml-5 absolute -mt-16">
-                    <p class="w-64 mx-auto mt-2  text-md font-bold text-gray-800">Preparing for Your Journey in the
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 card" :class="{ visible: isVisible }" ref="card">
+                <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+                <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
+                    <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Preparing for Your Journey in the
                         Digital Age</p>
-                    <p class="w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
+                    <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
-                    <p class="w-72 mx-auto mt-3 text-sm">Digital travel revolutionizes journey planning by using
-                        technology for booking, navigation, and local insights. By leveraging apps_</p>
+                    <p class="h-20 w-72 mx-auto ml-2 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can enhance their experiences and_</p>
                     <div class=" ml-8 cursor-pointer" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
@@ -320,10 +291,10 @@ onMounted(() => {
 
     <!-- mobile -->
     <div class="w-11/12 bg-[#F3E4FF] pb-10 mx-auto block md:hidden">
-        <img src="/popularposts-blog.png" alt="">
-        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
+
+        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
             <img src="/popularpostfirst-blog.png" alt="" class="w-full relative">
-            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34">
+            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center">1</p>
             </div>
 
@@ -333,9 +304,9 @@ onMounted(() => {
 
         </div>
 
-        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
+        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
             <img src="/popularpostssecond-blog.png" alt="" class="w-full relative">
-            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34">
+            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center">2</p>
             </div>
             <p class="w-64 text-md font-semibold mt-4 mx-auto">The Future of Healthcare: Technology Meets Compassion</p>
@@ -344,9 +315,9 @@ onMounted(() => {
 
         </div>
 
-        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
+        <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
             <img src="/popularpoststhird-blog.png" alt="" class="w-full relative">
-            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34">
+            <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center">3</p>
             </div>
             <p class="w-64 text-md font-semibold mt-4 mx-auto">Exploring Web & Mobile Development</p>
@@ -356,36 +327,36 @@ onMounted(() => {
     </div>
     <!-- /end of mobile -->
     <!-- desktop -->
-    <div class="w-11/12 bg-[#F3E4FF] pb-10 mx-auto hidden md:block mb-20">
-        <img src="/popularposts-blog.png" alt="" class="w-full mx-auto">
+    <div class="w-11/12  pb-10 mx-auto hidden md:block mb-20">
+
         <div class="flex">
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg">
                 <img src="/popularpostfirst-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-44">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">1</p>
                 </div>
-                <p class="w-64 text-md font-semibold mt-4 mx-auto">Enhancing Business Operations Through Online
+                <p class="w-full text-center h-6 text-md font-semibold mt-4 mx-auto">Enhancing Business Operations Through Online
                     Platforms</p>
-                <p class="text-sm w-64 mx-auto mt-6">march 15, 2024 . Business</p>
+                <p class="text-md font-medium text-center w-64 mx-auto mt-6">march 15, 2024 . Business</p>
             </div>
 
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg">
                 <img src="/popularpostssecond-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-44">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">2</p>
                 </div>
-                <p class="w-64 text-md font-semibold mt-4 mx-auto">The Future of Healthcare: Technology Meets Compassion
+                <p class="w-full text-center h-6 text-md font-semibold mt-4 mx-auto">The Future of Healthcare Technology Meets Compassion
                 </p>
-                <p class="text-sm w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
+                <p class="text-md font-medium text-center w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
             </div>
 
-            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 ">
+            <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-lg">
                 <img src="/popularpoststhird-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-44">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute -mt-44 ">
                     <p class="font-bold text-2xl text-center">3</p>
                 </div>
-                <p class="w-64 text-md font-semibold mt-4 mx-auto">Exploring Web & Mobile Development</p>
-                <p class="text-sm w-64 mx-auto mt-6"> july 30, 2024 . Software</p>
+                <p class="w-full text-center h-6 text-md font-semibold mt-4 mx-auto">Exploring Web & Mobile Development</p>
+                <p class="text-md font-medium text-center w-64 mx-auto mt-6"> july 30, 2024 . Software</p>
             </div>
         </div>
     </div>
@@ -448,7 +419,7 @@ export default {
 <style scoped>
 .card {
     opacity: 0.3;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .card.visible {
@@ -485,13 +456,13 @@ export default {
 .animated-image {
     opacity: 0;
     transform: translateY(-50px);
-    animation: slideInImage 0.8s forwards;
+    animation: slideInImage 0.5s forwards;
 }
 
 .animated-content {
     opacity: 0;
     transform: translateY(50px);
-    animation: slideInContent 0.8s forwards;
+    animation: slideInContent 0.5s forwards;
     animation-delay: 0.4s;
 }
 
