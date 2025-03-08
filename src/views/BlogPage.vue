@@ -360,7 +360,7 @@
             </div>
         </div>
     </div>
-
+<!-- end of section -->
 
 </template>
 
