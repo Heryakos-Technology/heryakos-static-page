@@ -122,7 +122,7 @@
       </div>
       
       <div class="-mt-10 ml-28">
-        <div class="w-2/6 -ml- h-96 -mt-96 bg-white absolute animated-text-intro">
+        <div class="w-2/6 -ml- h-96 -mt-96 bg-white absolute animated-text">
             <div class="mt-10 mb-4">
                 <p class="lg:text-3xl text-center text-md md:mt-4 pt-2 font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
                     OUR SERVICES
@@ -136,7 +136,7 @@
     </div>
 
     <div class="flex lg:px-20 md:px-4 -mt-60">
-        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:mr-2 lg:mr-10 rounded-lg  mx-auto mt-8  mb-10 animated-card">
+        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:mr-2 lg:mr-10 rounded-lg  mx-auto mt-8  mb-10 animated-card  animated-text">
             <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
                 src="/first-service.png" alt="Static Website Development" class="mx-auto w-full mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Static Website Development</h2>
@@ -148,7 +148,7 @@
             </p>
         </div>
 
-        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2  rounded-lg mx-auto mt-8 mb-10 animated-card">
+        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2  rounded-lg mx-auto mt-8 mb-10 animated-card  animated-text">
             <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 300px;"
                 src="/third-service.png" alt="Mobile Application Development" class="mx-auto w-full mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal mb-4 w-full mx-auto text-center animated-text">Mobile Application Development (Android & iOS)</h2>
@@ -160,7 +160,7 @@
             </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg  mx-auto mt-8 lg:mb-1  animated-card">
+        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg  mx-auto mt-8 lg:mb-1  animated-card  animated-text">
             <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
                 src="/second-service.png" alt="Technology Consultancy" class="mx-auto w-full h-1/2 mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal  text-center animated-text">Technology Consultancy</h2>
@@ -174,7 +174,7 @@
     </div>
 
     <div class="flex lg:px-16 md:px-4 -mt-8">
-        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5  md:ml-4  rounded-lg  mx-auto mt-8 mb-10 animated-card">
+        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5  md:ml-4  rounded-lg  mx-auto mt-8 mb-10 animated-card ">
             <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 300px;"
                 src="/fourth-servicee.png" alt="Dynamic Website Development" class="mx-auto w-full mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Dynamic Website Development</h2>
@@ -186,7 +186,7 @@
             </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-10 md:ml-4 rounded-lg mx-auto mt-8 mb-10 animated-card">
+        <div style="border-top-left-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-10 md:ml-4 rounded-lg mx-auto mt-8 mb-10 animated-card ">
             <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
                 src="/sixth-service.png" alt="Cloud Computing Solutions" class="mx-auto w-full mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Cloud Computing Solutions</h2>
@@ -198,7 +198,7 @@
             </p>
         </div>
 
-        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2 rounded-lg mx-auto mt-8 mb-10 animated-card">
+        <div style="border-top-right-radius: 130px; height: 650px;" class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2 rounded-lg mx-auto mt-8 mb-10 animated-card ">
             <img style="border-top-right-radius: 130px; border-bottom-left-radius: 130px; height: 300px;"
                 src="/fifth-service.png" alt="Blockchain Integration" class="mx-auto w-full mb-6 animated-image">
             <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Blockchain Integration</h2>
@@ -220,7 +220,7 @@
     <!-- pricing section -->
     <div class="block md:hidden mb-10">
       <div class=" section two w-full mx-auto flex px-4 ">
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72 animated-card right-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl  ">
             <h2 class="text-center text-xs md:text-lg  font-medium">Static Website Development</h2>
           </div>
@@ -235,7 +235,7 @@
             </button>
           </div>
         </div>
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2  mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2  mx-auto shadow-lg h-72 animated-card left-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl ">
             <h2 class="text-center text-xs md:text-lg font-medium">Technology Consultancy</h2>
           </div>
@@ -253,7 +253,7 @@
       </div>
 
       <div class=" section two mt-10 flex px-4 ">
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72 animated-card right-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl">
             <h2 class="text-center text-xs font-medium -mt-2">Mobile Application Development (Android & iOS)</h2>
           </div>
@@ -267,7 +267,7 @@
             </button>
           </div>
         </div>
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72 animated-card left-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl">
             <h2 class="text-center text-xs font-medium -mt-2">Dynamic Website Development</h2>
           </div>
@@ -284,7 +284,7 @@
       </div>
 
       <div class=" section two flex mt-10  px-4 ">
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mr-4 mx-auto shadow-lg h-72 animated-card right-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl">
             <h2 class="text-center text-xs font-medium">Blockchain Integration</h2>
           </div>
@@ -298,7 +298,7 @@
             </button>
           </div>
         </div>
-        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72">
+        <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72 animated-card right-entry">
           <div class="bg-[#DAA8FD] w-full  h-16 py-7 rounded-tr-xl rounded-tl-xl">
             <h2 class="text-center text-xs font-medium">Cloud Computing Solutions</h2>
           </div>
@@ -315,261 +315,186 @@
       </div>
     </div>
     <!-- /end of pricing section -->
-    <!-- desktop size for pricing section -->
-    <div class="hidden lg:block md:block">
-      <div class="section two lg:px-56 animated-text-pricing">
-        <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
-              <h2 class="text-center text-xs font-medium ">Static Website Development</h2>
-            </div>
-            <div class="flex justify-center mb-4 w-32 mx-auto">
-              <img src="/globe.png" alt="" class="w-20 mt-5 mx-auto">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
-            <div class="text-center mt-6">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+ 
+  <!-- Desktop size for pricing section -->
+  <div class="hidden lg:block md:block">
+    <div class="section two lg:px-56 animated-text-pricing">
+      <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card left-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+            <h2 class="text-center text-xs font-medium">Static Website Development</h2>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
-              <h2 class="text-center text-xs font-medium ">Technology Consultancy</h2>
-            </div>
-            <div class="flex justify-center w-40 mx-auto">
-              <img src="/lens.png" alt="" class="w-64 mt-2">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
-            <div class="text-center mt-4">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+          <div class="flex justify-center mb-4 w-32 mx-auto">
+            <img src="/globe.png" alt="" class="w-20 mt-5 mx-auto">
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
-              <h2 class="text-center text-xs font-medium  w-56 mx-auto">Mobile Application Development (Android & iOS)
-              </h2>
-            </div>
-            <div class="flex justify-center mb-4 mt-5">
-              <img src="/mobile.png" alt="">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
-            <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
+          <div class="text-center mt-6">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
           </div>
         </div>
-      </div>
 
-      <div class="section two mt-10 lg:px-56 mb-10 animated-text-intro">
-        <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
-              <h2 class="text-center text-xs font-medium ">Dynamic Website Development</h2>
-            </div>
-            <div class="flex justify-center mb-6">
-              <img src="/flash.png" alt="" class="mt-2">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
-            <div class="text-center mt-7">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card left-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+            <h2 class="text-center text-xs font-medium">Technology Consultancy</h2>
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72  ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium ">Blockchain Integration</h2>
-            </div>
-            <div class="flex justify-center mb-4">
-              <img src="/chain.png" alt="" class="mt-6">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
-            <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+          <div class="flex justify-center w-40 mx-auto">
+            <img src="/lens.png" alt="" class="w-64 mt-2">
           </div>
-          <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72  ">
-            <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
-              <h2 class="text-center text-xs font-medium ">Cloud Computing Solutions</h2>
-            </div>
-            <div class="flex justify-center mb-4">
-              <img src="/cloud.png" alt="" class="mt-5">
-            </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
-            <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">
-                Get It Now
-              </button>
-            </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <div class="text-center mt-4">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
+          </div>
+        </div>
+
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card left-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+            <h2 class="text-center text-xs font-medium">Mobile Application Development (Android & iOS)</h2>
+          </div>
+          <div class="flex justify-center mb-4 mt-5">
+            <img src="/mobile.png" alt="">
+          </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <div class="text-center">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
           </div>
         </div>
       </div>
     </div>
-    <!-- /end of desktop view -->
 
+    <div class="section two mt-10 lg:px-56 mb-10 animated-text-intro">
+      <div class="flex px-0 md:px-0 md:w-full md:mx-auto">
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card right-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6 ">
+            <h2 class="text-center text-xs font-medium">Dynamic Website Development</h2>
+          </div>
+          <div class="flex justify-center mb-6">
+            <img src="/flash.png" alt="" class="mt-2">
+          </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <div class="text-center mt-7">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
+          </div>
+        </div>
+
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card right-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
+            <h2 class="text-center text-xs font-medium">Blockchain Integration</h2>
+          </div>
+          <div class="flex justify-center mb-4">
+            <img src="/chain.png" alt="" class="mt-6">
+          </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
+          <div class="text-center">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
+          </div>
+        </div>
+
+        <div class="bg-[#EBD2FF] rounded-xl p-6 w-64 mx-auto shadow-lg h-72 animated-card right-entry">
+          <div class="bg-[#DAA8FD] w-64 h-16 py-7 rounded-tr-xl rounded-tl-xl -ml-6 -mt-6">
+            <h2 class="text-center text-xs font-medium">Cloud Computing Solutions</h2>
+          </div>
+          <div class="flex justify-center mb-4">
+            <img src="/cloud.png" alt="" class="mt-5">
+          </div>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <div class="text-center">
+            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
+  </div>
+  <!-- /end of desktop view -->
 </template>
-
 
 <script>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { animate, inView } from 'motion';
 
 export default {
-    setup() {
-        const cards = ref([]);
+  setup() {
+    const cards = ref([]);
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                } else {
-                    entry.target.classList.remove('visible');
-                }
-            });
-        }, {
-            threshold: 0.1,
-        });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+       
+          entry.target.classList.add('visible');
+          entry.target.style.transition = 'transform 1s ease'; 
+          entry.target.style.transform = 'translateX(0)';
+        } else {
+  
+          entry.target.classList.remove('visible');
+          if (entry.target.classList.contains('left-entry')) {
+            entry.target.style.transform = 'translateX(-100px)';
+          } else if (entry.target.classList.contains('right-entry')) {
+            entry.target.style.transform = 'translateX(100px)';
+          }
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
 
-        onMounted(() => {
-          const startAnimation = (element, animationProps) => {
-                animate(element, animationProps, {
-                    duration: 4,
-                    repeat:1,
-                    easing: [0.17, 0.55, 0.55, 1],
-                    direction: 'alternate',
-                  
-                });
-            };
+    onMounted(() => {
+      cards.value = [...document.querySelectorAll('.animated-card')];
+      cards.value.forEach(card => {
+        observer.observe(card);
+      });
+    });
 
-            cards.value = [
-                ...document.querySelectorAll('.animated-card')
-            ];
+    onBeforeUnmount(() => {
+      cards.value.forEach(card => {
+        observer.unobserve(card);
+      });
+    });
 
-      
-            cards.value.forEach(card => {
-                observer.observe(card);
-            });
-            inView(".animated-text1", (element, isInView) => {
-                    if (isInView) {
-                        startAnimation(element, { opacity: 1, y: [-100, 1] },{delay:100});
-                    } else {
-                      
-                        animate(element, { opacity: 0, x: 0 });
-                    }
-                });
-        });
-        onBeforeUnmount(() => {
-            cards.value.forEach(card => {
-                observer.unobserve(card);
-            });
-        });
-
-        return {
-            cards,
-        };
-    },
+    return {
+      cards,
+    };
+  },
 };
 </script>
 
 <style scoped>
-
-.animated-image {
-    opacity: 0;
-    transform: translateX(100px); 
-    animation: slideInImage 1s forwards; 
-}
-
-.animated-text-intro {
-    opacity: 0;
-    transform: translateX(-100px); 
-    animation: slideInTextIntro 1s forwards; 
-    animation-delay: 0.5s; 
-}
-
-.animated-text-pricing {
-    opacity: 0;
-    transform: translateX(100px); 
-    animation: slideInTextIntro 1s forwards; 
-    animation-delay: 0.5s; 
-}
-
-.animated-content {
-    opacity: 0;
-    transform: translateX(-100px); 
-    animation: slideInText 1s forwards; 
-    animation-delay: 0.5s; 
-}
-
-@keyframes slideInText {
-    to {
-        opacity: 1;
-        transform: translateX(0); 
-    }
-}
-
-@keyframes slideInTextIntro {
-    to {
-        opacity: 1;
-        transform: translateX(0); 
-    }
-} 
-
-@keyframes animated-text-pricing {
-    to {
-        opacity: 1;
-        transform: translateX(0); 
-    }
-} 
-
-@keyframes slideInImage {
-    to {
-        opacity: 1;
-        transform: translateX(0); 
-    }
-}
-
-.animated-image {
-    opacity: 0;
-    transform: translateY(-20px); 
-    transition: opacity 0.6s ease, transform 0.6s ease;
-}
-
-.animated-text {
-    opacity: 0;
-    transform: translateY(-20px); 
-    transition: opacity 0.6s ease, transform 0.6s ease; 
-    animation: slideInTextIntro 1s forwards; 
-    animation-delay: 0.5s; 
-}
-
-
 .animated-card {
-    transition: opacity 0.6s ease;
+  opacity: 1; 
+  transition: opacity 1.5s ease; 
 }
 
+.left-entry {
+  transform: translateX(-100px); 
+}
 
-.animated-card:hover .animated-image,
-.animated-card:hover .animated-text {
-    opacity: 1;
-    transform: translateY(0); 
+.right-entry {
+  transform: translateX(100px);
 }
 
 .visible {
-    opacity: 1;
-    transform: translateY(0); 
+  opacity: 1; 
 }
 
-.intro-image{
-  width: 700px; 
+.animated-text {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.5s ease, transform 1.5s ease; 
+}
+
+.animated-text.visible {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+.animated-card.left-entry.visible {
+  transform: translateX(0); 
+}
+
+.animated-card.right-entry.visible {
+  transform: translateX(0); 
+}
+
+.intro-image {
+  width: 700px;
   height: 600px;
 }
 </style>
