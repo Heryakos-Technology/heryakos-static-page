@@ -116,7 +116,7 @@ Addid Ababa</p>
 </div>
             </div>
             <div class="text-sm   font-semibold lg:text-lg w-6/7 mx-auto lg:w-3/4 lg:mx-auto">
-                <p class="text-sm lg:w-1/2 text-right ml-54 mt-12">⭐️ Join 100+ happy customers</p>
+                <p class="text-sm lg:w-1/2 lg:text-right lg:ml-54 mt-12  ml-25">⭐️ Join 100+ happy customers</p>
                 <p class="lg:w-3/4 lg:mx-auto lg:text-sm mt-10 ">Filling out the form above is the
 fastest way to get an answer,
 but you can also schedule a cal
@@ -124,8 +124,25 @@ l in the upcoming days if you
 prefer.</p>
             </div>
         </div>
+        <div class="smboxblacksm  md:hidden lg:hidden mt-10 w-11/12 md:w-3/4 md:mx-auto mx-auto  bg-black text-white rounded-4xl pt-2 pb-5 lg:w-1/2 lg:rounded-full lg:mx-auto mb-20 animated-card">
+            <div class="flex bg-black md:w-3/4 md:mx-auto text-white rounded-4xl lg:rounded-full ">
+                <div class="ml-4">
+                    <img src="/groupImageBottom.png" alt="" class="smbox3 animated-card -ml-1">
+                </div>
+                <div class="pt-4 ml-4 lg:mt-5">
+                    <h1 class="font-semibold ">Want to jump on  a <br class="lg:hidden">
+                        telegram chat?</h1>
+                    <p class="mt-2 text-xl font-light">Book a 30 minute 
+                      <br class="lg:hidden">  chat</p>
+                </div>
+                
+            </div>
+            <div class="ml-36 mt-5">
+                <button class="button text-white py-3 px-10 w-3/4 md:w-1/2 mx-auto rounded-2xl text-xl lg:w-1/3 lg:rounded-full lg:ml-55" @click="redirectToTelegram">Continue</button>
+            </div>
         
-        <div class="smboxblack mt-10 w-11/12 md:w-3/4 md:mx-auto mx-auto  bg-black text-white rounded-4xl pt-2 pb-5 lg:w-1/2 lg:rounded-full lg:mx-auto mb-20 animated-card">
+  </div>
+        <div class="smboxblack hidden md:block lg:block mt-10 w-11/12 md:w-3/4 md:mx-auto mx-auto  bg-black text-white rounded-4xl pt-2 pb-5 lg:w-1/2 lg:rounded-full lg:mx-auto mb-20 animated-card">
             <div class="flex bg-black md:w-3/4 md:mx-auto text-white rounded-4xl lg:rounded-full ">
                 <div class="ml-4">
                     <img src="/groupImageBottom.png" alt="" class="smbox3 animated-card -ml-1">
@@ -205,6 +222,7 @@ export default {
     const cards3 = ref([]);
     const cards4 = ref([]);
     const cardsblack = ref([]);
+    const cardsblacksm = ref([]);
     // const mdcards2 = ref([]);
     // const lgcards2 = ref([]);
 
@@ -316,7 +334,31 @@ const observerblack = new IntersectionObserver((entries) => {
     });
 //
 
-
+const observerblacksm = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('visibleblacksm');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateX(5px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visibleblacksm');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
 //
 const observerr = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -514,6 +556,12 @@ const observerr = new IntersectionObserver((entries) => {
         observerblack.observe(card);
       });
       //
+      cardsblacksm.value = [...document.querySelectorAll('.smboxblacksm')];
+      cardsblacksm.value.forEach(card => {
+        observerblacksm.observe(card);
+       
+      });
+      //
       cards2.value = [...document.querySelectorAll('.smbox1')];
       cards2.value.forEach(card => {
         observer2.observe(card);
@@ -559,6 +607,9 @@ const observerr = new IntersectionObserver((entries) => {
         
         sideCard.value.forEach(card => {
           cardobserver.unobserve(card);
+        });
+        cardsblacksm.value.forEach(card => {
+            observerblacksm.unobserve(card);
         });
         
         
@@ -613,6 +664,10 @@ const observerr = new IntersectionObserver((entries) => {
   transform: translateX(190); 
 }
 .visibleblack {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.visibleblacksm {
   opacity: 1; 
   transform: translateX(190); 
 }
