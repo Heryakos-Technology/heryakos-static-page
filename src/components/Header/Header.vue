@@ -23,7 +23,7 @@ const navLinks = [
   { name: "Home", label: "Home" },
   { name: "BlogPage", label: "Blog" },
   { name: "PortfolioPage", label: "Works" },
-  { name: "AboutUs", label: "About" },
+  { name: "AboutView", label: "About" },
   { name: "ServicePage", label: "Services" },
 ];
 
