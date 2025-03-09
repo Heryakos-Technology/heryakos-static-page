@@ -31,7 +31,8 @@ const services = [
 ];
 
 onMounted(() => {
-  inView(".service-cards-container", () => {
+  inView(".service-cards-container", (element) => {
+
     animate(".service-card",
       {
         opacity: 1,
@@ -39,13 +40,28 @@ onMounted(() => {
       },
       {
         delay: stagger(0.3),
-        duration: 0.4,
+        duration: 0.9,
         easing: [0.17, 0.55, 0.55, 1]
-      },
+      }
     );
+
+
+    return () => {
+      animate(".service-card",
+        {
+          opacity: 0,
+          y: 50
+        },
+        {
+          delay: stagger(0.1),
+          duration: 0.3,
+        }
+      );
+    };
   },
     {
-      amount: 0.6
+      amount: 0.6,
+      once: false
     }
   );
 });
