@@ -113,7 +113,7 @@
         </div>
 </div>
 <div class="w-6/7">
-  <div class=" mb-2 bg-purple-200 pt-5 mx-1   shadow-md mt-1 -ml-1 w-15/11 ">
+  <div class="sideCard mb-2 bg-purple-200 pt-5 mx-1   shadow-md mt-1 -ml-1 w-15/11 animated-card">
           <div class="flex py-5 px-2 ">
             <div @click="toggleAbout"><i class="fa-solid fa-caret-left"></i></div>
             <div>
@@ -421,6 +421,7 @@ export default {
     const cards = ref([]);
     const mdcards = ref([]);
     const lgcards = ref([]);
+    const sideCard = ref([]);
     const cards2 = ref([]);
     const mdcards2 = ref([]);
     const lgcards2 = ref([]);
@@ -444,6 +445,35 @@ const toggleAim = ()=>{
   aboutShow.value = false
   skillShow.value = false
 }
+//
+const cardobserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('cdvisible');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateY(-20px)',
+          }, {
+            duration: 1.3,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('cdvisible');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateY(100px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+//
+
+
 const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -515,7 +545,7 @@ const observer = new IntersectionObserver((entries) => {
           });
         } else {
           
-          entry.target.classList.remove(';gvisible');
+          entry.target.classList.remove('lgvisible');
           entry.target.style.opacity = 0;
           entry.target.style.transform = 'translateX(0px)';
         }
@@ -599,6 +629,12 @@ const lgobserver2 = new IntersectionObserver((entries) => {
       cards.value.forEach(card => {
         observer.observe(card);
       });
+      //
+      sideCard.value = [...document.querySelectorAll('.sideCard')];
+      sideCard.value.forEach(card => {
+        cardobserver.observe(card);
+      });
+      //
       cards2.value = [...document.querySelectorAll('.smbox1')];
       cards2.value.forEach(card => {
         observer2.observe(card);
@@ -625,6 +661,12 @@ const lgobserver2 = new IntersectionObserver((entries) => {
         cards.value.forEach(card => {
           observer.unobserve(card);
         });
+        //
+        sideCard.value.forEach(card => {
+          cardobserver.unobserve(card);
+        });
+        //
+        
         mdcards.value.forEach(card => {
           mdobserver.unobserve(card);
         });
@@ -662,6 +704,10 @@ const lgobserver2 = new IntersectionObserver((entries) => {
 }
 
 .visible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.cdvisible {
   opacity: 1; 
   transform: translateX(190); 
 }
