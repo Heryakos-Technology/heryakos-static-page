@@ -303,11 +303,19 @@ export default defineComponent({
     };
    
         }
+        const redirectToTelegram = () => {
+        const username = ref('yared123yared') 
+      if (username.value) {
+        window.location.href = `https://t.me/${username.value}`;
+      } else {
+        alert('Please enter a username.');
+      }
+    };
          return {
       formData,
       status,
       sendEmail,
-      username,
+      //username,ser
       redirectToTelegram
         };
 
