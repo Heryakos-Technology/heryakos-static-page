@@ -1,96 +1,102 @@
 <template>
-    <div class=" lg:w-1/2 shadow-md lg:mx-auto  md:w-4/5 md:mx-auto lg:pt-20 bg-purple-100 lg:mt-23 lg:mb-23">
-<div class="bg-purple-300 rounded-t-md py-3 lg:-mt-20">
+  <div class="w-10/10 mx-auto md:w-2/3 md:mx-auto lg:w-1/2 lg:mx-auto">
+    <div class="flex md:hidden lg:hidden w-8/10  mx-auto  pb-5 pt-16">
+<div class="smbox bg-white shadow-md shadow-purple-300 p-3 rounded-lg animated-card">
+    <div class="flex">
+        <div><i class="fa-solid fa-envelope"></i></div>
+        <div class="ml-2 text-sm">Email & Phone</div>
+    </div>
+    <p class="mt-2 text-xs">yared123@gmail.com</p>
+    <p class="text-xs mt-1">+251916897173</p>
+</div>
+<div class=" smbox1 bg-white shadow-md shadow-purple-300 p-3 rounded-lg ml-5">
+    <div class="flex">
+        <div><i class="fa-solid fa-phone"></i></div>
+        <div class="ml-2 text-sm">Project Inquiry</div>
+    </div>
+    <p class="mt-2 text-xs">+251916897173</p>
+    <p class="text-xs mt-1">+251916897173</p>
+</div>
+    </div>
+    <div class=" md:hidden lg:hidden sideCard bg-white shadow-md shadow-purple-300 p-3 rounded-lg mb-10 w-1/2 mx-auto">
+    <div class="flex">
+        <div><i class="fa-solid fa-phone"></i></div>
+        <div class="ml-2 text-sm">Project Inquiry</div>
+    </div>
+    <div class="w-2/3 mx-auto">
 
-<div class="">
-  <img src="/images/contact2.jpg" alt="" class="w-1/2 mx-auto lg:w-1/2 lg:h-40 rounded-2xl">
+        <p class="mt-2 text-xs">+251916897173</p>
+        <p class="text-xs mt-1">+251916897173</p>
+    </div>
+</div>
+<div class="hidden md:block lg:block">
+<div class="flex pt-30  md:mx-auto mb-10">
+    <div class="smboxx md:w-3/4 md:h-27 mr-3 lg:h-33 bg-white shadow-md shadow-purple-300 p-3 rounded-lg animated-card ">
+    <div class="flex ">
+        <div><i class="fa-solid fa-envelope"></i></div>
+        <div class="ml-2 text-sm">Email & Phone</div>
+    </div>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yared123@gmail.com</p>
+    <p class="text-xs mt-1 md:w-3/4 md:mx-auto ">+251916897173</p>
+</div>
+<div class="smboxx bg-white shadow-md lg:h-33 md:w-3/4 md:h-27 mr-3 shadow-purple-300 p-3 rounded-lg animated-card ">
+    <div class="flex">
+        <div><i class="fa-solid  fa-phone"></i></div>
+        <div class="ml-2 text-sm">Project Inquiry</div>
+    </div>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto">yared123@gmail.com</p>
+    <p class="text-xs mt-1 md:w-3/4 md:mx-auto">+251916897173</p>
+</div>
+<div class="smboxx bg-white md:w-3/4 md:h-27 lg:h-33 shadow-md shadow-purple-300 p-3 rounded-lg  animated-card ">
+    <div class="flex">
+        <div><i class="fa-solid fa-location-dot"></i></div>
+        <div class="ml-2 text-sm">Our Location</div>
+    </div>
+    <p class="mt-2 text-xs d:w-3/4 md:mx-auto">Sherifa BLDG 8th
+floor,Meskel flower.
+Addid Ababa</p>
+   
 </div>
 </div>
-        <div class="mt-8 ">
-            <h1 class="text-center text-2xl lg:text-2xl">Need a reply fast?</h1>
-            <h1 class="text-center text-2xl mt-3 lg:mt-3 lg:text-2xl">Let's <span class="talk">talk!</span> </h1>
-            <p class="text-lg lg:text-lg mt-10 font-light w-5/6 mx-auto leading-9 lg:w-2/3 lg:mx-auto md:w-120 md:mx-auto">Share your project requirements
-here or send us an email at
-info@orizon.com we will follow up
- in <span class="font-bold">24 hrs</span>  </p>
-        </div>
-        <div class="ml-8 mt-10 text-xl font-light lg:w-3/4 lg:mx-auto md:mx-auto">
-            <div>
-                <div class="">
-                    <p class="text-lg lg:text-lg">Name:</p>
-                </div>
-                <div class="mt-4">
-                    <input type="text" placeholder="Don from Earth,Inc." class="input border-2 border-purple-300 bg-white   focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg lg:w-7/8 lg:h-10 h-10"  v-model="formData.name" required >
-                  
-                </div>
-            </div>
-            <div class="hidden lg:block mt-10">
-                <div class="flex">
-                    <div class="w-3/4">
-                        <div class="">
-                    <p class="text-2xl lg:text-lg">Email</p>
-                </div>
-                <div class="mt-4 ">
-                    <input type="text" placeholder="don@norman.me" class="input border-2 border-purple-300 bg-white  focus:outline-none   py-6 pl-6 rounded-xl placeholder:text-gray-300  lg:h-10 placeholder:text-lg w-3/4 "  v-model="formData.email" required >
-                </div>
-                    </div>
-                    <div class="w-3/4">
-                        <div class="">
-                    <p class="text-2xl lg:text-lg">Phone</p>
-                </div>
-                <div class="mt-4 ">
-                    <input type="text" placeholder="(555) 555-555" class=" input border-2 border-purple-300 bg-white lg:h-10  focus:outline-none  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg w-3/4"  v-model="formData.phone" required >
-                </div>
-                    </div>
-                 
-                </div>
-              
-            </div>
-            <div class="mt-10 lg:hidden">
-                <div>
-                    <p class="text-lg">Email </p>
-                </div>
-                <div class="mt-4">
-                    <input type="text" placeholder="don@norman.me" class="lg:h-20 input w-13/14 border-2  border-purple-300 bg-white  py-6 pl-6 rounded-xl placeholder:text-gray-300 h-10   placeholder:text-lg" v-model="formData.email" required>
-                </div>
-            </div>
-            <div class="mt-10 lg:hidden">
-                <div>
-                    <p class="text-lg">Phone Number </p>
-                </div>
-                <div class="mt-4">
-                    <input type="text" placeholder="(555) 555-555" class="lg:h-10 h-10 input border-2 border-purple-300 bg-white  focus:outline-none w-13/14  py-6 pl-6 rounded-xl placeholder:text-gray-300  placeholder:text-lg" v-model="formData.phone" required>
-                </div>
-            </div>
-            <div class="mt-10">
-                <div>
-                    <p class="text-lg lg:text-lg">Subject </p>
-                </div>
-                <div class="mt-4">
-                    <input type="text" placeholder="enter your subject here." class="lg:h-10 h-10 input  w-13/14 border-2 border-purple-300 bg-white py-6 pl-6 rounded-xl focus:outline-none placeholder:text-gray-300  placeholder:text-lg lg:w-7/8"  v-model="formData.subject" required>
-                </div>
-            </div>
-            <div class="mt-10">
-                <div>
-                    <p class="text-lg lg:text-lg">Details </p>
-                </div>
-                <div class="mt-4 lg:hidden">
-                    <textarea cols="24" rows="6"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input border-2 border-purple-300 bg-white focus:outline-none   py-6 w-13/14 pl-6 pr-2 pt-12 pb-1 rounded-xl placeholder:text-gray-300  placeholder:text-lg " style="white-space: pre-line;"   v-model="formData.detail" required />
-                </div>
-                <div class="mt-4 hidden lg:block">
-                    <textarea cols="49" rows="5"  type="text" placeholder="We need to launch Earth’s new UI and improve usability on key user flows such as climate, health and orbital escape velocity..." class="input focus:outline-none border-2 border-purple-300 bg-white py-6 pl-6 pr-2 lg:pt-16 lg:w-7/8 lg:pb-0 pt-12 pb-1 rounded-xl placeholder:text-gray-300  placeholder:text-lg " style="white-space: pre-line;" v-model="formData.detail" required />
-                </div>
-            </div>
-          
-            <div class="mt-16 lg:w-2/3 lg:mx-auto  justify-end" >
-                <button v-if="!status" class=" button text-white py-2 px-5 w-10/11 -ml-3   rounded-lg text-2xl lg:rounded-xl lg:text-lg lg:px-8" @click="sendEmail">Send Message</button>
-            </div>
-            <div v-if="status" class="font-semibold text-center lg:w-2/3 md:2/3 md:mx-auto bg-purple-300 text-black rounded-md lg:mx-auto shadow-md mt-10 py-4">{{ status }}</div>
-            
-            <div class="text-lg   font-semibold  mt-8 lg:5/6 lg:mx-auto">
-                 <h1 class="w-4/5 ml-12 md:w-1/2 md:ml-auto lg:mx-auto lg:w-3/4">⭐️ Join 100+ happy customers</h1>
-            </div>
-            <div class="flex mt-20 mx-auto lg:mx-auto lg:mr-20">
+</div>
+<div>
+    <img src="/team3.png" alt="" class="w-1/2 mx-auto lg:w-1/3 lg:mx-auto">
+    <p class="w-1/2 mx-auto text-xl mt-3 lg:w-1/4 lg:mx-auto">Need  a replay fast?</p>
+    <h1 class="w-1/3 text-2xl mx-auto mt-2 lg:w-1/6 lg:mx-auto">Let’s <span class="text-purple-500 ">talk!</span></h1>
+    <p class="w-10/10 mx-auto text-gray-500 mt-4 px-3 lg:w-2/3 lg:mx-auto">Share your project requirements here or send us an 
+        email at info@orizon.com we will follow up in <span class="text-black font-bold">24 hrs</span>  </p>
+</div>
+<div class="bg-white rounded-md w-3/4 mx-auto p-4 mb-5 mt-10 lg:w-2/3 lg:mx-auto ">
+    <div class="lg:w-6/7 lg:mx-auto">
+
+        <p class="w-2/3">Name <span class="text-red-400 -mb-1">*</span></p>
+        <input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.name" required>
+    </div>
+    <div class="mt-7 lg:w-6/7 lg:mx-auto">
+
+<p class="w-2/3">Email <span class="text-red-400 -mb-1">*</span></p>
+<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none"   v-model="formData.email" required >
+</div>
+<div class="mt-7 lg:w-6/7 lg:mx-auto">
+
+<p class="w-2/3">Phone <span class="text-red-400 -mb-1">*</span></p>
+<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.phone" required>
+</div>
+<div class="mt-7 lg:w-6/7 lg:mx-auto">
+
+<p class="w-2/3">Subject</p>
+<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.subject" required>
+</div>
+<div class="mt-7 lg:w-6/7 lg:mx-auto">
+
+<p class="w-2/3">Details <span class="text-red-400 -mb-1">*</span></p>
+<textarea name="" id="" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-15 focus:outline-none" v-model="formData.detail" required  />
+
+</div>
+<button v-if="!status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-2/3 mt-4 lg:w-1/2 ml-7" @click="sendEmail">SEND MESSAGE</button>
+<div v-if="status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-9/10 mt-4 lg:w-6/7 lg:mx-auto">{{ status }}</div>
+</div>
+<div class="flex mt-10 w-10/10 mx-auto ml-3 lg:hidden">
                 <!-- <div>
 
                     <hr class="text-gray-400 w-40 lg:w-76  md:w-70">
@@ -99,7 +105,7 @@ info@orizon.com we will follow up
 
                 </div>
                 <div>
-                    <h1 class="-mt-5 mx-1">or</h1>
+                    <h1 class="-mt-4 mx-1">or</h1>
                 </div>
                 <!-- <div class="">
 
@@ -109,8 +115,9 @@ info@orizon.com we will follow up
 
 </div>
             </div>
-            <div class="text-xl font-semibold lg:text-lg w-6/7 mx-auto mt-16 lg:w-3/4 lg:mx-auto">
-                <p>Filling out the form above is the
+            <div class="text-sm   font-semibold lg:text-lg w-6/7 mx-auto lg:w-3/4 lg:mx-auto">
+                <p class="text-sm lg:w-1/2 text-right ml-54 mt-12">⭐️ Join 100+ happy customers</p>
+                <p class="lg:w-3/4 lg:mx-auto lg:text-sm mt-10 ">Filling out the form above is the
 fastest way to get an answer,
 but you can also schedule a cal
 l in the upcoming days if you
@@ -118,13 +125,13 @@ prefer.</p>
             </div>
         </div>
         
-        <div class="ml-2 mt-24 bg-black text-white rounded-4xl pt-2 pb-5 lg:hidden">
-            <div class="flex bg-black text-white rounded-4xl lg:rounded-full lg:hidden">
+        <div class="smboxblack mt-10 w-11/12 md:w-3/4 md:mx-auto mx-auto  bg-black text-white rounded-4xl pt-2 pb-5 lg:w-1/2 lg:rounded-full lg:mx-auto mb-20 animated-card">
+            <div class="flex bg-black md:w-3/4 md:mx-auto text-white rounded-4xl lg:rounded-full ">
                 <div class="ml-4">
-                    <img src="/groupImageBottom.png" alt="">
+                    <img src="/groupImageBottom.png" alt="" class="smbox3 animated-card -ml-1">
                 </div>
                 <div class="pt-4 ml-4 lg:mt-5">
-                    <h1 class="font-semibold">Want to jump on  a <br class="lg:hidden">
+                    <h1 class="font-semibold ">Want to jump on  a <br class="lg:hidden">
                         telegram chat?</h1>
                     <p class="mt-2 text-xl font-light">Book a 30 minute 
                       <br class="lg:hidden">  chat</p>
@@ -132,142 +139,20 @@ prefer.</p>
                 
             </div>
             <div class="ml-36 mt-5">
-                <button class="button text-white py-3 px-12 rounded-2xl text-2xl">Continue</button>
+                <button class="button text-white py-3 px-10 w-3/4 md:w-1/2 mx-auto rounded-2xl text-xl lg:w-1/3 lg:rounded-full lg:ml-55" @click="redirectToTelegram">Continue</button>
             </div>
-        </div>
-        <div class="hidden lg:block text-white  bg-black mt-20 pr-10 pl-16 rounded-full pb-10 pt-5  w-8/9 mx-auto">
-<div class="flex">
-<div>
-    <img src="/groupImageBottom.png" alt="">
-</div>
-<div>
-    <div class="pt-4 ml-4 lg:mt-2">
-                    <h1 class="font-semibold lg:text-2xl lg:w-90">Want to jump on  a <br class="lg:hidden">
-                        telegram chat?</h1>
-                    <p class="mt-2 text-xl font-light ">Book a 30 minute 
-                      <br class="lg:hidden">  chat</p>
-                </div>
-</div>
-<div class="ml-36 mt-5">
-                <button class="button text-white py-3 px-12 rounded-full mt-8 -ml-46 text-2xl" @click="redirectToTelegram">Continue</button>
-            </div>
-</div>
-        </div>
-        <div class="mt-20  lg:mx-auto lg:pb-5">
-            <div class="flex ml-1 mr-1 lg:w-10/10 lg:mx-auto lg:px-3 ">
-                <div class="card flex cardDiv pl-3 pr-3 w-3/4 rounded-lg pt-3 pb-6 shadow-md lg:w-4/5  lg:pl-10 lg:pt-6">
-                    <div class="last flex">
-
-                        <div class="mr-2">
-                            <i class="fa-solid fa-envelope text-black text-2xl lg:text-4xl"></i>
-                        </div>
-                        <div class="lg:ml-5">
-                            <h1 class="font-semibold lg:text-xl">Email & Phone</h1>
-                            <p class="text-sm text-gray-500 mt-2 font-semibold lg:text-lg">yared123@gmail.com</p>
-                            <p class="text-sm text-gray-500  font-semibold lg:text-lg">+251916897173</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card flex cardDiv w-3/4 pl-3 pr-3 rounded-lg py-4 ml-3 lg:w-3/4 lg:h-48  lg:pl-10 lg:pt-6">
-                    <div class="last flex">
-
-                        <div class="mr-2">
-                            <i class="fa-solid fa-location-dot text-black text-2xl lg:text-4xl"></i>
-                        </div>
-                        <div class="lg:ml-5">
-                            <h1 class="font-semibold lg:text-xl">Our Location</h1>
-                            <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">Sherifa BLDG 8th
-    floor,Meskel
-    flowerAddid Ababa</p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card flex cardDiv w-1/2 pl-3 pr-2  rounded-lg pt-3 pb-7 ml-1 shadow-md mt-10 lg:h-48  lg:pr-1 lg:pl-10  lg:pt-6 lg:w-1/2 lg:mx-auto">
-                <div class="last flex">
-                    <div class="mr-2">
-                        <i class="fa-solid fa-phone text-black text-2xl lg:text-4xl mt-2"></i>
-                    </div>
-                    <div class="lg:ml-5">
-                        <h1 class="font-semibold lg:text-xl">Project Inquiry</h1>
-                        <p class="text-sm text-gray-500 font-semibold mt-2 lg:text-lg">+251916897173</p>
-                        <p class="text-sm text-gray-500 font-semibold lg:text-lg">+251916897173</p>
-                    </div>
-                </div>
-            </div>
-        </div>  
         
-    </div>
+  </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-import { ref } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import emailjs from 'emailjs-com';
-import { onMounted } from 'vue';
 import { animate, inView,hover } from 'motion';
-export default defineComponent({
-    setup() {
-        
-       
-        onMounted(() => {
-            const startAnimation = (element, animationProps) => {
-                animate(element, animationProps, {
-                    duration: 4,
-                    easing: [0.17, 0.55, 0.55, 1],
-                    direction: 'alternate',
-                  
-                });
-            };
 
-            
-            // inView(".last", (element, isInView) => {
-            //     if (isInView) {
-            //         startAnimation(element, { opacity: 1, y: [-100, 10] },{delay:100});
-            //     } else {
-                  
-            //         animate(element, { opacity: 0, x: 0 });
-            //     }
-            // });
-//             hover(".card", (element) => {
-//                 startAnimation(element, {scale:0.9,duration:2})
-
-//   return () => animation.stop()
-// })inView(".last", (element, isInView) => {
-    inView(".card", (element, isInView) => {
-    if (isInView) {
-        startAnimation(element, { 
-            opacity: 1, 
-            y: [-100, 0],
-            filter: ['blur(4px)', 'blur(0px)'] // Start with blur and end with normal
-        }, { delay: 100 });
-    } else {
-        animate(element, { 
-            opacity: 0, 
-            x: 0, 
-            filter: 'blur(4px)' // Ensure it stays blurred when out of view
-        });
-    }
-});
-            
-            
-          
-            // inView(".box1", (element, isInView) => {
-            //     if (isInView) {
-            //         animate(element, { opacity: 0, x: 0 });
-            //         startAnimation(element, { opacity: 1, x: [0, -500] },{delay:100});
-            //     } else {
-                
-            //         animate(element, { opacity: 0, x: 0 });
-            //     }
-            // });
-
-        
-          
-        });
-
-        const formData = ref({
+export default {
+  setup() {
+    const formData = ref({
       name: '',
       email: '',
       phone:'',
@@ -311,45 +196,496 @@ export default defineComponent({
         alert('Please enter a username.');
       }
     };
-         return {
+    const cards = ref([]);
+    const cardss = ref([]);
+    // const mdcards = ref([]);
+    // const lgcards = ref([]);
+    const sideCard = ref([]);
+    const cards2 = ref([]);
+    const cards3 = ref([]);
+    const cards4 = ref([]);
+    const cardsblack = ref([]);
+    // const mdcards2 = ref([]);
+    // const lgcards2 = ref([]);
+
+
+
+const cardobserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('cdvisible');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateY(-10px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('cdvisible');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateY(150px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+    const cardobserver2 = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('cd2visible');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateY(40px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('cd2visible');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateY(30px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+//
+
+
+const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('visible');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateX(160px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visible');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+//
+const observerblack = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('visibleblack');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateX(50px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visibleblack');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+//
+
+
+//
+const observerr = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('visiblee');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateX(40px)',
+          }, {
+            duration: 1.7,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visiblee');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(-0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+    //
+    const observer3 = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+  
+          entry.target.classList.add('visible4');
+          animate(entry.target, {
+            opacity: 1,
+          
+            transform: 'translateX(5px)',
+          }, {
+            duration: 1.6,
+            easing: [0.17, 0.55, 0.55, 1],
+            
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visible4');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+    //mediumm
+    // const mdobserver = new IntersectionObserver((entries) => {
+    //   entries.forEach(entry => {
+    //     if (entry.isIntersecting) {
+  
+    //       entry.target.classList.add('mdvisible');
+    //       animate(entry.target, {
+    //         opacity: 1,
+          
+    //         transform: 'translateX(260px)',
+    //       }, {
+    //         duration: 1.6,
+    //         easing: [0.17, 0.55, 0.55, 1],
+            
+    //         direction: 'alternate',
+    //       });
+    //     } else {
+          
+    //       entry.target.classList.remove('mdvisible');
+    //       entry.target.style.opacity = 0;
+    //       entry.target.style.transform = 'translateX(0px)';
+    //     }
+    //   });
+    // }, {
+    //   threshold: 0.1,
+    // });
+
+
+    //large
+    // const lgobserver = new IntersectionObserver((entries) => {
+    //   entries.forEach(entry => {
+    //     if (entry.isIntersecting) {
+  
+    //       entry.target.classList.add('lgvisible');
+    //       animate(entry.target, {
+    //         opacity: 1,
+          
+    //         transform: 'translateX(340px)',
+    //       }, {
+    //         duration: 1.6,
+    //         easing: [0.17, 0.55, 0.55, 1],
+            
+    //         direction: 'alternate',
+    //       });
+    //     } else {
+          
+    //       entry.target.classList.remove('lgvisible');
+    //       entry.target.style.opacity = 0;
+    //       entry.target.style.transform = 'translateX(0px)';
+    //     }
+    //   });
+    // }, {
+    //   threshold: 0.1,
+    // });
+    //
+    const observer2 = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible2');
+          animate(entry.target, {
+            opacity: 1,
+            transform: 'translateX(-160px)',
+          }, {
+            duration: 1.1,
+            easing: [0.17, 0.55, 0.55, 1],
+            direction: 'alternate',
+          });
+        } else {
+          
+          entry.target.classList.remove('visible2');
+          entry.target.style.opacity = 0;
+          entry.target.style.transform = 'translateX(0px)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+    });
+//medium
+// const mdobserver2 = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//           entry.target.classList.add('mdvisible');
+//           animate(entry.target, {
+//             opacity: 1,
+//             transform: 'translateX(-230px)',
+//           }, {
+//             duration: 1.1,
+//             easing: [0.17, 0.55, 0.55, 1],
+//             direction: 'alternate',
+//           });
+//         } else {
+          
+//           entry.target.classList.remove('mdvisible2');
+//           entry.target.style.opacity = 0;
+//           entry.target.style.transform = 'translateX(0px)';
+//         }
+//       });
+//     }, {
+//       threshold: 0.1,
+//     });
+//
+// const lgobserver2 = new IntersectionObserver((entries) => {
+//       entries.forEach(entry => {
+//         if (entry.isIntersecting) {
+//           entry.target.classList.add('lgvisible');
+//           animate(entry.target, {
+//             opacity: 1,
+//             transform: 'translateX(-340px)',
+//           }, {
+//             duration: 1.1,
+//             easing: [0.17, 0.55, 0.55, 1],
+//             direction: 'alternate',
+//           });
+//         } else {
+          
+//           entry.target.classList.remove('lgvisible2');
+//           entry.target.style.opacity = 0;
+//           entry.target.style.transform = 'translateX(0px)';
+//         }
+//       });
+//     }, {
+//       threshold: 0.1,
+//     });
+    // 
+//large
+    onMounted(() => {
+      cards.value = [...document.querySelectorAll('.smbox')];
+      cards.value.forEach(card => {
+        observer.observe(card);
+      });
+      cardss.value = [...document.querySelectorAll('.smboxx')];
+      cardss.value.forEach(card => {
+        observerr.observe(card);
+      });
+      //
+      sideCard.value = [...document.querySelectorAll('.sideCard')];
+      sideCard.value.forEach(card => {
+        cardobserver.observe(card);
+      });
+      //
+      cardsblack.value = [...document.querySelectorAll('.smboxblack')];
+      cardsblack.value.forEach(card => {
+        observerblack.observe(card);
+      });
+      //
+      cards2.value = [...document.querySelectorAll('.smbox1')];
+      cards2.value.forEach(card => {
+        observer2.observe(card);
+      });
+      cards3.value = [...document.querySelectorAll('.card3')];
+      cards3.value.forEach(card => {
+        cardobserver2.observe(card);
+      });
+      cards4.value = [...document.querySelectorAll('.smbox3')];
+      cards4.value.forEach(card => {
+        observer3.observe(card);
+      });
+      //medium
+    //   mdcards.value = [...document.querySelectorAll('.mdbox')];
+    //   mdcards.value.forEach(card => {
+    //     mdobserver.observe(card);
+    //   });
+    //   mdcards2.value = [...document.querySelectorAll('.mdbox1')];
+    //   mdcards2.value.forEach(card => {
+    //     mdobserver2.observe(card);
+    //   });
+    //   //large
+    //   lgcards.value = [...document.querySelectorAll('.lgbox')];
+    //   lgcards.value.forEach(card => {
+    //     lgobserver.observe(card);
+    //   });
+    //   lgcards2.value = [...document.querySelectorAll('.lgbox1')];
+    //   lgcards2.value.forEach(card => {
+    //     lgobserver2.observe(card);
+    //   });
+      onBeforeUnmount(() => {
+        cards.value.forEach(card => {
+          observer.unobserve(card);
+        });
+        //
+        cardsblack.value.forEach(card => {
+          observerblack.unobserve(card);
+        });
+        //
+        cardss.value.forEach(card => {
+          observerr.unobserve(card);
+        });
+        
+        sideCard.value.forEach(card => {
+          cardobserver.unobserve(card);
+        });
+        
+        
+        // mdcards.value.forEach(card => {
+        //   mdobserver.unobserve(card);
+        // });
+        cards2.value.forEach(card => {
+          observer2.unobserve(card);
+        });
+        cards3.value.forEach(card => {
+            cardobserver2.unobserve(card);
+        });
+        cards4.value.forEach(card => {
+            observer3.unobserve(card);
+        });
+        
+        // mdcards2.value.forEach(card => {
+        //   mdobserver2.unobserve(card);
+        // });
+      });
+    });
+    
+
+    return {
+      cards,
+    //   mdcards,
+      cards2,
       formData,
       status,
       sendEmail,
       //username,ser
       redirectToTelegram
-        };
-
-        
-
-    }
-
-});
+    //   mdcards2,
+    };
+  },
+};
 </script>
 
 <style scoped>
-    .talk {
-            font-size: 24px; 
-            background: linear-gradient(to right, 
-                #9B4AF7 0%,   
-                #8523F5 100%  
-            );
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-            background-clip: text; 
-            text-fill-color: transparent; 
-        }
-        .input{
-            /* background-color:#e6d3f0 ; */
-        }
-    .button{
-        background: linear-gradient(to right, #9B4AF7 0%, #8523F5 100%);
-            
-    }
-    .cardDiv{
-        background: linear-gradient(to right, #D6C4F2 0%, #B693F5 100%);
-        
-    }
-        
+.animated-card {
+  opacity: 0; 
+  transition: opacity 1.5s ease, transform 1.5s ease; 
+  transform: translateX(190);
+}
+
+.visible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.visiblee {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.visibleblack {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.cdvisible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.cd2visible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.mdvisible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.lgvisible {
+  opacity: 1; 
+  transform: translateX(190); 
+}
+.visible2 {
+  opacity: 1; 
+  transform: translateX(10); 
+}
+.mdvisible2 {
+  opacity: 1; 
+  transform: translateX(10); 
+}
+.lgvisible2 {
+  opacity: 1; 
+  transform: translateX(10); 
+}
+.intro-image {
+  width: 700px;
+  height: 600px;
+}
+@keyframes slideInImage {
+      to {
+          opacity: 1;
+          transform: translateX(0); 
+      }
+  }
+  
+  @keyframes slideInText {
+      to {
+          opacity: 1;
+          transform: translateX(0); 
+      }
+  }
+  
+  .animated-image {
+      opacity: 0;
+      transform: translateY(-50px); 
+      animation: slideInImage 0.8s forwards; 
+  }
+  
+  .animated-content {
+      opacity: 0;
+      transform: translateY(50px); 
+      animation: slideInContent 0.8s forwards; 
+      animation-delay: 0.4s; 
+  }
+  
+  @keyframes slideInImage {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  
+  @keyframes slideInContent {
+      to {
+          opacity: 1;
+          transform: translateY(0); 
+      }
+  }
 </style>
-
-
