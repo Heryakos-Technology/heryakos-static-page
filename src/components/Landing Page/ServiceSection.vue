@@ -31,7 +31,8 @@ const services = [
 ];
 
 onMounted(() => {
-  inView(".service-cards-container", () => {
+  inView(".service-cards-container", (element) => {
+
     animate(".service-card",
       {
         opacity: 1,
@@ -39,13 +40,28 @@ onMounted(() => {
       },
       {
         delay: stagger(0.3),
-        duration: 0.4,
+        duration: 0.9,
         easing: [0.17, 0.55, 0.55, 1]
-      },
+      }
     );
+
+
+    return () => {
+      animate(".service-card",
+        {
+          opacity: 0,
+          y: 50
+        },
+        {
+          delay: stagger(0.1),
+          duration: 0.3,
+        }
+      );
+    };
   },
     {
-      amount: 0.6
+      amount: 0.6,
+      once: false
     }
   );
 });
@@ -55,12 +71,12 @@ onMounted(() => {
   <div class="mt-16">
     <h1 class="font-bold text-btnColor xs:px-6 md:px-0 lg:text-xl">What We Offer</h1>
     <div
-      class="service-cards-container grid grid-cols-2 gap-4 mt-8 place-items-center md:grid-cols-4 max-w-[540px] mx-auto md:max-w-[1200px]">
+      class="service-cards-container grid grid-cols-2 gap-x-4 gap-y-8 mt-8 place-items-center md:grid-cols-4 max-w-[540px] mx-auto md:max-w-[1200px]">
       <ServiceSectionCards v-for="(service, index) in services" :key="index" :title="service.title"
         :description="service.description" :imageSrc="service.imageSrc"
         class="service-card opacity-0 translate-y-[50px]" />
     </div>
-    <RouterLink :to="{ name: 'ServicePage' }" class="mt-8 flex flex-col md:items-start 2xl:mt-24">
+    <RouterLink :to="{ name: 'ServicePage' }" class=" flex flex-col md:items-start mt-32 xl:mt-48">
       <div class="bg-gradient-to-r from-[#9B4AF7] mx-auto to-[#8523F5] text-white px-10 py-3.5 rounded-4xl font-medium">
         See More Services
       </div>
