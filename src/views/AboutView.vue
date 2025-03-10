@@ -113,27 +113,27 @@
         </div>
 </div>
 <div class="w-6/7">
-  <div class="sideCard mb-2 bg-purple-200 pt-5 mx-1   shadow-md mt-1 -ml-1 w-15/11 animated-card">
-          <div class="flex py-5 px-2 ">
-            <div @click="toggleAbout"><i class="fa-solid fa-caret-left"></i></div>
+  <div class="sideCard mb-2 bg-purple-300 pt-5 mx-1   shadow-md mt-1 -ml-1 w-15/11 animated-card">
+          <div class="flex py-5 px-2 " @click="toggleAbout">
+            <div ><i class="fa-solid fa-caret-left"></i></div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">About Naos Yeshiwas</div>
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }">About Naos Yeshiwas</div>
               <div v-if="aboutShow" class="w-7/8 mx-auto mt-5 text-sm">
                 <hr class="text-gray-400 mb-2 -ml-11 -mr-9"> 
                 Naod Yeshiwas is the CEO of Yegna Developers, which is the best website design company in ethiopia that specializes in website design, SEO, digital marketing, software development, mobile app and paid ads. Naod is a highly skilled professional with years of experience in the industry. He is a talented software developer, with a strong background in building and managing software projects. In addition to his technical skills, Naod is also an experienced project manager, with a track record of successfully delivering projects on time and within budget. Whether it’s developing a custom software solution, designing a user-friendly mobile app, or creating a visually stunning website, Naod and his team at Yegna Developers have the skills and expertise to bring any project to life.
               </div>
             </div>
           </div>
-          <hr class="text-gray-400">
-          <div class="flex py-5 px-2 mt-4">
-            <div><i class="fa-solid fa-caret-left" @click="toggleSkill"></i></div>
+          <hr class="text-gray-300">
+          <div class="flex py-5 px-2 mt-4" @click="toggleSkill">
+            <div><i class="fa-solid fa-caret-left" ></i></div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">Skills</div>
-              <div v-if="skillShow" class="w-7/8 text-sm mx-auto mt-5">
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: skillShow ? 'red' : 'black' }">Skills</div>
+              <div v-if="skillShow" class="w-7/8 text-sm mx-auto mt-5" >
 <ul class="list-disc">
-  <hr class="text-gray-400 mb-2 -ml-7 -mr-61"> 
+  <hr class="text-gray-300 mb-2 -ml-7 -mr-61"> 
   <li>Professional software developers</li>
   <li>Mobile application developer</li>
   <li>Website designer</li>
@@ -143,14 +143,14 @@
               </div>
             </div>
           </div>
-          <hr class="text-gray-400">
-          <div class="flex py-5 px-2 mt-4">
-            <div @click="toggleAim"><i class="fa-solid fa-caret-left"></i></div>
+          <hr class="text-gray-300">
+          <div class="flex py-5 px-2 mt-4" @click="toggleAim">
+            <div ><i class="fa-solid fa-caret-left"></i></div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">Aim</div>
-              <div v-if="aimShow" class="w-7/8 text-sm mx-auto mt-5">
-                <hr class="text-gray-400 mb-2 -ml-10 -mr-9"> 
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aimShow ? 'red' : 'black' }">Aim</div>
+              <div v-if="aimShow" class="w-7/8 text-sm mx-auto mt-5" >
+                <hr class="text-gray-300 mb-2 -ml-10 -mr-9"> 
                 As the CEO of Yegna Developers, Naod Yeshiwas’s aim is to provide his clients with high-quality digital marketing, software development, mobile app development, and website design services. He is dedicated to delivering projects that meet the specific needs and requirements of his clients, and is committed to using his technical expertise and project management skills to ensure that each project is a success. In addition to delivering exceptional results for his clients, Naod also strives to create a positive and collaborative work environment for his team at Yegna Developers, helping them to grow and develop as professionals. Overall, Naod’s aim is to be a leading provider of software development, mobile app development, and website design services, and to build a reputation for delivering exceptional results for his clients.
               </div>
             </div>
@@ -162,7 +162,7 @@
 <div class="hidden lg:block  bg-purple-200 shadow-md w-1/2 mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-3 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/businessman3.webp" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -174,7 +174,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -188,7 +188,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-3 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/PedroFemale.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -200,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/businessman2.avif" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -226,7 +226,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -454,7 +454,7 @@ const cardobserver = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateY(-20px)',
+            transform: 'translateY(-1px)',
           }, {
             duration: 1.3,
             easing: [0.17, 0.55, 0.55, 1],
@@ -465,7 +465,7 @@ const cardobserver = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('cdvisible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateY(100px)';
+          entry.target.style.transform = 'translateY(150px)';
         }
       });
     }, {
@@ -536,7 +536,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(340px)',
+            transform: 'translateX(350px)',
           }, {
             duration: 1.3,
             easing: [0.17, 0.55, 0.55, 1],
@@ -603,10 +603,10 @@ const mdobserver2 = new IntersectionObserver((entries) => {
 const lgobserver2 = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('lgvisible');
+          entry.target.classList.add('lgvisible2');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-340px)',
+            transform: 'translateX(-350px)',
           }, {
             duration: 1.1,
             easing: [0.17, 0.55, 0.55, 1],
