@@ -362,8 +362,9 @@
     </div>
 <!-- end of section -->
 
-</template><script>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+</template>
+
+<script>import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 export default {
     setup() {
@@ -376,29 +377,28 @@ export default {
         };
 
         const handleIntersect = (entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible'); // Add 'visible' class when in view
-        } else {
-            entry.target.classList.remove('visible'); // Remove 'visible' class when out of view
-        }
-    });
-};
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        };
 
         onMounted(() => {
             observer.value = new IntersectionObserver(handleIntersect);
-            cards.value = document.querySelectorAll('.last-three, .card');
+            cards.value = document.querySelectorAll('.card');
 
+            // Initially set all cards to visible on mount
+            cards.value.forEach(card => {
+                card.classList.add('visible');
+            });
+
+            // Observe each card for scroll events
             cards.value.forEach(card => {
                 observer.value.observe(card);
             });
-
-            // Initial visibility for cards
-            setTimeout(() => {
-                cards.value.forEach(card => {
-                    card.classList.add('visible');
-                });
-            }, 200);
         });
 
         onBeforeUnmount(() => {
