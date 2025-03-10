@@ -141,7 +141,7 @@
     <!-- desktop view-->
     <div class=" w-11/12 mx-auto px-10 hidden  md:block">
         <div class="flex">
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto pb-26 mb-10 mr-10 " 
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto pb-26 mb-10 mr-10 card left-entry" 
                 ref="card">
                 <img src="/cardfirst-blog.png" alt="" class="rounded-lg w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 md:4/5 pb-6 bg-white rounded-lg ml-5 absolute -mt-16  animated-content">
@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md- mr-10 pb-26 mb-10 " 
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md- mr-10 pb-26 mb-10 card left-entry" 
                 ref="card">
                 <img src="/cardsecond-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
@@ -186,7 +186,7 @@
             </div>
 
 
-            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md-  pb-26 mb-10 " 
+            <div class="bg-[#ece3ff] w-1/2 md:w-1/2 rounded-lg mx-auto md-  pb-26 mb-10 card left-entry" 
                 ref="card">
                 <img src="/smart-hotel-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
@@ -215,7 +215,7 @@
 
     <div class=" w-11/12 mx-auto px-10 hidden  md:block -mt-20">
         <div class="flex ">
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 mr-10 " 
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 mr-10 card left-entry" 
                 ref="card">
                 <img src="/cardthird-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
@@ -237,7 +237,7 @@
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mr-10 mb-10 "  ref="card">
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mr-10 mb-10 card left-entry"  ref="card">
                 <img src="/cardfourth-blog.png" alt="" class=" rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Enhancing Business Operations Through
@@ -259,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 "  ref="card">
+            <div class="bg-[#ece3ff] w-11/12 rounded-lg mx-auto mt-20 pb-26 mb-10 card left-entry"  ref="card">
                 <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
                 <div class="w-1/5 h-56 pb-6  bg-white rounded-lg ml-5 absolute -mt-16 animated-content">
                     <p class="h-12 w-64 mx-auto mt-2 text-md font-bold text-gray-800">Preparing for Your Journey in the
@@ -362,13 +362,11 @@
     </div>
 <!-- end of section -->
 
-</template>
-<script>
+</template><script>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 export default {
     setup() {
-        const isVisible = ref(false);
         const readmore = ref(false);
         const cards = ref([]);
         const observer = ref(null);
@@ -378,24 +376,24 @@ export default {
         };
 
         const handleIntersect = (entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                } else {
-                    entry.target.classList.remove('visible');
-                }
-            });
-        };
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible'); // Add 'visible' class when in view
+        } else {
+            entry.target.classList.remove('visible'); // Remove 'visible' class when out of view
+        }
+    });
+};
 
         onMounted(() => {
             observer.value = new IntersectionObserver(handleIntersect);
-            cards.value = document.querySelectorAll('.last-three');
+            cards.value = document.querySelectorAll('.last-three, .card');
 
             cards.value.forEach(card => {
                 observer.value.observe(card);
             });
 
-            
+            // Initial visibility for cards
             setTimeout(() => {
                 cards.value.forEach(card => {
                     card.classList.add('visible');
@@ -410,10 +408,8 @@ export default {
         });
 
         return {
-            isVisible,
             readmore,
             showContent,
-            
         };
     },
 };
@@ -421,17 +417,17 @@ export default {
 
 <style scoped>
 .card {
-    opacity: 0.3;
-    transition: opacity 1s ease-in-out;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
 }
 
 .card.visible {
-    opacity: 1;
+    opacity: 1; 
 }
 
 .animated-image {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateY(-50px);
     animation: slideInImage 1s forwards;
 }
 
@@ -445,7 +441,7 @@ export default {
 @keyframes slideInImage {
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
@@ -455,37 +451,6 @@ export default {
         transform: translateX(0);
     }
 }
-
-.animated-image {
-    opacity: 0;
-    transform: translateY(-50px);
-    animation: slideInImage 1s forwards;
-}
-
-.animated-content {
-    opacity: 0;
-    transform: translateY(50px);
-    animation: slideInContent 1s forwards;
-    animation-delay: 0.4s;
-}
-
-.right-entry {
-  transform: translateX(100px);
-}
-@keyframes slideInImage {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInContent {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 
 .last-three {
     opacity: 0;
