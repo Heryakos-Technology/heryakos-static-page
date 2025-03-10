@@ -538,7 +538,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(380px)',
+            transform: 'translateX(375px)',
           }, {
             duration: 1.3,
             easing: [0.17, 0.55, 0.55, 1],
@@ -608,7 +608,7 @@ const lgobserver2 = new IntersectionObserver((entries) => {
           entry.target.classList.add('lgvisible2');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-380px)',
+            transform: 'translateX(-375px)',
           }, {
             duration: 1.1,
             easing: [0.17, 0.55, 0.55, 1],
