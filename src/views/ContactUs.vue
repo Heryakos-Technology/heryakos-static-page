@@ -70,27 +70,27 @@ Addid Ababa</p>
     <div class="lg:w-6/7 lg:mx-auto">
 
         <p class="w-2/3">Name <span class="text-red-400 -mb-1">*</span></p>
-        <input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.name" required>
+        <input type="text" class="bg-gray-100 pl-3 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" placeholder="enter your name" v-model="formData.name" required>
     </div>
     <div class="mt-7 lg:w-6/7 lg:mx-auto">
 
 <p class="w-2/3">Email <span class="text-red-400 -mb-1">*</span></p>
-<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none"   v-model="formData.email" required >
+<input type="text" class="bg-gray-100 pl-3 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" placeholder="enter your email"   v-model="formData.email" required >
 </div>
 <div class="mt-7 lg:w-6/7 lg:mx-auto">
 
 <p class="w-2/3">Phone <span class="text-red-400 -mb-1">*</span></p>
-<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.phone" required>
+<input type="text" class="bg-gray-100 pl-3 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" placeholder="enter your phone" v-model="formData.phone" required>
 </div>
 <div class="mt-7 lg:w-6/7 lg:mx-auto">
 
 <p class="w-2/3">Subject</p>
-<input type="text" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" v-model="formData.subject" required>
+<input type="text" class="bg-gray-100 pl-3 mt-2 rounded-sm w-10/11 mx-auto h-10 focus:outline-none" placeholder="enter your subject" v-model="formData.subject" required>
 </div>
 <div class="mt-7 lg:w-6/7 lg:mx-auto">
 
 <p class="w-2/3">Details <span class="text-red-400 -mb-1">*</span></p>
-<textarea name="" id="" class="bg-slate-200 mt-2 rounded-sm w-10/11 mx-auto h-15 focus:outline-none" v-model="formData.detail" required  />
+<textarea name="" id="" class="bg-gray-100 pl-3 mt-2 rounded-sm w-10/11 mx-auto h-15 focus:outline-none pt-2 " placeholder="enter your details" v-model="formData.detail" required  />
 
 </div>
 <button v-if="!status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-2/3 mt-4 lg:w-1/2 ml-7" @click="sendEmail">SEND MESSAGE</button>
