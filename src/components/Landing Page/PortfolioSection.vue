@@ -63,17 +63,13 @@ const goToSpecificProject = (index) => {
         solutions.</p>
     </div>
     <div class="lg:flex mt-16 justify-center  lg:gap-x-8 xl:gap-x-16 ">
-      <div class=" hidden lg:flex flex-col gap-y-4     ">
+      <div class=" hidden lg:flex flex-col gap-y-4 justify-end      ">
         <div @click="goToSpecificProject(index + 1)" v-for="(project, index) in projects" :key="index"
-          class="space-y-1 hover:bg-btnColor/90  bg-btnColor cursor-pointer text-white py-2 px-5 rounded-xl w-[350px] h-[105px] xl:[370px]"
+          class="space-y-1 hover:bg-btnColor/90  bg-btnColor cursor-pointer text-white py-2 px-5 rounded-xl w-[350px] h-[105px] xl:[370px] flex flex-col justify-center group"
           :class="{ 'font-bold text-2xl  drop-shadow-flying scale-105': index === currentProjectIndex }">
-          <h1 class="text-xl cursor-pointer  ">
+          <h1 class="text-xl cursor-pointer group-hover:text-black  group-hover:font-bold   ">
             {{
               project?.name }}</h1>
-          <RouterLink :to="{ name: 'PortfolioPage' }" class="flex gap-x-4 items-center mr-20  w-fit ">
-            <p class="font-semibold text-lg ">LEARN MORE</p>
-            <img class="size-4" :src="arrowUpRight" alt="" srcset="">
-          </RouterLink>
         </div>
       </div>
 
@@ -90,8 +86,7 @@ const goToSpecificProject = (index) => {
             <h1 :key="currentProjectIndex" class="text-4xl font-light md:text-5xl">{{ projects[currentProjectIndex].name
             }}</h1>
           </transition>
-          <div class="flex gap-x-4 items-center">
-            <p class="font-semibold text-lg md:text-xl  ">LEARN MORE</p>
+          <div class="flex gap-x-4  ">
             <img class="size-6" :src="arrowUpRight" alt="" srcset="">
           </div>
         </div>
