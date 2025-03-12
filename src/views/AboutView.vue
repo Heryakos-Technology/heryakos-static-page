@@ -164,7 +164,6 @@
         <div class="flex mb-5 mx-2 mt-5 ">
 
           <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
-
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/businessman3.webp" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -176,7 +175,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -190,7 +189,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-3 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/PedroFemale.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -202,7 +201,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/businessman2.avif" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -228,7 +227,7 @@
               </div>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="lgbox1 flex w-1/2 h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -538,6 +537,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
+
             transform: 'translateX(375px)',
           }, {
             duration: 1.3,
@@ -608,7 +608,8 @@ const lgobserver2 = new IntersectionObserver((entries) => {
           entry.target.classList.add('lgvisible2');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-375px)',
+
+            transform: 'translateX(-375px)'
           }, {
             duration: 1.1,
             easing: [0.17, 0.55, 0.55, 1],
