@@ -1,7 +1,6 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-// Adjust the import based on your Motion library installation
-import { inView, animate } from 'motion'; // Use 'motion' or '@motionone/vue' as per your project
+import { ref, onMounted } from "vue";
+import { inView, animate } from "motion";
 
 defineProps({
   imageUrl: {
@@ -12,54 +11,89 @@ defineProps({
     type: String,
     required: true,
   },
-  description: {
-    type: String,
-    required: true,
-  },
 });
-
 
 const cardRef = ref(null);
 
 onMounted(() => {
+  // Check if we're on a larger screen (≥768px)
+  const isLargeScreen = window.innerWidth >= 768;
+
   if (cardRef.value) {
     inView(
       cardRef.value,
       (element) => {
-        animate(
-          element,
-          { opacity: [0, 1], x: [-100, 0] },
-          {
-            duration: 0.9,
-            easing: [0.17, 0.55, 0.55, 1],
-          }
-        );
+        // Different animation based on screen size
+        if (isLargeScreen) {
+          // Vertical animation for larger screens (bottom to top)
+          animate(
+            element,
+            { opacity: [0, 1], y: [100, 0] },
+            {
+              duration: 1,
+              easing: [0.17, 0.55, 0.55, 1],
+            },
+          );
+        } else {
+          // Horizontal animation for smaller screens
+          animate(
+            element,
+            { opacity: [0, 1], x: [-100, 0] },
+            {
+              duration: 0.9,
+              easing: [0.17, 0.55, 0.55, 1],
+            },
+          );
+        }
       },
       {
         amount: 0.5,
-        once: true
-      }
+        once: true,
+      },
     );
   }
+
+  // Add resize listener to update animations if window resizes
+  window.addEventListener("resize", updateAnimationDirection);
 });
+
+function updateAnimationDirection() {
+  if (cardRef.value) {
+    // Reset animation state if screen size changes
+    const isLargeScreen = window.innerWidth >= 768;
+    cardRef.value.style.transform = isLargeScreen
+      ? "translateY(100px)" // Changed from -100px to 100px
+      : "translateX(-100px)";
+  }
+}
 </script>
 
 <template>
-  <div ref="cardRef"
-    class="project-card drop-shadow-xl bg-thirdColor pb-8 border border-btnColor max-w-[400px] md:h-[520px] lg:max-w-[80%] lg:h-[600px]">
-    <div class="w-full h-64 bg-cover bg-center lg:h-[400px]" :style="{ backgroundImage: `url(${imageUrl})` }"></div>
-    <div class="space-y-4 px-2 mt-4">
-      <h1 class="font-semibold text-lg lg:h-6">{{ title }}</h1>
-      <p class="text-sm lg:h-15">{{ description }}</p>
-      <p class="text-btnColor font-semibold cursor-pointer hover:underline">Learn More</p>
+  <div
+    ref="cardRef"
+    class="project-card xs:max-w-[360px] w-full max-w-[300px] pb-8 drop-shadow-xl sm:max-w-[390px]"
+  >
+    <div
+      class="xs:h-[300px] mx-auto h-64 w-full rounded-lg bg-cover bg-center"
+      :style="{ backgroundImage: `url(${imageUrl})` }"
+    ></div>
+    <div class="mt-4 space-y-4 px-2 text-center">
+      <h1 class="text-lg font-semibold md:h-8">{{ title }}</h1>
     </div>
   </div>
 </template>
 
 <style scoped>
+/* Mobile screens - horizontal animation */
 .project-card {
-  /* Initial state - hidden and offset */
   opacity: 0;
   transform: translateX(-100px);
+}
+
+/* Desktop screens - vertical animation (bottom to top) */
+@media (min-width: 768px) {
+  .project-card {
+    transform: translateY(100px); /* Changed from -100px to 100px */
+  }
 }
 </style>
