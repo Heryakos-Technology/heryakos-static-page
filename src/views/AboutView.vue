@@ -113,9 +113,12 @@
         </div>
 </div>
 <div class="w-6/7">
-  <div class="sideCard mb-2 bg-purple-300 pt-5 mx-1   shadow-md mt-1 -ml-1 w-15/11 animated-card">
+  <div class="sideCard mb-2 bg-purple-300 pt-5 mx-1   shadow-md mt-26 -ml-1 w-15/11 animated-card">
           <div class="flex py-5 px-2 " @click="toggleAbout">
-            <div ><i class="fa-solid fa-caret-left"></i></div>
+            <div >
+              <i class="fa-solid fa-caret-down"  v-if="aboutShow"></i>
+              <i class="fa-solid fa-caret-left"  v-if="!aboutShow"></i>
+            </div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }">About Naos Yeshiwas</div>
@@ -127,7 +130,10 @@
           </div>
           <hr class="text-gray-300">
           <div class="flex py-5 px-2 mt-4" @click="toggleSkill">
-            <div><i class="fa-solid fa-caret-left" ></i></div>
+            <div>
+              <i class="fa-solid fa-caret-down" v-if="skillShow"></i>
+              <i class="fa-solid fa-caret-left"  v-if="!skillShow"></i>
+            </div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: skillShow ? 'red' : 'black' }">Skills</div>
@@ -145,7 +151,10 @@
           </div>
           <hr class="text-gray-300">
           <div class="flex py-5 px-2 mt-4" @click="toggleAim">
-            <div ><i class="fa-solid fa-caret-left"></i></div>
+            <div >
+              <i class="fa-solid fa-caret-down" v-if="aimShow"></i>
+              <i class="fa-solid fa-caret-left" v-if="!aimShow"></i>
+            </div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aimShow ? 'red' : 'black' }">Aim</div>
@@ -159,7 +168,7 @@
 </div>
 </div>
 </div>
-<div class="hidden lg:block  bg-purple-200 shadow-md w-1/2 mx-auto">
+<div class="hidden lg:block mt-60 w-1/2 mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
 
@@ -245,7 +254,7 @@
     </div>
 <!--end of large-->
     <h1 class="text-center md:hidden lg:hidden" >Our Teams</h1>
-    <div class="lg:hidden md:hidden  bg-purple-200 shadow-md md:w-3/4 md:mx-auto">
+    <div class="lg:hidden md:hidden   md:w-3/4 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="smbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
@@ -328,7 +337,7 @@
       </div>
     </div>
 <!--middiwm-->
-<div class="lg:hidden  bg-purple-200 shadow-md md:w-2/3 md:mx-auto">
+<div class="lg:hiddeen  md:w-2/3 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="mdbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
@@ -458,7 +467,7 @@ const cardobserver = new IntersectionObserver((entries) => {
           
             transform: 'translateY(-1px)',
           }, {
-            duration: 1.3,
+            duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
             
             direction: 'alternate',
@@ -484,7 +493,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(185px)',
+            transform: 'translateX(10)',
           }, {
             duration: 1.3,
             easing: [0.17, 0.55, 0.55, 1],
@@ -495,7 +504,7 @@ const observer = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('visible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(-75px)';
         }
       });
     }, {
@@ -510,7 +519,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(260px)',
+            transform: 'translateX(10px)',
           }, {
             duration: 1.3,
             easing: [0.17, 0.55, 0.55, 1],
@@ -521,7 +530,7 @@ const observer = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('mdvisible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(-175px)';
         }
       });
     }, {
@@ -538,9 +547,9 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(375px)',
+            transform: 'translateX(10px)',
           }, {
-            duration: 1.3,
+            duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
             
             direction: 'alternate',
@@ -549,7 +558,7 @@ const observer = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('lgvisible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(-275px)';
         }
       });
     }, {
@@ -562,7 +571,7 @@ const observer = new IntersectionObserver((entries) => {
           entry.target.classList.add('visible');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-180px)',
+            transform: 'translateX(10px)',
           }, {
             duration: 1.1,
             easing: [0.17, 0.55, 0.55, 1],
@@ -570,9 +579,9 @@ const observer = new IntersectionObserver((entries) => {
           });
         } else {
           
-          entry.target.classList.remove('visible2');
+          entry.target.classList.remove('visible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(75px)';
         }
       });
     }, {
@@ -585,9 +594,9 @@ const mdobserver2 = new IntersectionObserver((entries) => {
           entry.target.classList.add('mdvisible');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-230px)',
+            transform: 'translateX(10px)',
           }, {
-            duration: 1.1,
+            duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
             direction: 'alternate',
           });
@@ -595,7 +604,7 @@ const mdobserver2 = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('mdvisible2');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(175px)';
         }
       });
     }, {
@@ -608,9 +617,9 @@ const lgobserver2 = new IntersectionObserver((entries) => {
           entry.target.classList.add('lgvisible2');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-375px)',
+            transform: 'translateX(10px)',
           }, {
-            duration: 1.1,
+            duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
             direction: 'alternate',
           });
@@ -618,7 +627,7 @@ const lgobserver2 = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('lgvisible2');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(0px)';
+          entry.target.style.transform = 'translateX(275px)';
         }
       });
     }, {
