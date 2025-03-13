@@ -67,7 +67,7 @@ onUnmounted(() => {
     <div
       class="fixed top-0 left-0 z-50 flex w-full items-center justify-between bg-transparent px-4 py-4 md:hidden"
     >
-      <HeryakosLogo class="w-12" />
+      <HeryakosLogo class="w-[90px]" />
       <div @click="handleSidebarOpen" class="size-5 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
           <path
@@ -103,7 +103,7 @@ onUnmounted(() => {
     <div
       class="mx-auto my-auto hidden h-full w-[90%] max-w-[900px] cursor-pointer items-center justify-between rounded-4xl bg-white px-3 py-2 md:flex lg:w-[80%]"
     >
-      <HeryakosLogo class="w-16" />
+      <HeryakosLogo class="ml-4 w-[80px]" />
       <ul class="flex gap-x-4 text-lg lg:gap-x-10">
         <RouterLink
           v-for="(item, index) in navLinks"
