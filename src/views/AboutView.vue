@@ -52,7 +52,10 @@
       </div>
       <div class="w-11/11 mb-2 bg-purple-200 pt-5 mx-1 mr-7  shadow-md">
           <div class="flex pb-2 px-2 ">
-            <div @click="toggleAbout"><i class="fa-solid fa-caret-left"></i></div>
+            <div @click="toggleAbout">
+              <i class="fa-solid fa-caret-down"  v-if="aboutShow"></i>
+              <i class="fa-solid fa-caret-left"  v-if="!aboutShow"></i>
+            </div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold">About Naos Yeshiwas</div>
@@ -63,7 +66,11 @@
           </div>
           <hr class="text-gray-400">
           <div class="flex pb-2 px-2 mt-4">
-            <div><i class="fa-solid fa-caret-left" @click="toggleSkill"></i></div>
+            <div @click="toggleSkill">
+              <i class="fa-solid fa-caret-down"  v-if="skillShow"></i>
+              <i class="fa-solid fa-caret-left"  v-if="!skillShow">
+
+              </i></div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold">Skills</div>
@@ -80,7 +87,10 @@
           </div>
           <hr class="text-gray-400">
           <div class="flex pb-2 px-2 mt-4">
-            <div @click="toggleAim"><i class="fa-solid fa-caret-left"></i></div>
+            <div @click="toggleAim">
+              <i class="fa-solid fa-caret-down"  v-if="aimShow"></i>
+              <i class="fa-solid fa-caret-left" v-if="!aimShow"></i>
+            </div>
             <div>
 
               <div class="ml-2 text-sm mx-auto font-semibold">Aim</div>
@@ -169,6 +179,7 @@
 </div>
 </div>
 <div class="hidden lg:block mt-60 w-1/2 mx-auto">
+  <h1 class="text-center text-2xl font-bold " >Our Teams</h1>
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
 
@@ -180,7 +191,7 @@
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center mt-4">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -192,7 +203,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1  class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -206,7 +217,7 @@
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center mt-4">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -218,7 +229,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1  class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -232,7 +243,7 @@
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center mt-4">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -244,7 +255,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
               <h1  class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -264,7 +275,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -276,7 +287,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -290,7 +301,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -302,7 +313,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -316,7 +327,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -328,7 +339,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -337,7 +348,7 @@
       </div>
     </div>
 <!--middiwm-->
-<div class="lg:hidden  md:w-2/3 md:mx-auto">
+<div class="hidden md:block lg:hidden  md:w-2/3 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="mdbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
@@ -347,7 +358,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -359,7 +370,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -373,19 +384,19 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
           </div>
-          <div class="mdbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="mdbox1 flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -399,7 +410,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -411,7 +422,7 @@
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Marketing Direct</h1>
               <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 rounded-full bg-white flex items-center justify-center">
+              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
             </div>
@@ -493,9 +504,9 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(10)',
+            transform: 'translateX(0)',
           }, {
-            duration: 1.3,
+            duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
             
             direction: 'alternate',
@@ -504,7 +515,7 @@ const observer = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('visible');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(-75px)';
+          entry.target.style.transform = 'translateX(-30px)';
         }
       });
     }, {
@@ -549,7 +560,7 @@ const observer = new IntersectionObserver((entries) => {
           
             transform: 'translateX(10px)',
           }, {
-            duration: 1.6,
+            duration: 1.8,
             easing: [0.17, 0.55, 0.55, 1],
             
             direction: 'alternate',
@@ -568,7 +579,7 @@ const observer = new IntersectionObserver((entries) => {
     const observer2 = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
+          entry.target.classList.add('visible2');
           animate(entry.target, {
             opacity: 1,
             transform: 'translateX(10px)',
@@ -579,7 +590,7 @@ const observer = new IntersectionObserver((entries) => {
           });
         } else {
           
-          entry.target.classList.remove('visible');
+          entry.target.classList.remove('visible2');
           entry.target.style.opacity = 0;
           entry.target.style.transform = 'translateX(75px)';
         }
@@ -591,7 +602,7 @@ const observer = new IntersectionObserver((entries) => {
 const mdobserver2 = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('mdvisible');
+          entry.target.classList.add('mdvisible2');
           animate(entry.target, {
             opacity: 1,
             transform: 'translateX(10px)',
@@ -619,7 +630,7 @@ const lgobserver2 = new IntersectionObserver((entries) => {
             opacity: 1,
             transform: 'translateX(10px)',
           }, {
-            duration: 1.6,
+            duration: 1.8,
             easing: [0.17, 0.55, 0.55, 1],
             direction: 'alternate',
           });
