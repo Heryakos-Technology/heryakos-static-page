@@ -151,7 +151,7 @@
                             class="font-bold text-sm ml-3 mr-3">. </span> Healthcare</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Innovations like AI and telemedicine are reshaping healthcare.
                         By blending cutting-edge technology with heartfelt care, we can ensure that every patient_</p>
-                    <div class="ml-8 cursor-pointer" @click="showContent">
+                    <div class="ml-8 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             Outcomes but also fosters a more efficient healthcare system that can adapt to the evolving
                             needs of society.
@@ -171,7 +171,7 @@
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the_</p>
-                    <div class=" ml-12 cursor-pointer" @click="showContent">
+                    <div class=" ml-12 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
                             across various platforms.
@@ -194,7 +194,7 @@
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">August 2, 2024 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. These  _</p>
-                    <div class=" ml-10 cursor-pointer" @click="showContent">
+                    <div class=" ml-10 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             intuitive user interfaces, developers are crafting seamless experiences that engage users
                             across various platforms.
@@ -224,7 +224,7 @@
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">january 30, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Technology</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to_</p>
-                    <div class=" ml-12 cursor-pointer" @click="showContent">
+                    <div class=" ml-12 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             providing businesses with scalable solutions that adapt to ever-changing demands. Companies
                             can now access powerful tools and resources from anywhere.
@@ -245,7 +245,7 @@
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital_</p>
-                    <div class=" ml-12 cursor-pointer" @click="showContent">
+                    <div class=" ml-12 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
                             allow businesses to streamline processes and reach wider audiences.
@@ -267,7 +267,7 @@
                     <p class="h-5 w-64 mx-auto text-sm mt-2 font-semibold">march 2, 2025 <span
                             class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
                     <p class="h-20 w-64 mx-auto ml-6 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can_</p>
-                    <div class=" ml-12 cursor-pointer" @click="showContent">
+                    <div class=" ml-12 cursor-pointer h-20" @click="showContent">
                         <div v-if="readmore">
                             e-commerce solutions, cloud-based project management tools, and digital marketing platforms
                             allow businesses to streamline processes and reach wider audiences.
@@ -362,8 +362,9 @@
     </div>
 <!-- end of section -->
 
-</template><script>
-import { ref, onMounted, onBeforeUnmount } from 'vue';
+</template>
+
+<script>import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 export default {
     setup() {
@@ -376,29 +377,28 @@ export default {
         };
 
         const handleIntersect = (entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible'); // Add 'visible' class when in view
-        } else {
-            entry.target.classList.remove('visible'); // Remove 'visible' class when out of view
-        }
-    });
-};
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        };
 
         onMounted(() => {
             observer.value = new IntersectionObserver(handleIntersect);
-            cards.value = document.querySelectorAll('.last-three, .card');
+            cards.value = document.querySelectorAll('.card');
 
+            // Initially set all cards to visible on mount
+            cards.value.forEach(card => {
+                card.classList.add('visible');
+            });
+
+            // Observe each card for scroll events
             cards.value.forEach(card => {
                 observer.value.observe(card);
             });
-
-            // Initial visibility for cards
-            setTimeout(() => {
-                cards.value.forEach(card => {
-                    card.classList.add('visible');
-                });
-            }, 200);
         });
 
         onBeforeUnmount(() => {
