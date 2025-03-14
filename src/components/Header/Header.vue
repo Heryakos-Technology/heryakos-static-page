@@ -103,7 +103,7 @@ onUnmounted(() => {
     <div
       class="mx-auto my-auto hidden h-full w-[90%] max-w-[900px] cursor-pointer items-center justify-between rounded-4xl bg-white px-3 py-2 md:flex lg:w-[80%]"
     >
-      <HeryakosLogo class="ml-4 w-[150px]" />
+      <HeryakosLogo class="ml-4 w-[170px]" />
       <ul class="flex gap-x-4 text-lg lg:gap-x-10">
         <RouterLink
           v-for="(item, index) in navLinks"
