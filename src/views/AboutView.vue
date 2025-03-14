@@ -183,7 +183,7 @@
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
 
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2  mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
 
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/businessman3.webp" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
@@ -210,7 +210,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/PedroFemale.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -236,7 +236,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/bisinessman4.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -268,7 +268,7 @@
     <div class="lg:hidden md:hidden   md:w-3/4 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="smbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -294,7 +294,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
-          <div class="smbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
               <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -320,7 +320,7 @@
           </div>
         </div>
         <div class="flex mb-10 mx-2">
-          <div class="smbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
               <img src="/MariaFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -351,7 +351,7 @@
 <div class="hidden md:block lg:hidden  md:w-2/3 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="mdbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -377,7 +377,7 @@
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
-          <div class="mdbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
               <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -389,7 +389,7 @@
               </div>
             </div>
           </div>
-          <div class="mdbox1 flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="mdbox1 flex bg-purple-400 text-white  text-xs rounded-md animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -403,7 +403,7 @@
           </div>
         </div>
         <div class="flex mb-10 mx-2">
-          <div class="mdbox flex bg-purple-400 text-white mr-2 text-xs rounded-md animated-card">
+          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
               <img src="/MariaFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
