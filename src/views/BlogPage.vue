@@ -3,7 +3,7 @@
         <img src="/light-bulb-of-blog-page.png" alt=""
             class=" mt-5 md:w-1/2 md:ml-88 relative lg:w-2/3 lg:ml-auto lg:mr-0 lg:flex lg:justify-end lg:mt-10 lg:p-28 animated-image">
         <div class="lg:-mt-40 lg:ml-36 animated-text">
-            <div class="w-11/12 h-44 md:ml-10  md:w-4/9 md:-mt-72 md:h-64   bg-white absolute -mt-14 lg:w-2/5 lg:h-88 lg:-mt-96">
+            <div class="w-11/12 h-44 md:ml-10  md:w-4/9 md:-mt-72 md:h-64    bg-white absolute -mt-14 lg:w-2/5 lg:h-88 lg:-mt-96">
                 <p class="text-sm  pt-5 pl-5 pr-4 md:text-lg md:w-11/12 md:ml-10 lg:text-xl lg:w-11/12 lg:mx-auto lg:mt-6">
                     <span class="text-purple-700 font-bold">Welcome to our blog,</span> where insights and inspiration
                     converge. Explore a curated collection of articles that delve into diverse topics, from industry
@@ -151,7 +151,7 @@
         <img src="/cardfirst-blog.png" alt="" class="rounded-lg w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
         <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
             <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">The Future of Healthcare Technology Meets Compassion</p>
-            <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 30, 2024 <span class="font-bold text-sm ml-3 mr-3">. </span> Healthcare</p>
+            <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 30, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Healthcare</p>
             <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm lg:ml-4  md:w-11/12 md:ml-2">
                 Innovations like AI and telemedicine are reshaping healthcare. By blending cutting-edge technology with heartfelt care, we can ensure that every patient
                 <span v-if="readmore[0]" class="lg:text-md md:text-sm "> outcomes but also fosters a more efficient healthcare system that can adapt to the evolving needs of society.</span>
@@ -167,7 +167,7 @@
     <img src="/cardsecond-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Exploring Web & Mobile Development</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold ">August 2, 2024 <span class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
+        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold ">August 2, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Software</p>
         
         <p class=" w-64 mx-auto ml-6 mt-3  md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">
             Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the
@@ -186,7 +186,7 @@
     <img src="/smart-hotel-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-3 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Smart Hotels</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 2, 2024 <span class="font-bold text-sm ml-3 mr-3">. </span> Software</p>
+        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 2, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Software</p>
         <p class=" w-64 mx-auto ml-6 mt-3  md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">
             Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. 
             <span v-if="readmore[2]" class=" md:text-sm ">These intuitive user interfaces are helping developers craft seamless experiences that engage users across various platforms.</span>
@@ -209,7 +209,7 @@
     <img src="/cardthird-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Cloud Technology Revolutionizing Business in 2025</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">January 30, 2025 <span class="font-bold text-sm ml-3 mr-3">. </span> Technology</p>
+        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">January 30, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Technology</p>
         <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to 
             <span v-if="readmore[3]" class="lg:text-md md:text-sm "> scalable solutions that adapt to ever-changing demands. Companies can now access powerful tools and resources from anywhere.</span>
         </p>
@@ -224,7 +224,7 @@
     <img src="/cardfourth-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Enhancing Business Operations Through Online Platforms</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
+        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Business</p>
         <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital 
             <span v-if="readmore[4]" class="lg:text-md md:text-sm "> e-commerce solutions, cloud-based project management tools, and digital marketing platforms allow businesses to streamline processes and reach wider audiences.</span>
         </p>
@@ -239,7 +239,7 @@
     <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Preparing for Your Journey in the Digital Age</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-sm md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-3 mr-3">. </span> Business</p>
+        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Business</p>
         <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can 
             <span v-if="readmore[5]" class="lg:text-md md:text-sm "> access resources that enhance their travel experiences and streamline their itineraries.</span>
         </p>
