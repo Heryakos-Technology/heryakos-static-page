@@ -22,7 +22,7 @@ const redirectToTelegram = () => {
   <div class="max-w-full overflow-x-hidden bg-[#0C0819] p-4 px-4 text-white">
     <!-- Mobile Footers -->
     <div class="space-y-6 md:space-y-10 md:px-10 lg:hidden">
-      <HeryakosLogo class="my-4 ml-auto w-[140px]" />
+      <HeryakosLogo class="my-4 ml-auto w-[160px]" />
       <ul class="max uppercase sm:text-lg md:space-y-2">
         <li v-for="(item, index) in navLinks" :key="index" class="py-1">
           <RouterLink :to="{ name: item.name }">
@@ -108,7 +108,9 @@ const redirectToTelegram = () => {
     <!-- Desktop Footer -->
     <div class="hidden pt-5 pb-10 lg:block">
       <div class="flex justify-between xl:w-[75%]">
-        <HeryakosLogo class="fill-btnColor ml-10 w-[140px]" />
+        <HeryakosLogo
+          class="fill-btnColor ml-10 w-[200px] xl:mt-2 xl:w-[300px]"
+        />
         <div class="">
           <h1 class="font-bold xl:text-xl">Quick Links</h1>
           <ul class="xl:text mt-6 space-y-2 text-gray-300">
