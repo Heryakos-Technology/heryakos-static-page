@@ -122,14 +122,10 @@
 
     <!-- desktop -->
     <div class="hidden lg:block md:block">
-      <div class="md:mb-64 lg:ml-44 md:-ml-96 max-w-screen">
-        <div class="lg:ml-24 md:-ml-40">
-          <img class="pt-32 md:w-96  ml-88  relative text-purple-300 animated-image intro-image"
-            src="/intro-service.jpg" alt="Service Landing Image">
-        </div>
-
-        <div class="-mt-10 ml-28">
-          <div class="w-2/6 -ml- h-96 -mt-96 bg-white absolute animated-text">
+      <div class="landing">
+        <div class="lg:ml-64">
+          <img src="/intro-service.jpg" alt="" class="lg:ml-96 md:ml-68 md:w-3/5  pt-32 lg:h-[550px]">
+            <div class="lg:w-2/6 md:ml-10 lg:ml-8 md:h-68 md:-mt-72  md:w-2/5 lg:h-88 lg:mb-10 lg:-mt-96 bg-white absolute animated-text">
             <div class="mt-10 mb-4">
               <p
                 class="lg:text-3xl text-center text-md md:mt-4 pt-2 font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
@@ -137,7 +133,7 @@
               </p>
             </div>
             <div class="w-11/12 mx-auto ">
-              <p class="ml-8 p-2 lg:text-2xl font-semi-bold text-black md:text-sm">We offer cutting-edge technology
+              <p class="ml-8 p-2 lg:text-xl font-semi-bold text-black md:text-sm">We offer cutting-edge technology
                 solutions designed to accelerate your business growth. From stunning web experiences to powerful mobile
                 applications and future-ready blockchain solutions, we provide end-to-end services tailored to your
                 unique needs.</p>
@@ -146,92 +142,92 @@
         </div>
       </div>
 
-      <div class="flex lg:px-20 md:px-4 -mt-60">
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:mr-2 lg:mr-10 rounded-lg  mx-auto mt-8  mb-10   hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
-            src="/staticweb-service.jpg" alt="Static Website Development" class="mx-auto w-full mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Static Website Development</h2>
-          <p class="text-lg text-center font-serif animated-text mt-12 w-96 mx-auto">
+      <div class="flex lg:px-24 px-10 lg:ml-4 md:ml-0">
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px]  to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3   md:mr-6 lg:mr-10 rounded-lg  mx-auto mt-8  mb-10   hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
+            src="/staticweb-service.jpg" alt="Static Website Development" class="mx-auto w-full mb-6 animated-image md:h-1/2   lg:h-[300px]">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22   md:-mt-4 md:text-md  font-normal mb-4 text-center animated-text">Static Website Development</h2>
+          <p class="lg:text-[17px] lg:text-center lg:w-11/12 font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4  md:text-center md:w-11/12 animated-text mt-12 w-96 mx-auto">
             <span class="text-blue-500">🌐</span> "Beautifully Crafted Websites That Speak for Your Brand"
           </p>
-          <p class="mt-4 w-4/5 mx-auto text-center pb- animated-text">
+          <p class="lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 text-center pb- animated-text">
             We design fast, secure, visually stunning static websites ideal for portfolios, landing pages, and
             informational platforms. Our static websites ensure top performance with minimal maintenance.
           </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2 rounded-lg  mx-auto mt-8 mb-10   hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3  lg:mr-5 md:mr-2 rounded-lg  mx-auto mt-8 mb-10   hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
             src="/secondservice-service.png" alt="Mobile Application Development"
-            class="mx-auto w-full mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal mb-4 w-full mx-auto text-center animated-text">Mobile Application
+            class="mx-auto w-full mb-6 animated-image lg:h-[300px] md:h-1/2 ">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22  md:-mt-4 md:text-md  font-normal mb-4 w-full mx-auto text-center animated-text">Mobile Application
             Development (Android & iOS)</h2>
-          <p class="text-lg text-center font-serif mb-2 animated-text w-96 mx-auto">
+          <p class="lg:text-[17px] lg:text-center lg:w-11/12 font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4 md:text-center md:w-11/12 mb-2 animated-text w-96 mx-auto">
             <span class="text-blue-500">📱</span> "Seamless Mobile Experiences at Your Fingertips"
           </p>
-          <p class="mb-4 w-4/5 mx-auto mt-3 pb-6 text-center animated-text">
+          <p class="mb-4 lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 pb-6 text-center animated-text">
             Reach a wider audience with intuitive and responsive mobile applications. We specialize in building
             high-performance Android and iOS apps with offline capabilities and real-time data sync for maximum user
             engagement.
           </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 md:ml-4 lg:ml-5 rounded-lg  mx-auto mt-8 lg:mb-1    hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
-            src="/second-service.png" alt="Technology Consultancy" class="mx-auto w-full h-1/2 mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal  text-center animated-text">Technology Consultancy</h2>
-          <p class="text-lg text-center font-serif mb-2 mt-12 animated-text w-96 mx-auto">
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3  md:ml-4 lg:ml-5 rounded-lg  mx-auto mt-8 lg:mb-1    hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
+            src="/second-service.png" alt="Technology Consultancy" class="mx-auto w-full h-1/2 mb-6 animated-image lg:h-[300px] md:h-1/2  ">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22  md:-mt-4 md:text-md  font-normal mb-4 text-center animated-text">Technology Consultancy</h2>
+          <p class="lg:text-[17px] lg:text-center lg:w-11/12 font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4 md:text-center md:w-11/12 mb-2 mt-12 animated-text w-96 mx-auto">
             <span class="text-blue-500">🔍</span> "Empowering Ideas with the Right Technology"
           </p>
-          <p class="mb-4 w-4/5 mx-auto mt-4 pb-3 text-center animated-text">
+          <p class="mb-4 lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 pb-3 text-center animated-text">
             We provide expert guidance to help you choose the right technologies and strategies for your business. From
             project planning to tech stack selection, we ensure you make informed decisions that lead to success.
           </p>
         </div>
       </div>
-
-      <div class="flex lg:px-16 md:px-4 -mt-8">
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5  md:ml-4  rounded-lg  mx-auto mt-8 mb-10  hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
-            src="/dynamicweb-service.jpg" alt="Dynamic Website Development" class="mx-auto w-full mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Dynamic Website Development</h2>
-          <p class="text-lg text-center font-serif mb-2 animated-text">
+<!-- ////// -->
+      <div class="flex lg:px-20 md:px-10 md:-ml-8 -mt-10">
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3  lg:mr-5  md:ml-4 md:mr-2  rounded-lg  mx-auto mt-8 mb-10  hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
+            src="/dynamicweb-service.jpg" alt="Dynamic Website Development" class="mx-auto w-full mb-6 animated-image lg:h-[300px] md:h-1/2 ">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22  md:-mt-4 md:text-md  font-normal mb-4 text-center animated-text">Dynamic Website Development</h2>
+          <p class="lg:text-[17px] lg:text-center lg:w-4/5 lg:mx-auto font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4 md:text-center md:w-11/12 mb-2 animated-text">
             <span class="text-blue-500">⚡</span> "Interactive Web Solutions That Engage and Convert"
           </p>
-          <p class="mb-4 w-4/5 mx-auto text-center animated-text">
+          <p class="mb-4 lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 pb-12  text-center animated-text">
             Transform your online presence with feature-rich, dynamic websites that adapt to user interactions. We build
             scalable platforms with powerful backends tailored for e-commerce, blogs, and web applications.
           </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-10 md:ml-4 rounded-lg mx-auto mt-8 mb-10  hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3 md:mr-6 lg:mr-10 md:ml-4 rounded-lg mx-auto mt-8 mb-10  hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
             src="/cloudcoumputing-service.jpg" alt="Cloud Computing Solutions"
-            class="mx-auto w-full mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Cloud Computing Solutions</h2>
-          <p class="text-lg text-center font-serif mb-2 animated-text">
+            class="mx-auto w-full mb-6 animated-image lg:h-[300px] md:h-1/2 ">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22  md:-mt-4 md:text-md  font-normal mb-4 text-center animated-text">Cloud Computing Solutions</h2>
+          <p class="lg:text-[17px] lg:text-center lg:w-4/5 lg:mx-auto font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4 md:text-center md:w-11/12 mb-2 animated-text">
             <span class="text-gray-500">☁ </span> "Scalable, Secure, and Reliable Cloud Solutions"
           </p>
-          <p class="w-4/5 mx-auto mt-10 pb-12 text-center animated-text">
+          <p class="lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 pb-12 text-center animated-text">
             Optimize your business operations with our cloud computing services. We offer cloud integration, migration,
             and management solutions that ensure scalability, data security, and high availability.
           </p>
         </div>
 
-        <div style="border-top-left-radius: 130px; height: 650px;"
-          class="bg-gradient-to-b from-[#eeecf1] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/2 lg:mr-5 md:mr-2 rounded-lg mx-auto mt-8 mb-10  hover-card">
-          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; height: 300px;"
-            src="/fifth-service.png" alt="Blockchain Integration" class="mx-auto w-full mb-6 animated-image">
-          <h2 class="text-2xl md:text-3xl font-normal mb-4 text-center animated-text">Blockchain Integration</h2>
-          <p class="text-lg text-center font-serif mb-2 animated-text">
+        <div style="border-top-left-radius: 130px; "
+          class="bg-gradient-to-b from-[#eeecf1] lg:h-[630px] md:h-[500px] to-[#d09aff90] shadow-lg lg:w-1/3 md:w-1/3  lg:mr-5 md:mr-2 rounded-lg mx-auto mt-8 mb-10  hover-card">
+          <img style="border-top-left-radius: 130px; border-bottom-right-radius: 130px; "
+            src="/fifth-service.png" alt="Blockchain Integration" class="mx-auto w-full mb-6 animated-image lg:h-[300px] md:h-1/2 ">
+          <h2 class="lg:text-[20px] md:h-8 lg:h-22  md:-mt-4 md:text-md  font-normal mb-4 text-center animated-text">Blockchain Integration</h2>
+          <p class="lg:text-[17px] lg:text-center lg:w-4/5 lg:mx-auto font-serif md:text-xs md:h-8 lg:h-12 md:mt-6 lg:-mt-4 md:text-center md:w-11/12 mb-2 animated-text">
             <span class="text-blue-500">🔗 </span> "Future-Proof Your Business with Blockchain"
           </p>
-          <p class="mb-4 w-4/5 mx-auto mt-10 pb-8 text-center animated-text">
+          <p class="mb-4 lg:w-4/5 md:w-11/12 lg:text-[15px] lg:h-24 md:text-xs md:h-20 mx-auto mt-4 pb-8 text-center animated-text">
             Leverage the power of blockchain for secure transactions, smart contracts, and decentralized applications.
             We integrate blockchain solutions tailored to your business needs, ensuring transparency and trust.
           </p>
