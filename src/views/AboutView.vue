@@ -244,9 +244,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
               <h1 class="text-sm mt-3">Nahom Abrham</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <a href="http://www.linkedin.com/in/nahomrak">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
           <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
