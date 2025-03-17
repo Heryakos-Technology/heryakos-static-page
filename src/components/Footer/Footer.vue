@@ -36,6 +36,7 @@ const redirectToTelegram = () => {
         >
           <a
             class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
+            target="_blank"
             href="https://web.facebook.com/profile.php?id=61559444655752&locale=en_GB"
           >
             <svg
@@ -185,6 +186,7 @@ const redirectToTelegram = () => {
 
           <div class="mt-8 flex gap-x-8">
             <a
+              target="_blank"
               class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
               href="https://web.facebook.com/profile.php?id=61559444655752&locale=en_GB"
             >
