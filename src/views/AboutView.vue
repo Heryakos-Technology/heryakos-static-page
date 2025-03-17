@@ -34,7 +34,7 @@
       <h1 class="w-4/5 text-lg mx-auto font-semibold md:text-2xl">Meet The Founder And CEO <br> <span class="text-red-400">Yared </span>Solomon</h1>
       <div class="flex mx-4 mt-6 w-11/11 md:w-10/11 md:mx-auto">
         <div class="w-10/10 mx-auto">
-          <img src="/yared2.jpeg" alt="" class="w-5/6 lg:h-80 md:h-90 rounded-full  ml-3">
+          <img src="/yared2.jpeg" alt="" class="w-5/6 h-80 md:h-90 rounded-full  ml-3">
           <div class="flex w-1/3 mx-auto mt-3 md:w-1/3 md:mx-auto">
             <a href="">
 
@@ -336,7 +336,40 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
-          <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+     
+          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+            <div class="w-1/2 mx-auto">
+              <img src="/nahi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="smbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/2 flex items-center mx-auto">
+              <img src="/nati.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11">Back-end Developer</h1>
+              <h1>Natnael Abebe</h1>
+              <a href="https://linkedin.com/in/natnael-abebe-57a079295">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex mb-10 mx-2">
+           <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto">
               <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -351,8 +384,8 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </a>
             </div>
           </div>
-          <div class="smbox1 w-1/2 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
+          <div class="smbox1 w-1/2 flex  text-white rounded-md pr-2 text-xs animated-card">
+            <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
@@ -361,33 +394,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex mb-10 mx-2">
-          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto">
-              <img src="/MariaFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
-          </div>
-          <div class="smbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -429,7 +436,40 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
+  
           <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/2 mx-auto">
+              <img src="/nahi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mdbox1 flex w-1/2 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/3 flex items-center mx-auto">
+              <img src="/nati.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11">Back-end Developer</h1>
+              <h1>Natnael Abebe</h1>
+              <a href="https://linkedin.com/in/natnael-abebe-57a079295">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex mb-10 mx-2">
+        <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto">
               <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -444,8 +484,8 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </a>
             </div>
           </div>
-          <div class="mdbox1 w-1/2 flex bg-purple-400 text-white  text-xs rounded-md animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
+          <div class="mdbox1 w-1/2 flex text-white  text-xs rounded-md animated-card">
+            <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
@@ -454,33 +494,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex mb-10 mx-2">
-          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto">
-              <img src="/MariaFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
-          </div>
-          <div class="mdbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
