@@ -205,21 +205,7 @@
     </div>
 </div>
 
-<!-- <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto mt-20 pb-2 h-fit mb-10 card left-entry" ref="card">
-    <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Preparing for Your Journey in the Digital Age</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Business</p>
-        <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Digital travel revolutionizes journey planning by using technology for booking, navigation, and local insights. By leveraging apps, travelers can 
-            <span v-if="readmore[5]" class="lg:text-md md:text-sm "> access resources that enhance their travel experiences and streamline their itineraries.</span>
-        </p>
-        <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 lg:ml-4" @click="showContent6">
 
-                <p class="text-purple-600 lg:text md:text-md">{{ readmore[5] ? 'Read less' : 'Read more' }}</p>
-                <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
-        </div>
-    </div>
-</div> -->
 
         </div>
     </div>
