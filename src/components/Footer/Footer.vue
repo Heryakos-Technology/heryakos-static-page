@@ -57,6 +57,8 @@ const redirectToTelegram = () => {
         <div
           class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
         >
+        <a href="https://www.linkedin.com/company/heryakos-technology/">
+
           <svg
             width="18"
             height="18"
@@ -70,6 +72,7 @@ const redirectToTelegram = () => {
               fill-opacity="0.8"
             />
           </svg>
+        </a>
         </div>
         <div
           class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
@@ -208,6 +211,8 @@ const redirectToTelegram = () => {
             <div
               class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
             >
+            <a href="https://www.linkedin.com/company/heryakos-technology/">
+
               <svg
                 width="18"
                 height="18"
@@ -221,6 +226,7 @@ const redirectToTelegram = () => {
                   fill-opacity="0.8"
                 />
               </svg>
+            </a>
             </div>
             <div
               class="flex size-10 items-center justify-center rounded-full border border-white md:size-12"
