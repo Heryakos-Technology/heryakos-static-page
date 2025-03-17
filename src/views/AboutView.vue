@@ -34,7 +34,7 @@
       <h1 class="w-4/5 text-lg mx-auto font-semibold md:text-2xl">Meet The Founder And CEO <br> <span class="text-red-400">Yared </span>Solomon</h1>
       <div class="flex mx-4 mt-6 w-11/11 md:w-10/11 md:mx-auto">
         <div class="w-10/10 mx-auto">
-          <img src="/yared.jpeg" alt="" class="w-5/6 lg:h-80 md:h-90 rounded-full  ml-3">
+          <img src="/yared2.jpeg" alt="" class="w-5/6 lg:h-80 md:h-90 rounded-full  ml-3">
           <div class="flex w-1/3 mx-auto mt-3 md:w-1/3 md:mx-auto">
             <a href="">
 
