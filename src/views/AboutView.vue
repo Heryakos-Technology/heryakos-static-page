@@ -31,22 +31,31 @@
       
     </div>
     <div class="lg:hidden  w-11/11 md:w-7/11 md:mx-auto md:-mt-36">
-      <h1 class="w-4/5 text-lg mx-auto font-semibold md:text-2xl">Meet The Founder And CEO <br> <span class="text-red-400">Naod </span>Yeshiwas</h1>
+      <h1 class="w-4/5 text-lg mx-auto font-semibold md:text-2xl">Meet The Founder And CEO <br> <span class="text-red-400">Yared </span>Solomon</h1>
       <div class="flex mx-4 mt-6 w-11/11 md:w-10/11 md:mx-auto">
         <div class="w-10/10 mx-auto">
-          <img src="/singleman.png" alt="" class="rounded-full w-4/5 ml-3">
+          <img src="/yared2.jpeg" alt="" class="w-5/6 lg:h-80 md:h-90 rounded-full  ml-3">
           <div class="flex w-1/3 mx-auto mt-3 md:w-1/3 md:mx-auto">
-            <div class="mr-3 w-8 h-8 rounded-full bg-red-400 flex items-center justify-center">
-              <i class="fa-brands fa-instagram text-white text-sm"></i>
-            </div>
-            <div class="mr-3 w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center">
-              <i class="fa-brands fa-linkedin text-white text-sm"></i>
-            </div>
-          </div>
-          <div class="w-2/3 mx-auto md:w-1/2 md:mx-auto md:mt-3 " >
+            <a href="">
 
-            <button class="mt-2 bg-purple-500 text-white px-10 rounded-full   mb-3 text-xs py-2">Follow on LinkedIn</button>
+              <div class="mr-3 w-8 h-8 rounded-full bg-red-400 flex items-center justify-center">
+                <i class="fa-brands fa-instagram text-white text-sm"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+              <div class="mr-3 w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center">
+                <i class="fa-brands fa-linkedin text-white text-sm"></i>
+              </div>
+            </a>
           </div>
+          <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+            <div class="w-2/3 mx-auto md:w-1/2 md:mx-auto md:mt-3 " >
+  
+              <button class="mt-2 bg-purple-500 text-white px-10 rounded-full   mb-3 text-xs py-2 cursor-pointer">Follow on LinkedIn</button>
+            </div>
+          </a>
         </div>
 
       </div>
@@ -58,9 +67,11 @@
             </div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">About Naos Yeshiwas</div>
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }"> About Yared Solomon</div>
               <div v-if="aboutShow" class="w-5/6 mx-auto mt-5"> 
-                Naod Yeshiwas is the CEO of Yegna Developers, which is the best website design company in ethiopia that specializes in website design, SEO, digital marketing, software development, mobile app and paid ads. Naod is a highly skilled professional with years of experience in the industry. He is a talented software developer, with a strong background in building and managing software projects. In addition to his technical skills, Naod is also an experienced project manager, with a track record of successfully delivering projects on time and within budget. Whether it’s developing a custom software solution, designing a user-friendly mobile app, or creating a visually stunning website, Naod and his team at Yegna Developers have the skills and expertise to bring any project to life.
+                As the CEO of Heryakos Technology I bring a unique blend of leadership, technical expertise, and project management skills to drive innovation and success. With over five years of experience as a Fullstack Engineer, I have worked extensively with Flutter, ASP.NET Core, Python, AWS, and Golang, leading the development of scalable and efficient solutions.
+
+My strong foundation in data structures and algorithms enhances my problem-solving abilities, allowing me to tackle complex challenges with precision. Beyond coding, I excel in project management, ensuring seamless execution of initiatives while fostering collaboration within teams. I am passionate about leveraging technology to create impactful solutions and driving my company toward new heights in the ever-evolving digital landscape.
               </div>
             </div>
           </div>
@@ -73,14 +84,13 @@
               </i></div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">Skills</div>
-              <div v-if="skillShow" class="w-5/6 mx-auto mt-5">
-<ul>
-  <li>Professional software developers</li>
-  <li>Mobile application developer</li>
-  <li>Website designer</li>
-  <li>Project Manager</li>
-  <li>Motion and visual graphics designer</li>
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: skillShow ? 'red' : 'black' }">Skills</div>
+              <div v-if="skillShow" class="w-10/10 mx-auto mt-5 ml-3">
+<ul class="list-disc">
+  <li>Project Managment </li>
+  <li> Fullstack Development,</li>
+  <li>Technical Team lead</li>
+
 </ul>
               </div>
             </div>
@@ -93,9 +103,9 @@
             </div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold">Aim</div>
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aimShow ? 'red' : 'black' }">Aim</div>
               <div v-if="aimShow" class="w-5/6 mx-auto mt-5">
-                As the CEO of Yegna Developers, Naod Yeshiwas’s aim is to provide his clients with high-quality digital marketing, software development, mobile app development, and website design services. He is dedicated to delivering projects that meet the specific needs and requirements of his clients, and is committed to using his technical expertise and project management skills to ensure that each project is a success. In addition to delivering exceptional results for his clients, Naod also strives to create a positive and collaborative work environment for his team at Yegna Developers, helping them to grow and develop as professionals. Overall, Naod’s aim is to be a leading provider of software development, mobile app development, and website design services, and to build a reputation for delivering exceptional results for his clients.
+                My vision is to build an extraordinary and impactful company that tackles diverse enterprise challenges in the technology sector. I am committed to advancing Ethiopia in the field of AI, positioning it as a competitive player on the global stage. Additionally, I strive to create a company that empowers university students, equipping them with the skills and knowledge necessary to thrive in the job market. Through innovation, mentorship, and strategic problem-solving, my goal is to drive meaningful change and shape the future of technology in Ethiopia and beyond.
               </div>
             </div>
           </div>
@@ -105,21 +115,30 @@
 <div class="hidden lg:block w-1/2 -mt-40 mx-auto">
 <div class="flex w-10/10 mx-auto">
 <div class="w-6/7 mx-auto">
-  <h1 class="w-10/10 text-lg mx-auto font-semibold md:text-2xl mb-3">Meet The Founder And CEO <br> <span class="text-red-400">Naod </span>Yeshiwas</h1>
-  <div class=" w-11/10 mx-auto">
-          <img src="/singleman.png" alt="" class="rounded-full w-3/4 ">
-          <div class="flex w-1/2 mx-auto mt-3 ">
-            <div class="mr-3 w-8 h-8 rounded-full bg-red-400 flex items-center justify-center">
-              <i class="fa-brands fa-instagram text-white text-sm"></i>
-            </div>
-            <div class="mr-3 w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center">
-              <i class="fa-brands fa-linkedin text-white text-sm"></i>
-            </div>
-          </div>
-          <div class=" mx-auto w-3/4 md:mx-auto md:mt-3 " >
+  <h1 class="w-10/10 text-lg mx-auto font-semibold md:text-2xl mb-3">Meet The Founder And CEO <br> <span class="text-red-400">Yared</span> Solomon</h1>
+  <div class=" w-11/10 mx-auto -ml-4">
+          <img src="/yared2.jpeg" alt="" class="rounded-full w-6/7 h-82 ">
+          <div class="flex w-1/3 mx-auto mt-3 ">
+            <a href="">
 
-            <button class="mt-2 bg-purple-500 text-white px-10 rounded-full   mb-3 text-xs py-2">Follow on LinkedIn</button>
+              <div class="mr-3 w-8 h-8 rounded-full bg-red-400 flex items-center justify-center">
+                <i class="fa-brands fa-instagram text-white text-sm"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+              <div class="mr-3 w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center">
+                <i class="fa-brands fa-linkedin text-white text-sm"></i>
+              </div>
+            </a>
           </div>
+          <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+            <div class=" w-2/4 ml-20 md:mt-3 " >
+  
+              <button class="mt-2  bg-purple-500 text-white px-10 rounded-full   mb-3 text-xs py-2 cursor-pointer">Follow on LinkedIn</button>
+            </div>
+          </a>
         </div>
 </div>
 <div class="w-6/7">
@@ -134,7 +153,9 @@
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }">About Naos Yeshiwas</div>
               <div v-if="aboutShow" class="w-7/8 mx-auto mt-5 text-sm">
                 <hr class="text-gray-400 mb-2 -ml-11 -mr-9"> 
-                Naod Yeshiwas is the CEO of Yegna Developers, which is the best website design company in ethiopia that specializes in website design, SEO, digital marketing, software development, mobile app and paid ads. Naod is a highly skilled professional with years of experience in the industry. He is a talented software developer, with a strong background in building and managing software projects. In addition to his technical skills, Naod is also an experienced project manager, with a track record of successfully delivering projects on time and within budget. Whether it’s developing a custom software solution, designing a user-friendly mobile app, or creating a visually stunning website, Naod and his team at Yegna Developers have the skills and expertise to bring any project to life.
+                As the CEO of Heryakos Technology I bring a unique blend of leadership, technical expertise, and project management skills to drive innovation and success. With over five years of experience as a Fullstack Engineer, I have worked extensively with Flutter, ASP.NET Core, Python, AWS, and Golang, leading the development of scalable and efficient solutions.
+
+My strong foundation in data structures and algorithms enhances my problem-solving abilities, allowing me to tackle complex challenges with precision. Beyond coding, I excel in project management, ensuring seamless execution of initiatives while fostering collaboration within teams. I am passionate about leveraging technology to create impactful solutions and driving my company toward new heights in the ever-evolving digital landscape.
               </div>
             </div>
           </div>
@@ -150,11 +171,10 @@
               <div v-if="skillShow" class="w-7/8 text-sm mx-auto mt-5" >
 <ul class="list-disc">
   <hr class="text-gray-300 mb-2 -ml-7 -mr-61"> 
-  <li>Professional software developers</li>
-  <li>Mobile application developer</li>
-  <li>Website designer</li>
-  <li>Project Manager</li>
-  <li>Motion and visual graphics designer</li>
+  <li>Project Managment</li>
+  <li>Fullstack Development</li>
+  <li>Technical Team lead</li>
+ 
 </ul>
               </div>
             </div>
@@ -170,7 +190,7 @@
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aimShow ? 'red' : 'black' }">Aim</div>
               <div v-if="aimShow" class="w-7/8 text-sm mx-auto mt-5" >
                 <hr class="text-gray-300 mb-2 -ml-10 -mr-9"> 
-                As the CEO of Yegna Developers, Naod Yeshiwas’s aim is to provide his clients with high-quality digital marketing, software development, mobile app development, and website design services. He is dedicated to delivering projects that meet the specific needs and requirements of his clients, and is committed to using his technical expertise and project management skills to ensure that each project is a success. In addition to delivering exceptional results for his clients, Naod also strives to create a positive and collaborative work environment for his team at Yegna Developers, helping them to grow and develop as professionals. Overall, Naod’s aim is to be a leading provider of software development, mobile app development, and website design services, and to build a reputation for delivering exceptional results for his clients.
+                My vision is to build an extraordinary and impactful company that tackles diverse enterprise challenges in the technology sector. I am committed to advancing Ethiopia in the field of AI, positioning it as a competitive player on the global stage. Additionally, I strive to create a company that empowers university students, equipping them with the skills and knowledge necessary to thrive in the job market. Through innovation, mentorship, and strategic problem-solving, my goal is to drive meaningful change and shape the future of technology in Ethiopia and beyond.
               </div>
             </div>
           </div>
@@ -185,45 +205,87 @@
 
           <div class="lgbox flex w-1/2  mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
 
-            <div class="w-1/2 mx-auto flex items-center">
-              <img src="/businessman3.webp" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+            <div class="w-1/2 mx-auto h-35  flex items-center">
+              <img src="/yared2.jpeg" alt="" class="w-4/4 h-35  mx-auto   object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
-              <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto text-sm">CEO</h1>
+              <h1 class="text-sm mt-3">Yared Solomon</h1>
+              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
           <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+              <img src="/tigi.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
-              <h1  class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
+              <h1  class="text-sm mt-3">Tiegist Girma</h1>
+              <a href="https://www.linkedin.com/in/tiegist-hassen-b6b997233">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex mb-5 mx-2 mt-5 ">
+          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/2 mx-auto flex items-center">
+              <img src="/nahi.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
+              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
+              <h1 class="text-sm mt-3">Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/2 flex items-center mx-auto">
+              <img src="/nati.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto text-sm">Back-end Developer</h1>
+              <h1  class="text-sm mt-3">Natnael Abebe</h1>
+              <a href="https://linkedin.com/in/natnael-abebe-57a079295">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+          <div class="lgbox flex w-1/2  h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
-              <img src="/PedroFemale.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+              <img src="/kal.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
-              <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
+              <h1 class="text-sm mt-3">Kalkidan Solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
+          <div class="lgbox1 flex w-1/2 mx-auto h-35  text-white rounded-md pr-2 text-xs animated-card">
+            <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/businessman2.avif" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
@@ -232,33 +294,7 @@
               <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
                 <i class="fa-brands fa-linkedin text-black text-xs"></i>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto flex items-center">
-              <img src="/bisinessman4.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
-              <h1 class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
-          </div>
-          <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
-              <img src="/bisinessman1.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Marketing Direct</h1>
-              <h1  class="text-sm mt-3">Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -268,45 +304,54 @@
     <div class="lg:hidden md:hidden   md:w-3/4 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+          <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
-              <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/yared.jpeg" alt="" class="w-13/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto">CEO</h1>
+              <h1>Yared Solomon</h1>
+              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="smbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="smbox1 w-1/2 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/tigi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11">Front-end Developer</h1>
+              <h1>Tiegist Girma</h1>
+              <a href="https://www.linkedin.com/in/tiegist-hassen-b6b997233">
+
+                <div class="mr-3 w-5 h-5 mt-3 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
-          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto">
-              <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+          <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+            <div class="w-1/3 mx-auto">
+              <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>kalkidan solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
+
+                <div class="mr-3 w-5 h-5 mt-3 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="smbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+          <div class="smbox1 w-1/2 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -351,45 +396,55 @@
 <div class="hidden md:block lg:hidden  md:w-2/3 md:mx-auto">
       <div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto flex items-center">
-              <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+          <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/3 mx-auto flex items-center">
+              <img src="/yared.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto">CEO</h1>
+              <h1>Yared Solomon</h1>
+              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="mdbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+          <div class="mdbox1 flex w-1/2 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/3 flex items-center mx-auto">
+              <img src="/tigi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11">Front-end Developer</h1>
+
+              <h1>Tiegist GIrma</h1>
+              <a href="https://www.linkedin.com/in/tiegist-hassen-b6b997233">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5">
-          <div class="mdbox flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
-            <div class="w-1/2 mx-auto">
-              <img src="/PedroFemale.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+          <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/3 mx-auto">
+              <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>Kalkidan Solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
             </div>
           </div>
-          <div class="mdbox1 flex bg-purple-400 text-white  text-xs rounded-md animated-card">
+          <div class="mdbox1 w-1/2 flex bg-purple-400 text-white  text-xs rounded-md animated-card">
             <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
