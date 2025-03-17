@@ -27,19 +27,16 @@
     <!-- mobile size -->
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-40 pb-5 mb-10 h-fit block md:hidden " 
         ref="card">
-        <img src="/cardfirst-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
+        <img src="/cardfirst-blog2.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
+        <div class="w-64  bg-white rounded-md ml-3.5  -mt-8 animated-content">
 
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">The Future of Healthcare: Technology Meets
-                Compassion</p>
-            <p class="ml-4 text-sm mt-2 font-semibold">August 30, 2024 <span class="font-bold text-lg ml-3 mr-3">.
-                </span> Healthcare</p>
-            <p class="w-56 ml-4 mt-3 text-sm" >innovations like AI and telemedicine are reshaping healthcare. By blending
-                cutting-edge technology with heartfelt care, we can ensure that every patient
-                <span v-if="readmore[0]" class="text-sm md:text-xs"> outcomes but also fosters a more efficient healthcare system that can adapt to the evolving needs of society.</span>
+            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows machine.</p>
+            <p class="ml-4 text-sm mt-2 font-semibold">Posted on Apr 2, 2021 • Edited on Apr 5, 2021</p>
+            <p class="w-56 ml-4 mt-3 text-sm" >In Part 1 of the Introduction to PingCap and TiDB series, this guide provides a comprehensive exploration of installing  
+                <span v-if="readmore[0]" class="lg:text-md md:text-sm ">TiDB on a Windows machine. The segment offers a meticulous, step-by-step approach designed to facilitate a seamless installation experience for users, empowering them to harness the capabilities of TiDB effectively. For an in-depth walkthrough, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-1-installation-of-tidb-on-windows-machine-1320">click here</a> to explore more.</span>
             </p>
-            <div class="flex ml-4" @click="showContent1">
-                <p class="text-purple-600">{{ readmore[0] ? 'Read less' : 'Read more' }}</p>
+            <div class="flex ml-4 text-sm" @click="showContent1">
+                <a class="text-purple-600">{{ readmore[0] ? 'Read less' : 'Read more' }}</a>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
         </div>
@@ -47,17 +44,15 @@
 
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-5 mb-10 h-fit block md:hidden " 
         ref="card">
-        <img src="/cardsecond-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Exploring Web & Mobile Development</p>
+        <img src="/cardsecond-blog2.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
+        <div class="w-64  bg-white rounded-md ml-3.5  -mt-8 animated-content">
+            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using Grafana</p>
 
-            <p class="ml-4 text-sm mt-2 font-semibold">August 2, 2024 <span class="font-bold text-lg ml-3 mr-3">.
-                </span> Software</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Explore the dynamic world of web and mobile development, where creativity
-                meets technology. From responsive designs to
-                <span v-if="readmore[1]" class="text-sm md:text-xs"> intuitive user interfaces, developers are crafting seamless experiences that engage users across various platforms.</span>
+            <p class="ml-4 text-sm mt-2 font-semibold">Posted on Apr 10, 2021</p>
+            <p class="w-56 ml-4 mt-3 text-sm">In Part 2 of the Introduction to PingCap and TiDB series, the focus is on monitoring TiDB MySQL data with Grafana. This 
+                <span v-if="readmore[1]" class="text-sm md:text-xs">section covers how to use Grafana's visualization tools to track and analyze TiDB metrics effectively, ensuring optimal database performance. For detailed guidance, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-2-monitoring-tidb-mysql-data-using-grafana-5039">click here</a> to explore more.</span>
             </p>
-            <div class="flex ml-4" @click="showContent2">
+            <div class="flex ml-4 text-sm" @click="showContent2">
                 <p class="text-purple-600">{{ readmore[1] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
@@ -66,18 +61,16 @@
 
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-5 h-fit mb-10 block md:hidden " 
         ref="card">
-        <img src="/cardthird-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
+        <img src="/cardthird-blog2.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
+        <div class="w-64  bg-white rounded-md ml-3.5  -mt-8 animated-content">
 
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Cloud Technology Revolutionizing Business in 2025
+            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and connect to TiDB Mysql Server
             </p>
-            <p class="ml-4 text-sm mt-2 font-semibold">january 30, 2025 <span class="font-bold text-lg ml-3 mr-3">.
-                </span> Technology</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Cloud technology is reshaping the business landscape in 2025 by enhancing
-                operational efficiency, enabling seamless collaboration, and
-                <span v-if="readmore[2]" class="text-sm md:text-xs"> scalable solutions that adapt to ever-changing demands. Companies can now access powerful tools and resources from anywhere.</span>
+            <p class="ml-4 text-sm mt-2 font-semibold">Posted on Apr 20, 2021</p>
+            <p class="w-56 ml-4 mt-3 text-sm">In Part 3 of the Introduction to PingCap and TiDB series, this guide focuses on building a .NET Core Web API and connecting it to a TiDB MySQL server. The segment  
+                <span v-if="readmore[2]" class="text-sm md:text-xs">provides a detailed, step-by-step approach to creating a robust API that leverages the power of TiDB, enabling seamless data interactions. For a comprehensive tutorial, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-3-building-a-net-core-web-api-and-connect-to-tidb-mysql-server-4e35">click here</a> to explore more.</span>
             </p>
-            <div class="flex ml-4" @click="showContent3">
+            <div class="flex ml-4 text-sm" @click="showContent3">
                 <p class="text-purple-600">{{ readmore[2] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
@@ -86,18 +79,16 @@
 
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-5 h-fit mb-10 block md:hidden " 
         ref="card">
-        <img src="/cardfourth-blog.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
+        <img src="/cardfourth-blog2.png" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
+        <div class="w-64  bg-white rounded-md ml-3.5  -mt-8 animated-content">
 
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Enhancing Business Operations Through Online
+            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Building BitPrice web application using Next js and React js Then deploy it to Azure Static Website
                 Platforms</p>
-            <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
-                Business</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Business companies are increasingly leveraging online platforms to
-                optimize their operations and drive growth. Services like
-                <span v-if="readmore[3]" class="text-sm md:text-xs"> e-commerce solutions, cloud-based project management tools, and digital marketing platforms allow businesses to streamline processes and reach wider audiences.</span>
+            <p class="ml-4 text-sm mt-2 font-semibold">Posted on Feb 19, 2021</p>
+            <p class="w-56 ml-4 mt-3 text-sm">In this guide, the focus is on building the BitPrice web application using Next.js and React.js, followed by deploying it to Azure Static Websites. The tutorial 
+                <span v-if="readmore[3]" class="text-sm md:text-xs">offers a detailed, step-by-step approach to creating a dynamic web application that efficiently displays cryptocurrency pricing, ensuring a smooth deployment process to Azure. For a complete walkthrough, <a class="text-purple-600" href="https://dev.to/yared123yared/building-bitprice-web-application-using-next-js-and-react-js-then-deploy-it-to-azure-static-website-42i4">click here</a> to explore more.</span>
             </p>
-            <div class="flex ml-4" @click="showContent4">
+            <div class="flex ml-4 text-sm" @click="showContent4">
                 <p class="text-purple-600">{{ readmore[3] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
@@ -106,37 +97,16 @@
 
     <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-5 h-fit mb-10  block md:hidden " 
         ref="card">
-        <img src="/smart-hotel-blog.jpg" alt="" class="w-11/12 h-72 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
+        <img src="/cardfifth-blog2.png" alt="" class="w-11/12  pt-6 mx-auto relative animated-image">
+        <div class="w-64  bg-white rounded-md ml-3.5  -mt-8 animated-content">
 
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800"> Smart Hotels</p>
-            <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
-                technology</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Hotels are increasingly integrating technology to elevate guest
-                experiences, utilizing automation, smart room features, and mobile apps. These innovations
-                <span v-if="readmore[4]" class="text-sm md:text-xs">These intuitive user interfaces are helping developers craft seamless experiences that engage users across various platforms.</span>
+            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800"> Building a Photo Displayer Application with Postgress, GraphQL, Hasura Subscription, and React–Class Component.</p>
+            <p class="ml-4 text-sm mt-2 font-semibold">Posted on Dec 6, 2020</p>
+            <p class="w-56 ml-4 mt-3 text-sm">delves into building a Photo Displayer application utilizing PostgreSQL, GraphQL, Hasura subscriptions, and React with class components. It provides a 
+                <span v-if="readmore[4]" class="text-sm md:text-xs">comprehensive, step-by-step approach to developing an interactive application that efficiently manages and displays photos, harnessing the power of modern technologies. For an in-depth tutorial, <a class="text-purple-600" href="https://dev.to/yared123yared/building-a-photo-displayer-application-with-postgress-graphql-hasura-subscription-and-react-class-component-799">click here</a> to explore more.</span>
             </p>
-            <div class="flex ml-4" @click="showContent5">
+            <div class="flex ml-4 text-sm" @click="showContent5">
                 <p class="text-purple-600">{{ readmore[4] ? 'Read less' : 'Read more' }}</p>
-                <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="bg-[#ece3ff] w-11/12 mx-auto mt-10 pb-5  mb-10 h-fit  block md:hidden " 
-        ref="card">
-        <img src="/digital-travling-blog.jpg" alt="" class="w-11/12 pt-6 mx-auto relative animated-image">
-        <div class="w-64  bg-white ml-3.5  -mt-8 animated-content">
-
-            <p class="w-56 mt-2 ml-4 text-sm font-bold text-gray-800">Preparing for Your Journey in the Digital Age</p>
-            <p class="ml-4 text-sm mt-2 font-semibold">march 2, 2025 <span class="font-bold text-lg ml-3 mr-3">. </span>
-                Business</p>
-            <p class="w-56 ml-4 mt-3 text-sm">Digital travel revolutionizes journey planning by using technology for
-                booking, navigation, and local insights. By leveraging apps
-                <span v-if="readmore[5]" class="text-sm md:text-xs"> access resources that enhance their travel experiences and streamline their itineraries.</span>
-            </p>
-            <div class="flex ml-4" @click="showContent6">
-                <p class="text-purple-600">{{ readmore[5] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
             </div>
         </div>
@@ -148,13 +118,13 @@
     <div class="  mx-auto px-10 md:px-10 lg:px-14   hidden  md:block">
         <div class="flex">
             <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto pb-2 h-fit mb-10 mr-10 card left-entry" ref="card">
-        <img src="/cardfirst-blog.png" alt="" class="rounded-lg w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
-        <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-            <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">The Future of Healthcare Technology Meets Compassion</p>
-            <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 30, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Healthcare</p>
+        <img src="/cardfirst-blog2.png" alt="" class="rounded-lg  w-9/10 md:1/2 h-4/5 pt-6 mx-auto relative animated-image">
+        <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-8 animated-content">
+            <p class="lg:h-24 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows machine.</p>
+            <p class="lg:h-4  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-10  font-semibold">Posted on Apr 2, 2021 • Edited on Apr 5, 2021</p>
             <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm lg:ml-4  md:w-11/12 md:ml-2">
-                Innovations like AI and telemedicine are reshaping healthcare. By blending cutting-edge technology with heartfelt care, we can ensure that every patient
-                <span v-if="readmore[0]" class="lg:text-md md:text-sm "> outcomes but also fosters a more efficient healthcare system that can adapt to the evolving needs of society.</span>
+                In Part 1 of the Introduction to PingCap and TiDB series, this guide provides a comprehensive exploration of installing TiDB on a Windows machine. The segment offers a meticulous, step-by-step approach designed to facilitate a 
+                <span v-if="readmore[0]" class="lg:text-md md:text-sm "> seamless installation experience for users, empowering them to harness the capabilities of TiDB effectively. For an in-depth walkthrough, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-1-installation-of-tidb-on-windows-machine-1320">click here</a> to explore more.</span>
             </p>
             <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 lg:ml-4" @click="showContent1">
                 <p class="text-purple-600  md:text-md">{{ readmore[0] ? 'Read less' : 'Read more' }}</p>
@@ -164,14 +134,14 @@
     </div>
 
     <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto pb-2 h-fit mb-10 card left-entry" ref="card">
-    <img src="/cardsecond-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Exploring Web & Mobile Development</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold ">August 2, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Software</p>
+    <img src="/cardsecond-blog2.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-8 animated-content">
+        <p class="lg:h-24 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using Grafana</p>
+        <p class="lg:h-4  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-10  font-semibold ">Posted on Apr 10, 2021</p>
         
         <p class=" w-64 mx-auto ml-6 mt-3  md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">
-            Explore the dynamic realm of web and mobile development, where creativity meets technology. From responsive designs to interactive features, the
-            <span v-if="readmore[1]" class=" md:text-sm "> intuitive user interfaces, developers are crafting seamless experiences that engage users across various platforms.</span>
+            In Part 2 of the Introduction to PingCap and TiDB series, the focus is on monitoring TiDB MySQL data with Grafana. This section covers how to use Grafana's visualization tools to track and analyze TiDB metrics effectively, 
+            <span v-if="readmore[1]" class=" md:text-sm ">ensuring optimal database performance. For detailed guidance, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-2-monitoring-tidb-mysql-data-using-grafana-5039">click here</a> to explore more.</span>
         </p>
 
         <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 lg:ml-4" @click="showContent2">
@@ -183,13 +153,13 @@
 
 
 <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto pb-2 h-fit mb-10 card left-entry" ref="card">
-    <img src="/smart-hotel-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-    <div class="lg:w-5/6   pb-3 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Smart Hotels</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">August 2, 2024 <span class="font-bold text-sm ml-1 mr-1">. </span> Software</p>
+    <img src="/cardthird-blog2.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+    <div class="lg:w-5/6   pb-3 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-8 animated-content">
+        <p class="lg:h-24 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and connect to TiDB Mysql Server</p>
+        <p class="lg:h-4  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-10  font-semibold">Posted on Apr 20, 2021</p>
         <p class=" w-64 mx-auto ml-6 mt-3  md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">
-            Hotels are increasingly integrating technology to elevate guest experiences, utilizing automation, smart room features, and mobile apps. 
-            <span v-if="readmore[2]" class=" md:text-sm ">These intuitive user interfaces are helping developers craft seamless experiences that engage users across various platforms.</span>
+            In Part 3 of the Introduction to PingCap and TiDB series, this guide focuses on building a .NET Core Web API and connecting it to a TiDB MySQL server. The segment provides a detailed, step-by-step approach to creating a robust 
+            <span v-if="readmore[2]" class=" md:text-sm ">API that leverages the power of TiDB, enabling seamless data interactions. For a comprehensive tutorial, <a class="text-purple-600" href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-3-building-a-net-core-web-api-and-connect-to-tidb-mysql-server-4e35">click here</a> to explore more.</span>
         </p>
         <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 md:pb-3 lg:ml-4" @click="showContent3">
                 <p class="text-purple-600  md:text-md">{{ readmore[2] ? 'Read less' : 'Read more' }}</p>
@@ -206,14 +176,14 @@
     <div class="  mx-auto md:px-10 lg:px-14 px-10 hidden  md:block -mt-20">
         <div class="flex ">
             <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto mt-20 pb-2 h-fit mb-10 card left-entry" ref="card">
-    <img src="/cardthird-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Cloud Technology Revolutionizing Business in 2025</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">January 30, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Technology</p>
-        <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Cloud technology is reshaping the business landscape in 2025 by enhancing operational efficiency, enabling seamless collaboration, and providing access to 
-            <span v-if="readmore[3]" class="lg:text-md md:text-sm "> scalable solutions that adapt to ever-changing demands. Companies can now access powerful tools and resources from anywhere.</span>
+    <img src="/cardfourth-blog2.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-8   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-8 animated-content">
+        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Building BitPrice web application using Next js and React js Then deploy it to Azure Static Website</p>
+        <p class="lg:h-4  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-10  font-semibold">Posted on Feb 19, 2021</p>
+        <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-6 md:w-11/12 md:ml-2">In this guide, the focus is on building the BitPrice web application using Next.js and React.js, followed by deploying it to Azure Static Websites. The tutorial 
+            <span v-if="readmore[3]" class="lg:text-md md:text-sm ">offers a detailed, step-by-step approach to creating a dynamic web application that efficiently displays cryptocurrency pricing, ensuring a smooth deployment process to Azure. For a complete walkthrough, <a class="text-purple-600" href="https://dev.to/yared123yared/building-bitprice-web-application-using-next-js-and-react-js-then-deploy-it-to-azure-static-website-42i4">click here</a> to explore more.</span>
         </p>
-        <div class="flex ml-6 mt-3 cursor-pointer md:ml-2 lg:ml-4" @click="showContent4">
+        <div class="flex ml-6 mt-3 cursor-pointer md:ml-2 lg:ml-6" @click="showContent4">
                 <p class="text-purple-600 md:text-md">{{ readmore[3] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
         </div>
@@ -221,21 +191,21 @@
 </div>
 
 <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto mt-20 pb-2 h-fit mb-10 card left-entry" ref="card">
-    <img src="/cardfourth-blog.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
-    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
-        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Enhancing Business Operations Through Online Platforms</p>
-        <p class="lg:h-5  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-2  font-semibold">March 2, 2025 <span class="font-bold text-sm ml-1 mr-1">. </span> Business</p>
-        <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-4 md:w-11/12 md:ml-2">Business companies are increasingly leveraging online platforms to optimize their operations and drive growth. Services like e-commerce, digital 
-            <span v-if="readmore[4]" class="lg:text-md md:text-sm "> e-commerce solutions, cloud-based project management tools, and digital marketing platforms allow businesses to streamline processes and reach wider audiences.</span>
+    <img src="/cardfifth-blog2.png" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
+    <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-8   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-8 animated-content">
+        <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Building a Photo Displayer Application with Postgress, GraphQL, Hasura Subscription, and React–Class Component.</p>
+        <p class="lg:h-4  w-64 mx-auto lg:text-md lg:font-bold md:text-xs md:text-gray-800 md:w-11/12 md:h-4 mt-10  font-semibold">Posted on Dec 6, 2020</p>
+        <p class=" w-64 mx-auto ml-6 mt-3 lg:text-md md:text-sm   lg:ml-6 md:w-11/12 md:ml-2">delves into building a Photo Displayer application utilizing PostgreSQL, GraphQL, Hasura subscriptions, and React with class components. It provides a 
+            <span v-if="readmore[4]" class="lg:text-md md:text-sm ">comprehensive, step-by-step approach to developing an interactive application that efficiently manages and displays photos, harnessing the power of modern technologies. For an in-depth tutorial, <a class="text-purple-600" href="https://dev.to/yared123yared/building-a-photo-displayer-application-with-postgress-graphql-hasura-subscription-and-react-class-component-799">click here</a> to explore more.</span>
         </p>
-        <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 lg:ml-4" @click="showContent5">
+        <div class="flex ml-6 mt-2 cursor-pointer md:ml-2 lg:ml-6" @click="showContent5">
                 <p class="text-purple-600 md:text-md">{{ readmore[4] ? 'Read less' : 'Read more' }}</p>
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
         </div>
     </div>
 </div>
 
-<div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto mt-20 pb-2 h-fit mb-10 card left-entry" ref="card">
+<!-- <div class="bg-[#ece3ff] lg:w-1/2 md:w-4/5 md:mr-8 rounded-lg mx-auto mt-20 pb-2 h-fit mb-10 card left-entry" ref="card">
     <img src="/digital-travling-blog.jpg" alt="" class="rounded-lg w-9/10 h-4/5 pt-6 mx-auto relative animated-image">
     <div class="lg:w-5/6   pb-6 bg-white md:w-54 lg:ml-5   md:ml-3 md:rounded-sm  rounded-lg ml-5  -mt-16 animated-content">
         <p class="lg:h-18 md:h-8 md:pt-1 w-64 mx-auto mt-2 lg:text-lg lg:font-semibold  md:text-xs md:font-bold md:w-11/12 md:mx-auto text-gray-800">Preparing for Your Journey in the Digital Age</p>
@@ -249,7 +219,7 @@
                 <i class="fa-solid fa-arrow-right mt-2 ml-1 text-purple-600"></i>
         </div>
     </div>
-</div>
+</div> -->
 
         </div>
     </div>
@@ -263,36 +233,36 @@
     <div class="w-11/12 bg-[#F3E4FF] pb-10 mx-auto block md:hidden">
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
-            <img src="/popularpostfirst-blog.png" alt="" class="w-full relative">
+            <img src="/cardfirst-blog2.png" alt="" class="w-full relative">
             <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center ">1</p>
             </div>
 
-            <p class="w-64 text-md font-semibold mt-4 mx-auto">Enhancing Business Operations Through Online Platforms
+            <p class="w-64 text-md font-semibold mt-4 mx-auto">Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows machine.
             </p>
-            <p class="text-sm w-64 mx-auto mt-6">march 15, 2024 . Business</p>
+            <p class="text-sm w-64 mx-auto mt-6">Posted on Apr 2, 2021 • Edited on Apr 5, 2021</p>
 
         </div>
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
-            <img src="/popularpostssecond-blog.png" alt="" class="w-full relative">
+            <img src="/cardsecond-blog2.png" alt="" class="w-full relative">
             <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center">2</p>
             </div>
-            <p class="w-64 text-md font-semibold mt-4 mx-auto">The Future of Healthcare: Technology Meets Compassion</p>
+            <p class="w-64 text-md font-semibold mt-4 mx-auto">Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using Grafana</p>
 
-            <p class="text-sm w-64 mx-auto mt-6"> August 30, 2024 . Healthcare</p>
+            <p class="text-sm w-64 mx-auto mt-6">Posted on Apr 10, 2021</p>
 
         </div>
 
         <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-md">
-            <img src="/popularpoststhird-blog.png" alt="" class="w-full relative">
+            <img src="/cardthird-blog2.png" alt="" class="w-full relative">
             <div class="w-10 h-10 bg-[#F3E4FF] absolute -mt-34 rounded-tl-md">
                 <p class="font-bold text-2xl text-center">3</p>
             </div>
-            <p class="w-64 text-md font-semibold mt-4 mx-auto">Exploring Web & Mobile Development</p>
+            <p class="w-64 text-md font-semibold mt-4 mx-auto">Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and connect to TiDB Mysql Server</p>
 
-            <p class="text-sm w-64 mx-auto mt-6"> july 30, 2024 . Software</p>
+            <p class="text-sm w-64 mx-auto mt-6">Posted on Apr 20, 2021</p>
         </div>
     </div>
     <!-- /end of mobile -->
@@ -301,32 +271,32 @@
 
         <div class="flex">
             <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg card last-three"  ref="card">
-                <img src="/popularpostfirst-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-44 md:-mt-26">
+                <img src="/cardfirst-blog2.png" alt="" class="w-full relative">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-47 md:-mt-26">
                     <p class="font-bold lg:text-2xl text-center md:text-md ">1</p>
                 </div>
-                <p class="w-full text-center h-6 lg:text-md font-semibold mt-4 mx-auto md:text-sm">Enhancing Business Operations Through Online
+                <p class="w-full text-center h-6 lg:text-md font-semibold mt-4 mx-auto md:text-sm">Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows machine.
                     Platforms</p>
-                <p class="lg:text-md font-medium text-center w-64 mx-auto mt-6 md:text-sm">march 15, 2024 . Business</p>
+                <p class="lg:text-sm text-purple-800 font-medium lg:h-6 text-center w-72 mx-auto mt-6 md:text-sm">Posted on Apr 2, 2021 • Edited on Apr 5, 2021</p>
             </div>
 
             <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 mr-10 rounded-lg card last-three"  ref="card">
-                <img src="/popularpostssecond-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-44 md:-mt-26">
+                <img src="/cardsecond-blog2.png" alt="" class="w-full relative">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-47 md:-mt-26">
                     <p class="font-bold lg:text-2xl text-center md:text-md ">2</p>
                 </div>
-                <p class="w-full text-center h-6 lg:text-md font-semibold mt-4 mx-auto md:text-sm">The Future of Healthcare Technology Meets Compassion
+                <p class="w-full text-center h-6 font-semibold mt-4 mx-auto md:text-sm">Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using Grafana
                 </p>
-                <p class="lg:text-md font-medium text-center w-64 mx-auto mt-6 md:text-sm"> August 30, 2024 . Healthcare</p>
+                <p class="lg:text-sm text-purple-800 font-medium lg:h-6 text-center w-72 mx-auto mt-6 md:text-sm">Posted on Apr 10, 2021</p>
             </div>
 
             <div class="bg-[#e8c7ff] w-11/12 mx-auto pb-6 mt-6 rounded-lg card last-three"  ref="card">
-                <img src="/popularpoststhird-blog.png" alt="" class="w-full relative">
-                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-44 md:-mt-26">
+                <img src="/cardthird-blog2.png" alt="" class="w-full relative">
+                <div class="w-10 h-10 bg-[#f7f3fe] absolute lg:-mt-47 md:-mt-26">
                     <p class="font-bold lg:text-2xl text-center md:text-md ">3</p>
                 </div>
-                <p class="w-full text-center h-6 lg:text-md font-semibold mt-4 mx-auto md:text-sm">Exploring Web & Mobile Development</p>
-                <p class="lg:text-md font-medium text-center w-64 mx-auto mt-6 md:text-sm"> july 30, 2024 . Software</p>
+                <p class="w-full text-center h-6 lg:text-md font-semibold mt-4 mx-auto md:text-sm">Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and connect to TiDB Mysql Server</p>
+                <p class="lg:text-sm text-purple-800 font-medium lg:h-6 text-center w-72 mx-auto mt-6 md:text-sm">Posted on Apr 20, 2021</p>
             </div>
         </div>
     </div>
