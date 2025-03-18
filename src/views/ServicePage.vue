@@ -250,8 +250,8 @@
           <div class="flex justify-center mb-4 w-2/3 mx-auto">
             <img src="/globe.png" alt="" class="w-20 top-2">
           </div>
-          <p class="text-center text-3xl font-normal font-serif w-full mx-auto mb-4 ">$ <span
-              class="-ml-2 -mt-3">5</span></p>
+          <p class="text-center text-3xl font-normal font-serif w-full mx-auto mb-4 ">30 <span
+              class="-ml-2 -mt-3">k</span></p>
           <div class="text-center bottom-3 ">
             <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -283,7 +283,7 @@
           <div class="flex justify-center mb-4">
             <img src="/mobile.png" alt="">
           </div>
-          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
             <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -297,7 +297,7 @@
           <div class="flex justify-center mb-4">
             <img src="/flash.png" alt="" class="mt-2">
           </div>
-          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
             <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -314,7 +314,7 @@
           <div class="flex justify-center mb-4">
             <img src="/chain.png" alt="" class="mt-7">
           </div>
-          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">60<span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
             <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -328,7 +328,7 @@
           <div class="flex justify-center mb-4">
             <img src="/cloud.png" alt="" class="mt-6 w-32">
           </div>
-          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+          <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">40 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center mt-8">
             <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -350,7 +350,7 @@
             <div class="flex justify-center mb-4 w-32 mx-auto">
               <img src="/globe.png" alt="" class="w-20 mt-5 mx-auto">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">30 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center mt-6">
               <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</button>
@@ -378,7 +378,7 @@
             <div class="flex justify-center mb-4 mt-5">
               <img src="/mobile.png" alt="">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
               <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</button>
@@ -396,7 +396,7 @@
             <div class="flex justify-center mb-6">
               <img src="/flash.png" alt="" class="mt-2">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center mt-7">
               <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</button>
@@ -410,7 +410,7 @@
             <div class="flex justify-center mb-4">
               <img src="/chain.png" alt="" class="mt-6">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">5</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">60 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
               <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</button>
@@ -424,7 +424,7 @@
             <div class="flex justify-center mb-4">
               <img src="/cloud.png" alt="" class="mt-5">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">40 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
               <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</button>
