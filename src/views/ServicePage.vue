@@ -265,8 +265,8 @@
           <div class="flex justify-center mb-4 w-2/3 mx-auto">
             <img src="/lens.png" alt="" class="w-32 mt-2">
           </div>
-          <p class="text-center text-3xl font-normal w-full mx-auto font-serif mb-4 -mt-5">$ <span
-              class="-ml-2 -mt-3">50</span></p>
+          <p class="text-center text-3xl font-normal w-full mx-auto font-serif mb-4 -mt-5">30 <span
+              class="-ml-2 -mt-3">k</span></p>
           <div class="text-center bottom-3 mt-10">
             <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
@@ -364,7 +364,7 @@
             <div class="flex justify-center w-40 mx-auto">
               <img src="/lens.png" alt="" class="w-64 mt-2">
             </div>
-            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
+            <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">30 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center mt-4">
               <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
                 Now</router-link>
