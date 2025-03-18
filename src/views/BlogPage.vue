@@ -538,111 +538,139 @@
 
   <!-- mobile -->
   <div class="mx-auto block w-11/12 bg-[#F3E4FF] pb-10 md:hidden">
-    <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
-      <img src="/cardfirst-blog2.png" alt="" class="relative w-full" />
-      <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
-        <p class="text-center text-2xl font-bold">1</p>
+    <a
+      target="_blank"
+      href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-1-installation-of-tidb-on-windows-machine-1320"
+    >
+      <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
+        <img src="/cardfirst-blog2.png" alt="" class="relative w-full" />
+        <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
+          <p class="text-center text-2xl font-bold">1</p>
+        </div>
+
+        <p class="text-md mx-auto mt-4 w-64 font-semibold">
+          Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows
+          machine.
+        </p>
+        <p class="mx-auto mt-6 w-64 text-sm">
+          Posted on Apr 2, 2021 • Edited on Apr 5, 2021
+        </p>
       </div>
+    </a>
+    <a
+      target="_blank"
+      href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-2-monitoring-tidb-mysql-data-using-grafana-5039"
+    >
+      <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
+        <img src="/cardsecond-blog2.png" alt="" class="relative w-full" />
+        <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
+          <p class="text-center text-2xl font-bold">2</p>
+        </div>
+        <p class="text-md mx-auto mt-4 w-64 font-semibold">
+          Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using
+          Grafana
+        </p>
 
-      <p class="text-md mx-auto mt-4 w-64 font-semibold">
-        Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows
-        machine.
-      </p>
-      <p class="mx-auto mt-6 w-64 text-sm">
-        Posted on Apr 2, 2021 • Edited on Apr 5, 2021
-      </p>
-    </div>
-
-    <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
-      <img src="/cardsecond-blog2.png" alt="" class="relative w-full" />
-      <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
-        <p class="text-center text-2xl font-bold">2</p>
+        <p class="mx-auto mt-6 w-64 text-sm">Posted on Apr 10, 2021</p>
       </div>
-      <p class="text-md mx-auto mt-4 w-64 font-semibold">
-        Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using
-        Grafana
-      </p>
+    </a>
+    <a
+      target="_blank"
+      href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-3-building-a-net-core-web-api-and-connect-to-tidb-mysql-server-4e35"
+    >
+      <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
+        <img src="/cardthird-blog2.png" alt="" class="relative w-full" />
+        <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
+          <p class="text-center text-2xl font-bold">3</p>
+        </div>
+        <p class="text-md mx-auto mt-4 w-64 font-semibold">
+          Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and
+          connect to TiDB Mysql Server
+        </p>
 
-      <p class="mx-auto mt-6 w-64 text-sm">Posted on Apr 10, 2021</p>
-    </div>
-
-    <div class="mx-auto mt-6 w-11/12 rounded-md bg-[#e8c7ff] pb-6">
-      <img src="/cardthird-blog2.png" alt="" class="relative w-full" />
-      <div class="absolute -mt-34 h-10 w-10 rounded-tl-md bg-[#F3E4FF]">
-        <p class="text-center text-2xl font-bold">3</p>
+        <p class="mx-auto mt-6 w-64 text-sm">Posted on Apr 20, 2021</p>
       </div>
-      <p class="text-md mx-auto mt-4 w-64 font-semibold">
-        Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and
-        connect to TiDB Mysql Server
-      </p>
-
-      <p class="mx-auto mt-6 w-64 text-sm">Posted on Apr 20, 2021</p>
-    </div>
+    </a>
   </div>
   <!-- /end of mobile -->
   <!-- desktop -->
   <div class="mx-auto mb-20 hidden w-11/12 pb-10 md:block">
     <div class="flex">
-      <div
-        class="card last-three mx-auto mt-6 mr-10 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
-        ref="card"
+      <a
+        target="_blank"
+        href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-1-installation-of-tidb-on-windows-machine-1320"
       >
-        <img src="/cardfirst-blog2.png" alt="" class="relative w-full" />
-        <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-26 lg:-mt-47">
-          <p class="md:text-md text-center font-bold lg:text-2xl">1</p>
+        <div
+          class="card last-three mx-auto mt-6 mr-10 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
+          ref="card"
+        >
+          <img src="/cardfirst-blog2.png" alt="" class="relative w-full" />
+          <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-32 lg:-mt-47">
+            <p class="md:text-md text-center font-bold lg:text-2xl">1</p>
+          </div>
+          <p
+            class="lg:text-md mx-auto mt-4 h-6 w-full text-center font-semibold md:h-10 md:text-sm"
+          >
+            Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows
+            machine. Platforms
+          </p>
+          <p
+            class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
+          >
+            Posted on Apr 2, 2021 • Edited on Apr 5, 2021
+          </p>
         </div>
-        <p
-          class="lg:text-md mx-auto mt-4 h-6 w-full text-center font-semibold md:text-sm"
-        >
-          Introduction to PingCap/TiDB/ Part-1 Installation of TiDB on Windows
-          machine. Platforms
-        </p>
-        <p
-          class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
-        >
-          Posted on Apr 2, 2021 • Edited on Apr 5, 2021
-        </p>
-      </div>
-
-      <div
-        class="card last-three mx-auto mt-6 mr-10 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
-        ref="card"
+      </a>
+      <a
+        target="_blank"
+        href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-2-monitoring-tidb-mysql-data-using-grafana-5039"
       >
-        <img src="/cardsecond-blog2.png" alt="" class="relative w-full" />
-        <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-26 lg:-mt-47">
-          <p class="md:text-md text-center font-bold lg:text-2xl">2</p>
-        </div>
-        <p class="mx-auto mt-4 h-6 w-full text-center font-semibold md:text-sm">
-          Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data using
-          Grafana
-        </p>
-        <p
-          class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
+        <div
+          class="card last-three mx-auto mt-6 mr-10 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
+          ref="card"
         >
-          Posted on Apr 10, 2021
-        </p>
-      </div>
-
-      <div
-        class="card last-three mx-auto mt-6 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
-        ref="card"
+          <img src="/cardsecond-blog2.png" alt="" class="relative w-full" />
+          <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-32 lg:-mt-47">
+            <p class="md:text-md text-center font-bold lg:text-2xl">2</p>
+          </div>
+          <p
+            class="mx-auto mt-4 h-6 w-full text-center font-semibold md:h-10 md:text-sm"
+          >
+            Introduction to PingCap/TiDB/ Part-2 Monitoring TiDB MySQL data
+            using Grafana
+          </p>
+          <p
+            class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
+          >
+            Posted on Apr 10, 2021
+          </p>
+        </div>
+      </a>
+      <a
+        target="_blank"
+        href="https://dev.to/yared123yared/introduction-to-pingcap-tidb-part-3-building-a-net-core-web-api-and-connect-to-tidb-mysql-server-4e35"
       >
-        <img src="/cardthird-blog2.png" alt="" class="relative w-full" />
-        <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-26 lg:-mt-47">
-          <p class="md:text-md text-center font-bold lg:text-2xl">3</p>
+        <div
+          class="card last-three mx-auto mt-6 mr-10 w-11/12 rounded-lg bg-[#e8c7ff] pb-6"
+          ref="card"
+        >
+          <img src="/cardthird-blog2.png" alt="" class="relative w-full" />
+          <div class="absolute h-10 w-10 bg-[#f7f3fe] md:-mt-32 lg:-mt-47">
+            <p class="md:text-md text-center font-bold lg:text-2xl">3</p>
+          </div>
+          <p
+            class="lg:text-md mx-auto mt-4 h-6 w-full text-center font-semibold md:h-10 md:text-sm"
+          >
+            Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API
+            and connect to TiDB Mysql Server
+          </p>
+          <p
+            class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
+          >
+            Posted on Apr 20, 2021
+          </p>
         </div>
-        <p
-          class="lg:text-md mx-auto mt-4 h-6 w-full text-center font-semibold md:text-sm"
-        >
-          Introduction to PingCap/TiDB/ Part-3 Building a .Net core web API and
-          connect to TiDB Mysql Server
-        </p>
-        <p
-          class="mx-auto mt-6 w-72 text-center font-medium text-purple-800 md:text-sm lg:h-6 lg:text-sm"
-        >
-          Posted on Apr 20, 2021
-        </p>
-      </div>
+      </a>
     </div>
   </div>
   <!-- end of section -->
