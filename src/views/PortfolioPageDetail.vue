@@ -11,6 +11,9 @@ import profile_picture from "/images/profile_picture.jpeg";
       <div
         class="max-w-[380px] space-y-3 md:mt-8 md:max-w-[400px] lg:max-w-[490px]"
       >
+        <p class="text-btnColor w-fit border-2 p-1 text-lg font-bold">
+          NDA Protected
+        </p>
         <h1 class="text-2xl font-semibold md:text-4xl lg:text-5xl">
           Hospital Management System (HMS)
         </h1>
@@ -66,9 +69,21 @@ import profile_picture from "/images/profile_picture.jpeg";
         </div>
       </div>
     </div>
-
     <div
-      class="bg-thirdColor relative mx-auto mt-8 max-w-[375px] space-y-4 rounded-3xl px-2 py-8 text-center sm:max-w-[420px] sm:py-10 md:max-w-[450px] md:px-3 md:py-12 lg:max-w-[720px] lg:px-16 lg:py-14 xl:mt-16"
+      class="mx-auto my-8 w-full max-w-[425px] px-2 sm:max-w-[525px] md:my-12 md:max-w-[640px] lg:max-w-[780px] xl:max-w-[900px]"
+    >
+      <iframe
+        class="aspect-video w-full"
+        src="https://www.youtube.com/embed/ZK-rNEhJIDs?si=r1lkvulLrptK_QUH"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div
+      class="bg-thirdColor relative mx-auto mt-8 max-w-[375px] space-y-4 rounded-3xl px-2 py-8 text-center sm:max-w-[420px] sm:py-10 md:max-w-[450px] md:px-3 md:py-12 lg:max-w-[720px] lg:px-16 lg:py-14 xl:my-16"
     >
       <p class="text-sm">
         "Partnering with Heryakos Technology to develop our HMS transformed our
