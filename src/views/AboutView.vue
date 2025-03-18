@@ -2,11 +2,11 @@
   <div>
     <div class="block md:hidden mb-36 mt-16">
       <img src="/teamimage1.png" alt="" class="w-4/5 ml-16 mt-5 relative animated-image">
-      <div class="w-11/12 h-44 bg-white absolute -mt-14 animated-text-intro">
+      <div class="w-11/12 h-64 bg-white absolute -mt-25 animated-text-intro">
         <p class="w-full text-center font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
          About Us
         </p>
-        <p class="text-wrap text-sm ml-2 pt-5 pl-5 pr-4">We offer cutting-edge technology solutions designed to accelerate your business growth. From stunning web experiences to powerful mobile applications and future-ready blockchain solutions, we provide end-to-end services tailored to your unique needs.</p>
+        <p class="text-wrap text-xs ml-2 pt-5 pl-5 pr-4"> At<span class="font-bold"> Heryakos Technology</span>  , we are committed to driving innovation through cutting-edge technology solutions. Our expertise spans AI-powered developments, intelligent automation, and next-generation digital experiences tailored to various industries.From stunning web experiences and powerful mobile applications to advanced blockchain solutions, we deliver end-to-end services that empower businesses to scale and stay ahead in a rapidly evolving digital landscape . <br> At <span class="font-bold">Heryakos Technology</span> , we don’t just build software we craft future-ready innovations that redefine industries.</p>
       </div>
     </div>
     <div class="hidden lg:block md:block">
@@ -14,15 +14,15 @@
         <div class="lg:ml-24">
           <img class="pt-32 lg:ml-88 md:w-1/3 md:ml-64 relative text-purple-300 animated-image intro-image" src="/teamimage1.png" alt="Service Landing Image">
         </div>
-        <div class="-mt-10 ml-28">
-          <div class="lg:w-2/6 md:w-1/2 -ml- h-96 -mt-96 bg-white absolute animated-text">
+        <div class="-mt-10 md:ml-8 ml-28">
+          <div class="lg:w-2/5 md:w-3/4 md:h-110 h-110 -mt-104 bg-white absolute animated-text">
             <div class="mt-10 mb-4">
-              <p class="lg:text-2xl md:text-xl text-center text-md md:mt-4 pt-2 font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
+              <p class="lg:text-2xl md:text-lg text-center text-md md:-mt-4 lg:-mt-4 pt-2 font-sans font-bold bg-gradient-to-r from-[#984AF7] to-[#8523F5] bg-clip-text text-transparent">
                About Us
               </p>
             </div>
             <div class="w-11/12 mx-auto">
-              <p class="ml-8 p-2 lg:text-xl md:text-xl font-semi-bold text-black">We offer cutting-edge technology solutions designed to accelerate your business growth. From stunning web experiences to powerful mobile applications and future-ready blockchain solutions, we provide end-to-end services tailored to your unique needs.</p>
+              <p class="ml-8 p-2 lg:text-lg md:text-lg font-semi-bold text-black"> At<span class="font-bold"> Heryakos Technology</span>  , we are committed to driving innovation through cutting-edge technology solutions. Our expertise spans AI-powered developments, intelligent automation, and next-generation digital experiences tailored to various industries.From stunning web experiences and powerful mobile applications to advanced blockchain solutions, we deliver end-to-end services that empower businesses to scale and stay ahead in a rapidly evolving digital landscape . <br> At <span class="font-bold">Heryakos Technology</span> , we don’t just build software we craft future-ready innovations that redefine industries.</p>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@
 
       
     </div>
-    <div class="lg:hidden  w-11/11 md:w-7/11 md:mx-auto md:-mt-36">
+    <div class="lg:hidden   w-11/11 md:w-7/11 md:mx-auto md:-mt-36 mt-50 ">
       <h1 class="w-4/5 text-lg mx-auto font-semibold md:text-2xl">Meet The Founder And CEO <br> <span class="text-red-400">Yared </span>Solomon</h1>
       <div class="flex mx-4 mt-6 w-11/11 md:w-10/11 md:mx-auto">
         <div class="w-10/10 mx-auto">
@@ -116,8 +116,8 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
 <div class="flex w-10/10 mx-auto">
 <div class="w-6/7 mx-auto">
   <h1 class="w-10/10 text-lg mx-auto font-semibold md:text-2xl mb-3">Meet The Founder And CEO <br> <span class="text-red-400">Yared</span> Solomon</h1>
-  <div class=" w-11/10 mx-auto -ml-4">
-          <img src="/yared2.jpeg" alt="" class="rounded-full w-6/7 h-82 ">
+  <div class=" w-11/10 mx-auto -ml-10 mt-6">
+          <img src="/yared2.jpeg" alt="" class="rounded-full w-90 h-90 ">
           <div class="flex w-1/3 mx-auto mt-3 ">
             <a href="">
 
@@ -142,7 +142,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         </div>
 </div>
 <div class="w-6/7">
-  <div class="sideCard mb-2 bg-purple-300 pt-5 mx-1   shadow-md mt-26 -ml-1 w-15/11 animated-card">
+  <div class="sideCard mb-2 bg-purple-300 pt-5 ml-6   shadow-md mt-34 -ml-1 w-15/11 animated-card">
           <div class="flex py-5 px-2 " @click="toggleAbout">
             <div >
               <i class="fa-solid fa-caret-down"  v-if="aboutShow"></i>
@@ -150,7 +150,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
             </div>
             <div>
 
-              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }">About Naos Yeshiwas</div>
+              <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: aboutShow ? 'red' : 'black' }">About Yared Solomon</div>
               <div v-if="aboutShow" class="w-7/8 mx-auto mt-5 text-sm">
                 <hr class="text-gray-400 mb-2 -ml-11 -mr-9"> 
                 As the CEO of Heryakos Technology I bring a unique blend of leadership, technical expertise, and project management skills to drive innovation and success. With over five years of experience as a Fullstack Engineer, I have worked extensively with Flutter, ASP.NET Core, Python, AWS, and Golang, leading the development of scalable and efficient solutions.
@@ -169,7 +169,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
 
               <div class="ml-2 text-sm mx-auto font-semibold" :style="{ color: skillShow ? 'red' : 'black' }">Skills</div>
               <div v-if="skillShow" class="w-7/8 text-sm mx-auto mt-5" >
-<ul class="list-disc">
+<ul class="list-disc w-13/10">
   <hr class="text-gray-300 mb-2 -ml-7 -mr-61"> 
   <li>Project Managment</li>
   <li>Fullstack Development</li>
@@ -197,6 +197,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         </div>
 </div>
 </div>
+
 </div>
 <div class="hidden lg:block mt-60 w-1/2 mx-auto">
   <h1 class="text-center text-2xl font-bold " >Our Teams</h1>
@@ -206,12 +207,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           <div class="lgbox flex w-1/2  mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
 
             <div class="w-1/2 mx-auto h-35  flex items-center">
-              <img src="/yared2.jpeg" alt="" class="w-4/4 h-35  mx-auto   object-cover rounded-md">
+              <img src="/nahi.jpg" alt="" class="w-4/4 h-35  mx-auto   object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">CEO</h1>
-              <h1 class="text-sm mt-3">Yared Solomon</h1>
-              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
+              <h1 class="text-sm mt-3">Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak/">
 
                 <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
                   <i class="fa-brands fa-linkedin text-black text-xs"></i>
@@ -221,7 +222,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
           <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
-              <img src="/tigi.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+              <img src="/tigi3.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
@@ -239,12 +240,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="lgbox flex w-1/2 mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
-              <img src="/nahi.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+              <img src="/nati.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
-              <h1 class="text-sm mt-3">Nahom Abrham</h1>
-              <a href="http://www.linkedin.com/in/nahomrak">
+              <h1 class="w-11/11 mx-auto text-sm">Back-end Developer</h1>
+              <h1 class="text-sm mt-3">Natnael Abebe</h1>
+              <a href="https://linkedin.com/in/natnael-abebe-57a079295">
 
                 <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
                   <i class="fa-brands fa-linkedin text-black text-xs"></i>
@@ -254,12 +255,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
           <div class="lgbox1 flex w-1/2 mx-auto h-35 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
-              <img src="/nati.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+              <img src="/kal3.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto text-sm">Back-end Developer</h1>
-              <h1  class="text-sm mt-3">Natnael Abebe</h1>
-              <a href="https://linkedin.com/in/natnael-abebe-57a079295">
+              <h1 class="w-11/11 mx-auto text-sm">Front-end Developer</h1>
+              <h1  class="text-sm mt-3">Kalkidan Solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
 
                 <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
                   <i class="fa-brands fa-linkedin text-black text-xs"></i>
@@ -269,7 +270,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
         </div>
         <div class="flex mb-5 mx-2 mt-5 ">
-          <div class="lgbox flex w-1/2  h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+          <!-- <div class="lgbox flex w-1/2  h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
               <img src="/kal.jpg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
             </div>
@@ -283,7 +284,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
           <div class="lgbox1 flex w-1/2 mx-auto h-35  text-white rounded-md pr-2 text-xs animated-card">
             <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/businessman2.avif" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
@@ -296,6 +297,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </div>
             </div> -->
           </div>
+          <h1 class=" mt-15  font-normal text-lg" >Let’s shape the future together.</h1>
         </div>
       </div>
     </div>
@@ -306,12 +308,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
-              <img src="/yared.jpeg" alt="" class="w-13/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/nahi.jpg" alt="" class="w-13/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">CEO</h1>
-              <h1>Yared Solomon</h1>
-              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak/">
 
                 <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                   <i class="fa-brands fa-linkedin text-black text-xs"></i>
@@ -321,7 +323,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
           <div class="smbox1 w-1/2 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/2 flex items-center mx-auto">
-              <img src="/tigi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/tigi3.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Front-end Developer</h1>
@@ -337,27 +339,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         </div>
         <div class="flex mb-5 mx-2 mt-5">
      
-          <div class="smbox flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+          <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
-              <img src="/nahi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
-              <h1>Nahom Abrham</h1>
-              <a href="http://www.linkedin.com/in/nahomrak">
-
-                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="smbox1 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/2 flex items-center mx-auto">
               <img src="/nati.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Back-end Developer</h1>
+              <h1 class="w-11/11 mx-auto">Back-end Developer</h1>
               <h1>Natnael Abebe</h1>
               <a href="https://linkedin.com/in/natnael-abebe-57a079295">
 
@@ -367,9 +354,24 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </a>
             </div>
           </div>
+          <div class="smbox1 w-1/2 flex bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/3 flex items-center mx-auto">
+              <img src="/kal3.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11">Front-end Developer</h1>
+              <h1>Kalkidan Solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="flex mb-10 mx-2">
-           <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+           <!-- <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto">
               <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -383,7 +385,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
           <div class="smbox1 w-1/2 flex  text-white rounded-md pr-2 text-xs animated-card">
             <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
@@ -397,6 +399,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
             </div> -->
           </div>
         </div>
+        <h1 class=" mt-5 pb-4 text-center  font-normal text-sm ml-40" >Let’s shape the future together.</h1>
       </div>
     </div>
 <!--middiwm-->
@@ -405,12 +408,12 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto flex items-center">
-              <img src="/yared.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/nahi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">CEO</h1>
-              <h1>Yared Solomon</h1>
-              <a href="https://www.linkedin.com/in/yared-solomon-740a85184/">
+              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
+              <h1>Nahom Abrham</h1>
+              <a href="http://www.linkedin.com/in/nahomrak/">
 
                 <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
                   <i class="fa-brands fa-linkedin text-black text-xs"></i>
@@ -420,7 +423,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
           </div>
           <div class="mdbox1 flex w-1/2 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
             <div class="w-1/3 flex items-center mx-auto">
-              <img src="/tigi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+              <img src="/tigi3.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
               <h1 class="w-11/11">Front-end Developer</h1>
@@ -439,25 +442,10 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
   
           <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto">
-              <img src="/nahi.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
-              <h1>Nahom Abrham</h1>
-              <a href="http://www.linkedin.com/in/nahomrak">
-
-                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="mdbox1 flex w-1/2 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
-            <div class="w-1/3 flex items-center mx-auto">
               <img src="/nati.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
             <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Back-end Developer</h1>
+              <h1 class="w-11/11 mx-auto">Back-end Developer</h1>
               <h1>Natnael Abebe</h1>
               <a href="https://linkedin.com/in/natnael-abebe-57a079295">
 
@@ -467,9 +455,24 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </a>
             </div>
           </div>
+          <div class="mdbox1 flex w-1/2 bg-purple-400 text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/3 flex items-center mx-auto">
+              <img src="/kal3.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11">Front-end Developer</h1>
+              <h1>Kalkidan Solomon</h1>
+              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="flex mb-10 mx-2">
-        <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+        <!-- <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto">
               <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
             </div>
@@ -483,7 +486,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
                 </div>
               </a>
             </div>
-          </div>
+          </div> -->
           <div class="mdbox1 w-1/2 flex text-white  text-xs rounded-md animated-card">
             <!-- <div class="w-1/2 flex items-center mx-auto">
               <img src="/bisinessman1.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
@@ -496,6 +499,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
               </div>
             </div> -->
           </div>
+          <h1 class=" mt-5 pb-4  font-normal text-lg w-3/4" >Let’s shape the future together.</h1>
         </div>
       </div>
     </div>
