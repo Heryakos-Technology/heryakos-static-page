@@ -186,15 +186,16 @@ export default {
         const isFormFilled = Object.values(formData.value).every(value => value !== '');
         if(isFormFilled){
             status.value = 'Sending...'
-      emailjs.send('service_39uy8wh', 'template_0bvbznb', formData.value, '4dKz9Oxhr-ezR17-0')
+      emailjs.send('service_wpherlc', 'template_xu8fqgb', formData.value, 'F3IkIe64O19PEt25n')
         .then(() => {
           status.value = 'Email sent successfully!';
           console.log('data',formData.value)
           resetForm();
          
         })
-        .catch(() => {
+        .catch((error) => {
           status.value = 'Failed to send email. Please try again.';
+          console.log('erroer',error)
         });
     };
    
