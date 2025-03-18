@@ -253,9 +253,9 @@
           <p class="text-center text-3xl font-normal font-serif w-full mx-auto mb-4 ">30 <span
               class="-ml-2 -mt-3">k</span></p>
           <div class="text-center bottom-3 ">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact"  class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
         <div class="bg-[#EBD2FF] rounded-xl  w-1/2  mx-auto shadow-lg h-72 animated-card left-entry">
@@ -268,9 +268,9 @@
           <p class="text-center text-3xl font-normal w-full mx-auto font-serif mb-4 -mt-5">$ <span
               class="-ml-2 -mt-3">50</span></p>
           <div class="text-center bottom-3 mt-10">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -285,9 +285,9 @@
           </div>
           <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-4 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
         <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72 animated-card left-entry">
@@ -299,9 +299,9 @@
           </div>
           <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-3 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -316,9 +316,9 @@
           </div>
           <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">60<span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
         <div class="bg-[#EBD2FF] rounded-xl  w-1/2 mx-auto shadow-lg h-72 animated-card right-entry">
@@ -330,9 +330,9 @@
           </div>
           <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">40 <span class="-ml-2 -mt-3">k</span></p>
           <div class="text-center mt-8">
-            <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
+            <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">
               Get It Now
-            </button>
+            </router-link>
           </div>
         </div>
       </div>
@@ -352,8 +352,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">30 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center mt-6">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
 
@@ -366,8 +366,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">$ <span class="-ml-2 -mt-3">50</span></p>
             <div class="text-center mt-4">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
 
@@ -380,8 +380,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
         </div>
@@ -398,8 +398,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">50 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center mt-7">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
 
@@ -412,8 +412,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">60 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-2 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
 
@@ -426,8 +426,8 @@
             </div>
             <p class="text-center text-3xl font-normal font-serif mb-4 -mt-2">40 <span class="-ml-2 -mt-3">k</span></p>
             <div class="text-center">
-              <button class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
-                Now</button>
+              <router-link to="/contact" class="bg-[#7C4AAC] text-white font-light py-2 px-4 mt-1 rounded-xl hover:bg-[#7C4AAC]">Get It
+                Now</router-link>
             </div>
           </div>
         </div>
