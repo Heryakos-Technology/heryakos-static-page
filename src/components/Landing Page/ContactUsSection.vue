@@ -19,19 +19,25 @@
     <div class="space-y-2 mt-4 sm:mt-8  md:flex xl:mt-10 justify-center gap-x-8">
 
       <div class="flex flex-col  ">
-        <div class="space-y-1 text-center">
-          <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white w-48 py-3 rounded-4xl font-medium">Book
-            a
-            free call</button>
-        </div>
+        <a href="https://calendly.com/yaredyaya16/30min">
+
+          <div class="space-y-1 text-center">
+            <button class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white w-48 py-3 rounded-4xl font-medium cursor-pointer">Book
+              a
+              free call</button>
+          </div>
+        </a>
       </div>
 
       <div class="flex flex-col  ">
-        <div class="space-y-1 text-center">
-          <button
-            class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white w-48 py-3 rounded-4xl font-medium">Email
-            Us</button>
-        </div>
+        <a href="mailto: yaredyaya16@gmail.com">
+
+          <div class="space-y-1 text-center">
+            <button
+              class="bg-gradient-to-r from-[#9B4AF7] to-[#8523F5] text-white w-48 py-3 rounded-4xl font-medium cursor-pointer">Email
+              Us</button>
+          </div>
+        </a>
       </div>
 
     </div>

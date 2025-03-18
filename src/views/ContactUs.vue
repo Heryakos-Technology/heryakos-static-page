@@ -1,34 +1,36 @@
 <template>
-  <div class="w-10/10 mx-auto md:w-2/3 md:mx-auto lg:w-1/2 lg:mx-auto">
-    <div class="flex md:hidden lg:hidden w-8/10  mx-auto  pb-5 pt-16">
-<div class="smbox bg-white shadow-md shadow-purple-300 p-3 rounded-lg animated-card">
+  <div class=" mx-auto md:w-2/3 md:mx-auto lg:w-1/2 lg:mx-auto">
+    <div class="flex  md:hidden lg:hidden   mx-auto  pb-5 pt-16">
+<div class="smbox w-1/2 bg-white shadow-md shadow-purple-300 p-3 rounded-lg animated-card">
     <div class="flex">
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs">yared123@gmail.com</p>
-    <p class="text-xs mt-1">+251916897173</p>
+    <p class="mt-2 text-xs">yaredyaya16@gmail.com</p>
+    <p class="mt-2 text-xs">yared123yared@gmail.com</p>
+    <p class="text-xs mt-2">+251916897173</p>
 </div>
-<div class=" smbox1 bg-white shadow-md shadow-purple-300 p-3 rounded-lg ml-5">
+<div class=" smbox1 w-1/2 bg-white shadow-md shadow-purple-300 p-3 rounded-lg ml-5 animated-card">
     <div class="flex">
         <div><i class="fa-solid fa-phone"></i></div>
         <div class="ml-2 text-sm">Project Inquiry</div>
     </div>
-    <p class="mt-2 text-xs">+251916897173</p>
+    <p class="mt-2 text-xs">0777097173</p>
     <p class="text-xs mt-1">+251916897173</p>
 </div>
     </div>
-    <div class=" md:hidden lg:hidden sideCard bg-white shadow-md shadow-purple-300 p-3 rounded-lg mb-10 w-1/2 mx-auto">
+ 
+      <div class="w-1/2 lg:hidden md:hidden mb-5 mx-auto smboxx bg-white md:w-3/4 md:h-27 lg:h-33 shadow-md shadow-purple-300 p-4 rounded-lg  animated-card ">
     <div class="flex">
-        <div><i class="fa-solid fa-phone"></i></div>
-        <div class="ml-2 text-sm">Project Inquiry</div>
+        <div><i class="fa-solid fa-location-dot"></i></div>
+        <div class="ml-2 text-sm">Our Location</div>
     </div>
-    <div class="w-2/3 mx-auto">
+    <p class="mt-2 text-xs d:w-3/4 md:mx-auto">Sherifa BLDG 8th
+floor,Meskel flower.
+Addid Ababa</p>
+   
+</div>
 
-        <p class="mt-2 text-xs">+251916897173</p>
-        <p class="text-xs mt-1">+251916897173</p>
-    </div>
-</div>
 <div class="hidden md:block lg:block">
 <div class="flex pt-30  md:mx-auto mb-10">
     <div class="smboxx md:w-3/4 md:h-27 mr-3 lg:h-33 bg-white shadow-md shadow-purple-300 p-3 rounded-lg animated-card ">
@@ -36,7 +38,8 @@
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yared123@gmail.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yaredyaya16@gmail.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yared123yared@gmail.com</p>
     <p class="text-xs mt-1 md:w-3/4 md:mx-auto ">+251916897173</p>
 </div>
 <div class="smboxx bg-white shadow-md lg:h-33 md:w-3/4 md:h-27 mr-3 shadow-purple-300 p-3 rounded-lg animated-card ">
@@ -44,7 +47,7 @@
         <div><i class="fa-solid  fa-phone"></i></div>
         <div class="ml-2 text-sm">Project Inquiry</div>
     </div>
-    <p class="mt-2 text-xs md:w-3/4 md:mx-auto">yared123@gmail.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto">0777097173</p>
     <p class="text-xs mt-1 md:w-3/4 md:mx-auto">+251916897173</p>
 </div>
 <div class="smboxx bg-white md:w-3/4 md:h-27 lg:h-33 shadow-md shadow-purple-300 p-3 rounded-lg  animated-card ">
@@ -94,7 +97,7 @@ Addid Ababa</p>
 
 </div>
 <button v-if="!status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-2/3 mt-4 lg:w-1/2 ml-7" @click="sendEmail">SEND MESSAGE</button>
-<div v-if="status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-9/10 mt-4 lg:w-6/7 lg:mx-auto">{{ status }}</div>
+<div v-if="status" class="bg-purple-500 text-white px-5 py-2 rounded-sm w-9/10 mt-4 lg:w-1/2 lg:mx-auto">{{ status }}</div>
 </div>
 <div class="flex mt-10 w-10/10 mx-auto ml-3 lg:hidden">
                 <!-- <div>
@@ -289,7 +292,7 @@ const observer = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(160px)',
+            transform: 'translateX(190px)',
           }, {
             duration: 1.6,
             easing: [0.17, 0.55, 0.55, 1],
@@ -368,7 +371,7 @@ const observerr = new IntersectionObserver((entries) => {
           animate(entry.target, {
             opacity: 1,
           
-            transform: 'translateX(40px)',
+            transform: 'translateX(20px)',
           }, {
             duration: 1.7,
             easing: [0.17, 0.55, 0.55, 1],
@@ -379,7 +382,7 @@ const observerr = new IntersectionObserver((entries) => {
           
           entry.target.classList.remove('visiblee');
           entry.target.style.opacity = 0;
-          entry.target.style.transform = 'translateX(-0px)';
+          entry.target.style.transform = 'translateX(60px)';
         }
       });
     }, {
@@ -472,7 +475,7 @@ const observerr = new IntersectionObserver((entries) => {
           entry.target.classList.add('visible2');
           animate(entry.target, {
             opacity: 1,
-            transform: 'translateX(-160px)',
+            transform: 'translateX(-190px)',
           }, {
             duration: 1.1,
             easing: [0.17, 0.55, 0.55, 1],
