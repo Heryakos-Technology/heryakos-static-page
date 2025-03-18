@@ -6,8 +6,8 @@
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs">yaredyaya16@gmail.com</p>
-    <p class="mt-2 text-xs">yared123yared@gmail.com</p>
+    <p class="mt-2 text-xs">info@orizon.com</p>
+    <p class="mt-2 text-xs"></p>
     <p class="text-xs mt-2">+251916897173</p>
 </div>
 <div class=" smbox1 w-1/2 bg-white shadow-md shadow-purple-300 p-3 rounded-lg ml-5 animated-card">
@@ -38,8 +38,8 @@ Addid Ababa</p>
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yaredyaya16@gmail.com</p>
-    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yared123yared@gmail.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">info@orizon.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto "></p>
     <p class="text-xs mt-1 md:w-3/4 md:mx-auto ">+251916897173</p>
 </div>
 <div class="smboxx bg-white shadow-md lg:h-33 md:w-3/4 md:h-27 mr-3 shadow-purple-300 p-3 rounded-lg animated-card ">
@@ -119,7 +119,7 @@ Addid Ababa</p>
 </div>
             </div>
             <div class="text-sm   font-semibold lg:text-lg w-6/7 mx-auto lg:w-3/4 lg:mx-auto">
-                <p class="text-sm lg:w-1/2 lg:text-right lg:ml-54 mt-12  ml-25">⭐️ Join 100+ happy customers</p>
+                <p class="text-sm lg:w-1/2 lg:text-right lg:ml-54 mt-12  ml-25"></p>
                 <p class="lg:w-3/4 lg:mx-auto lg:text-sm mt-10 ">Filling out the form above is the
 fastest way to get an answer,
 but you can also schedule a cal
