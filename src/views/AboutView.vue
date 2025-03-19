@@ -116,8 +116,11 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
 <div class="flex w-10/10 mx-auto">
 <div class="w-6/7 mx-auto">
   <h1 class="w-10/10 text-lg mx-auto font-semibold md:text-2xl mb-3">Meet The Founder And CEO <br> <span class="text-red-400">Yared</span> Solomon</h1>
-  <div class=" w-11/10 mx-auto -ml-10 mt-6">
-          <img src="/yared2.jpeg" alt="" class="rounded-full w-90 h-90 ">
+  <div class=" w-11/10 mx-auto -ml-15 mt-6">
+    <div class="w-90 h-94 rounded-full">
+
+      <img src="/yared5.jpeg" alt="" class="rounded-full h-92 w-86">
+    </div>
           <div class="flex w-1/3 mx-auto mt-3 ">
             <a href="">
 
@@ -142,7 +145,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         </div>
 </div>
 <div class="w-6/7">
-  <div class="sideCard mb-2 bg-purple-300 pt-5 ml-6   shadow-md mt-34 -ml-1 w-15/11 animated-card">
+  <div class="sideCard mb-2 bg-purple-300 pt-5 ml-6   shadow-md mt-34  w-15/11 animated-card">
           <div class="flex py-5 px-2 " @click="toggleAbout">
             <div >
               <i class="fa-solid fa-caret-down"  v-if="aboutShow"></i>
@@ -202,6 +205,39 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
 <div class="hidden lg:block mt-60 w-1/2 mx-auto">
   <h1 class="text-center text-2xl font-bold " >Our Teams</h1>
       <div>
+        <div class="flex mb-5 mx-2 mt-5 ">
+          <div class="lgbox flex w-1/2  h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/2 mx-auto flex items-center">
+              <img src="/alefew.jpeg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 mt-5 mx-auto flex-col justify-center">
+              <h1 class="w-11/11 mx-auto text-sm">Senior Backend Engineer</h1>
+              <h1 class="text-sm mt-3">Alefew Yimer</h1>
+              <a href="https://www.linkedin.com/in/alefew/">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center ">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="lgbox1 flex bg-purple-400 w-1/2 mx-auto h-35  text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/2 flex items-center mx-auto">
+              <img src="/bante.jpeg" alt="" class="w-4/4 h-35 mx-auto  object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto text-sm">Senior Frontend Engineer</h1>
+              <h1  class="text-sm mt-3">Bantealem Assefa</h1>
+              <a href="https://www.linkedin.com/in/bantealem/">
+
+                <div class="mr-3 w-5 h-5 mt-10 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
         <div class="flex mb-5 mx-2 mt-5 ">
 
           <div class="lgbox flex w-1/2  mx-auto h-35 bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
@@ -305,6 +341,38 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
     <h1 class="text-center md:hidden lg:hidden" >Our Teams</h1>
     <div class="lg:hidden md:hidden   md:w-3/4 md:mx-auto">
       <div>
+        <div class="flex mb-10 mx-2">
+           <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
+            <div class="w-1/3 mx-auto">
+              <img src="/alefew.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto">Senior Backend Engineer</h1>
+              <h1>Alefew Yimer</h1>
+              <a href="https://www.linkedin.com/in/alefew/">
+
+                <div class="mr-3 w-5 h-5 mt-3 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="smbox1 bg-purple-400 w-1/2 flex  text-white rounded-md pr-2 text-xs animated-card">
+            <div class="w-1/3 flex items-center mx-auto">
+              <img src="/bante.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11"> Senior Frontend Engineer</h1>
+              <h1>Bantealem Assefa</h1>
+              <a href="https://www.linkedin.com/in/bantealem/">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
             <div class="w-1/2 mx-auto flex items-center">
@@ -370,41 +438,46 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
             </div>
           </div>
         </div>
-        <div class="flex mb-10 mx-2">
-           <!-- <div class="smbox w-1/2 flex bg-purple-400 text-white mr-5 text-xs rounded-md animated-card">
-            <div class="w-1/3 mx-auto">
-              <img src="/kal.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11 mx-auto">Front-end Developer</h1>
-              <h1>kalkidan solomon</h1>
-              <a href="https://linkedin.com/in/kalkidan-solomon-006542356">
-
-                <div class="mr-3 w-5 h-5 mt-3 rounded-full bg-white flex items-center justify-center">
-                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
-                </div>
-              </a>
-            </div>
-          </div> -->
-          <div class="smbox1 w-1/2 flex  text-white rounded-md pr-2 text-xs animated-card">
-            <!-- <div class="w-1/2 flex items-center mx-auto">
-              <img src="/MariaFemaleWithTablate.jpg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
-            </div>
-            <div class="w-2/3 ml-2 flex flex-col justify-center">
-              <h1 class="w-11/11">Marketing Direct</h1>
-              <h1>Melissa Lowry</h1>
-              <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
-                <i class="fa-brands fa-linkedin text-black text-xs"></i>
-              </div>
-            </div> -->
-          </div>
-        </div>
+    
         <h1 class=" mt-5 pb-4 text-center  font-normal text-sm ml-40" >Let’s shape the future together.</h1>
       </div>
     </div>
 <!--middiwm-->
 <div class="hidden md:block lg:hidden  md:w-2/3 md:mx-auto">
       <div>
+        <div class="flex mb-10 mx-2">
+        <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
+            <div class="w-1/3 mx-auto">
+              <img src="/alefew.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11 mx-auto">Senior Backend Engineer</h1>
+              <h1>Alefew Yimer</h1>
+              <a href="https://www.linkedin.com/in/alefew/">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="mdbox1 bg-purple-400 w-1/2 flex text-white  text-xs rounded-md animated-card">
+            <div class="w-1/2 flex items-center mx-auto">
+              <img src="/bante.jpeg" alt="" class="w-11/11 mx-auto h-22 object-cover rounded-md">
+            </div>
+            <div class="w-2/3 ml-2 flex flex-col justify-center">
+              <h1 class="w-11/11">Senior Frontend Engineer</h1>
+              <h1>Bantealem Assefa</h1>
+              <a href="https://www.linkedin.com/in/bantealem/">
+
+                <div class="mr-3 w-5 h-5 mt-5 rounded-full bg-white flex items-center justify-center">
+                  <i class="fa-brands fa-linkedin text-black text-xs"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
         <div class="flex mb-5 mx-2 mt-5 ">
           <div class="mdbox w-1/2 flex bg-purple-400 text-white mr-10 text-xs rounded-md animated-card">
             <div class="w-1/3 mx-auto flex items-center">
