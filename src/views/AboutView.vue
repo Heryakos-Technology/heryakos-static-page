@@ -145,7 +145,7 @@ My strong foundation in data structures and algorithms enhances my problem-solvi
         </div>
 </div>
 <div class="w-6/7">
-  <div class="sideCard mb-2 bg-purple-300 pt-5 ml-6   shadow-md mt-34  w-15/11 animated-card">
+  <div class="sideCard mb-2 bg-purple-300 pt-5 -ml-6   shadow-md mt-34  w-15/11 animated-card">
           <div class="flex py-5 px-2 " @click="toggleAbout">
             <div >
               <i class="fa-solid fa-caret-down"  v-if="aboutShow"></i>
