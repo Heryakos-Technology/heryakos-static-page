@@ -71,15 +71,19 @@ function updateAnimationDirection() {
 <template>
   <div
     ref="cardRef"
-    class="project-card xs:max-w-[360px] w-full max-w-[300px] pb-8 drop-shadow-xl sm:max-w-[390px]"
+    class="project-card xs:max-w-[360px] group w-full max-w-[300px] pb-8 drop-shadow-xl transition-all duration-300 ease-linear hover:scale-105 sm:max-w-[390px]"
   >
-    <div
-      class="xs:h-[300px] mx-auto h-64 w-full rounded-lg bg-cover bg-center"
-      :style="{ backgroundImage: `url(${imageUrl})` }"
-    ></div>
-    <div class="mt-4 space-y-4 px-2 text-center">
-      <h1 class="text-lg font-semibold md:h-8">{{ title }}</h1>
-    </div>
+    <RouterLink :to="{ name: 'PortfolioPageDetail', params: { id: 2 } }">
+      <div
+        class="xs:h-[300px] mx-auto h-64 w-full rounded-lg bg-cover bg-center"
+        :style="{ backgroundImage: `url(${imageUrl})` }"
+      ></div>
+      <div class="mt-4 space-y-4 px-2 text-center">
+        <h1 class="group-hover:text-btnColor text-lg font-semibold md:h-8">
+          {{ title }}
+        </h1>
+      </div>
+    </RouterLink>
   </div>
 </template>
 
