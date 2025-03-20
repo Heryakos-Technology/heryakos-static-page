@@ -6,7 +6,7 @@
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs">info@orizon.com</p>
+    <p class="mt-2 text-xs">yaredyaya16@gmail.com</p>
     <p class="mt-2 text-xs"></p>
     <p class="text-xs mt-2">+251916897173</p>
 </div>
@@ -38,7 +38,7 @@ Addid Ababa</p>
         <div><i class="fa-solid fa-envelope"></i></div>
         <div class="ml-2 text-sm">Email & Phone</div>
     </div>
-    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">info@orizon.com</p>
+    <p class="mt-2 text-xs md:w-3/4 md:mx-auto ">yaredyaya16@gmail.com</p>
     <p class="mt-2 text-xs md:w-3/4 md:mx-auto "></p>
     <p class="text-xs mt-1 md:w-3/4 md:mx-auto ">+251916897173</p>
 </div>
@@ -67,7 +67,7 @@ Addid Ababa</p>
     <p class="w-1/2 mx-auto text-xl mt-3 lg:w-1/4 lg:mx-auto">Need  a replay fast?</p>
     <h1 class="w-1/3 text-2xl mx-auto mt-2 lg:w-1/6 lg:mx-auto">Let’s <span class="text-purple-500 ">talk!</span></h1>
     <p class="w-10/10 mx-auto text-gray-500 mt-4 px-3 lg:w-2/3 lg:mx-auto">Share your project requirements here or send us an 
-        email at info@orizon.com we will follow up in <span class="text-black font-bold">24 hrs</span>  </p>
+        email at yaredyaya16@gmail.com we will follow up in <span class="text-black font-bold">24 hrs</span>  </p>
 </div>
 <div class="bg-white rounded-md w-3/4 mx-auto p-4 mb-5 mt-10 lg:w-2/3 lg:mx-auto ">
     <div class="lg:w-6/7 lg:mx-auto">
