@@ -2,9 +2,13 @@
 import { ref, onMounted } from "vue";
 import { inView, animate } from "motion";
 
-defineProps({
+const props = defineProps({
   imageUrl: {
     type: String,
+    required: true,
+  },
+  id: {
+    type: Number,
     required: true,
   },
   title: {
@@ -73,7 +77,7 @@ function updateAnimationDirection() {
     ref="cardRef"
     class="project-card xs:max-w-[360px] group w-full max-w-[300px] pb-8 drop-shadow-xl transition-all duration-300 ease-linear hover:scale-105 sm:max-w-[390px]"
   >
-    <RouterLink :to="{ name: 'PortfolioPageDetail', params: { id: 2 } }">
+    <RouterLink :to="{ name: 'PortfolioPageDetail', params: { id: props.id } }">
       <div
         class="xs:h-[300px] mx-auto h-64 w-full rounded-lg bg-cover bg-center"
         :style="{ backgroundImage: `url(${imageUrl})` }"

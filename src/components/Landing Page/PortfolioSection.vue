@@ -4,31 +4,12 @@ import AIVision from "/images/AIVision ¨C Saas Hero Section Figma Template.jpeg
 import CSVECommerce from "/images/CSV E-Commerce Application.jpeg";
 import HospitalManagement from "/images/Hospital Management System.jpeg";
 
+import { projectsData } from "@/assets/projectJson";
+
 import TrustBroker from "/images/Trust-Broker Website .png";
 import arrowUpRight from "@/components/icons/arrow-up-right.png";
 
-const projects = ref([
-  {
-    name: "Hospital Management System (HMS)",
-    image: HospitalManagement,
-    description: "Description for SmartTask Pro",
-  },
-  {
-    name: "CSV E-Commerce",
-    image: CSVECommerce, // Replace with your actual image
-    description: "Description for Project 2",
-  },
-  {
-    name: "Trust-Broker –  Brokerage Platform for  Deals ",
-    image: TrustBroker, // Replace with your actual image
-    description: "Description for Project 3",
-  },
-  {
-    name: " AIVision –  SaaS for Creative Automation",
-    image: AIVision, // Replace with your actual image
-    description: "Description for Project 3",
-  },
-]);
+const projects = ref(projectsData.slice(0, 4));
 
 const currentProjectIndex = ref(0);
 const transitionName = ref("slide-down");
@@ -81,20 +62,39 @@ const goToSpecificProject = (index) => {
           <h1
             class="cursor-pointer text-xl group-hover:font-bold group-hover:text-black"
           >
-            {{ project?.name }}
+            {{ project?.title }}
           </h1>
         </div>
       </div>
 
       <transition :name="transitionName" mode="out-in">
-        <RouterLink
-          :to="{ name: 'PortfolioPageDetail', params: { id: 2 } }"
+        <div
           :key="currentProjectIndex"
-          class="xs:h-[280px] xs:max-w-[380px] mx-auto mt-6 h-[270px] w-full rounded-2xl bg-cover px-1 lg:h-[390px] xl:h-[400px] xl:max-w-[760px] 2xl:h-[500px] 2xl:max-w-[800px]"
+          class="xs:h-[280px] xs:max-w-[380px] group relative mx-auto mt-6 h-[270px] w-full rounded-2xl bg-cover px-1 lg:h-[390px] xl:h-[400px] xl:max-w-[760px] 2xl:h-[500px] 2xl:max-w-[800px]"
           :style="{
-            backgroundImage: `url(${projects[currentProjectIndex]?.image})`,
+            backgroundImage: `url(${projects[currentProjectIndex]?.imageUrl})`,
           }"
-        ></RouterLink>
+        >
+          <RouterLink
+            :to="{
+              name: 'PortfolioPageDetail',
+              params: { id: projects[currentProjectIndex]?.id },
+            }"
+            class="absolute inset-0 flex items-center justify-center"
+          >
+            <button
+              class="bg-btnColor xs:text-base xs:px-4 xs:py-2 xs:rounded-xl xs:w-[80%] xs:max-w-[250px] xs:mx-auto xs:flex xs:justify-center xs:items-center flex items-center justify-center rounded-full px-6 py-2 text-lg font-semibold text-white opacity-0 shadow-lg transition-opacity duration-300 group-hover:opacity-100"
+              style="
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              "
+            >
+              More Details
+            </button>
+          </RouterLink>
+        </div>
       </transition>
 
       <div class="lg:hidden">
@@ -104,7 +104,7 @@ const goToSpecificProject = (index) => {
               :key="currentProjectIndex"
               class="text-4xl font-light md:text-5xl"
             >
-              {{ projects[currentProjectIndex].name }}
+              {{ projects[currentProjectIndex].title }}
             </h1>
           </transition>
           <div class="flex gap-x-4">
