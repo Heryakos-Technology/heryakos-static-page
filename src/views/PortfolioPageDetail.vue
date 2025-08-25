@@ -68,10 +68,16 @@ const project = projectsData.find((p) => p.id === projectId);
             class="flex gap-x-8 font-semibold underline hover:font-bold"
           >
             <p class="text-btnColor font-semibold">Links</p>
-            <a v-if="project?.github_link" :href="project?.github_link"
+            <a
+              target="_blank"
+              v-if="project?.github_link"
+              :href="project?.github_link"
               >GitHub</a
             >
-            <a v-if="project?.other_link" :href="project?.other_link"
+            <a
+              target="_blank"
+              v-if="project?.other_link"
+              :href="project?.other_link"
               >Other Link</a
             >
           </div>
