@@ -3,12 +3,6 @@ import { onMounted } from "vue";
 
 import ProjectCard from "@/components/PortfolioPage/ProjectCard.vue";
 import our_works_illustration from "/images/our_works_illustration.png";
-import AIVision from "/images/AIVision.jpeg";
-import CSVECommerce from "/images/CSV E-Commerce.jpeg";
-import HospitalManagement from "/images/Hospital Management System .jpeg";
-import SurfaceInsight from "/images/SurfaceInsight.jpeg";
-import TrustBroker from "/images/Trust-Broker.jpeg";
-import AiPowered from "/images/AI-Powered Proposal Tool.jpeg";
 import { ref } from "vue";
 import ContactUsCard from "@/components/PortfolioPage/ContactUsCard.vue";
 import { projectsData } from "@/assets/projectJson";
