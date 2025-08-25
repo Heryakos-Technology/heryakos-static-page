@@ -11,37 +11,13 @@ import TrustBroker from "/images/Trust-Broker.jpeg";
 import AiPowered from "/images/AI-Powered Proposal Tool.jpeg";
 import { ref } from "vue";
 import ContactUsCard from "@/components/PortfolioPage/ContactUsCard.vue";
+import { projectsData } from "@/assets/projectJson";
 
 onMounted(() => {
   window.scrollTo(0, 0);
 });
 
-const projects = ref([
-  {
-    title: "Hospital Management System (HMS)",
-    imageUrl: HospitalManagement,
-  },
-  {
-    title: "CSV E-Commerce",
-    imageUrl: CSVECommerce,
-  },
-  {
-    title: "Trust-Broker –  Brokerage Platform for  Deals",
-    imageUrl: TrustBroker,
-  },
-  {
-    title: "AIVision –  SaaS for Creative Automation",
-    imageUrl: AIVision,
-  },
-  {
-    title: "SurfaceInsight – Intelligent RPA Implementation Platform",
-    imageUrl: SurfaceInsight,
-  },
-  {
-    title: "AI-Powered Proposal Tool",
-    imageUrl: AiPowered,
-  },
-]);
+const projects = ref(projectsData);
 </script>
 
 <template>
@@ -86,9 +62,10 @@ const projects = ref([
       <ProjectCard
         v-for="(project, index) in projects"
         :key="index"
+        :id="project.id"
         :title="project.title"
         :description="project.description"
-        :imageUrl="project.imageUrl"
+        :imageUrl="project.smallImage"
       />
     </div>
     <div class="">
