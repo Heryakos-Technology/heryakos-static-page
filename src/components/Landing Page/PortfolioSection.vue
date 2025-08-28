@@ -1,12 +1,8 @@
 <script setup>
 import { ref } from "vue";
-import AIVision from "/images/AIVision ¨C Saas Hero Section Figma Template.jpeg";
-import CSVECommerce from "/images/CSV E-Commerce Application.jpeg";
-import HospitalManagement from "/images/Hospital Management System.jpeg";
 
 import { projectsData } from "@/assets/projectJson";
 
-import TrustBroker from "/images/Trust-Broker Website .png";
 import arrowUpRight from "@/components/icons/arrow-up-right.png";
 
 const projects = ref(projectsData.slice(0, 4));
