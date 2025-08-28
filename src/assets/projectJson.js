@@ -4,7 +4,7 @@ export const projectsData = [
     title: "GigPoint - Freelance Platform",
     category: "Web Development",
     description: "A comprehensive freelance platform connecting clients with skilled professionals. Features real-time communication, secure payment processing, and project management tools.",
-    imageUrl: "/images/GigPoint_App_Image.png",
+    imageUrl: "/GigPoint_App_Image.webp",
     smallImage: "/images/GigPoint_Small.webp",
     technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Stripe API"],
     timeline: "March 2024 - July 2024",
