@@ -1,11 +1,29 @@
+import GigPoint_App_Image from "/images/GigPoint_App_Image.webp";
+import GigPoint_Small from "/images/GigPoint_Small.webp";
+import Everli_Image from "/images/Everli_Image.webp";
+import Everli_Small from "/images/Everli_Small.webp";
+import TrustBroker_Image from "/images/TrustBroker_Image.webp";
+import Trust_Broker from "/images/Trust-Broker.jpeg";
+import CSV_ECommerce_Image from "/images/CSV_ECommerce_Image.webp";
+import CSVECommerce from "/images/CSVECommerce.jpeg";
+import Hospital_Management_System_Image from "/images/Hospital_Management_System_Image.webp";
+import HospitalManagementSystem_Small from "/images/HospitalManagementSystem_Small.jpeg";
+import FixIt_Image from "/images/FixIt_Image.webp";
+import FixIt_Small from "/images/FixIt_Small.webp";
+import WeSafe_Image from "/images/WeSafe_Image.webp";
+import WeSafe_Small from "/images/WeSafe_Small.webp";
+import tom_grey from "/images/tom-grey.webp";
+import JEAN_LUC_BESSET from "/images/JEAN_LUC_BESSET.webp";
+
+
 export const projectsData = [
   {
     id: 1,
     title: "GigPoint - Freelance Platform",
     category: "Web Development",
     description: "A comprehensive freelance platform connecting clients with skilled professionals. Features real-time communication, secure payment processing, and project management tools.",
-    imageUrl: "/GigPoint_App_Image.webp",
-    smallImage: "/images/GigPoint_Small.webp",
+    imageUrl: GigPoint_App_Image,
+    smallImage: GigPoint_Small,
     technologies: ["React", "Node.js", "MongoDB", "Socket.io", "Stripe API"],
     timeline: "March 2024 - July 2024",
     process: "Research, Design, Develop, Deploy",
@@ -17,7 +35,7 @@ export const projectsData = [
       quote: "The GigPoint platform has revolutionized how we connect with freelancers. The seamless user experience and robust features have significantly improved our project delivery times.",
       author: "Tom Fiorita",
       position: "Founder & CEO of GigPoint Technologies",
-      avatar: "/images/tom-grey.webp"
+      avatar: tom_grey
     },
     videoUrl: "https://www.youtube.com/embed/DVFQP764G50?si=60FlL3wopKtoSBo0",
     github_link: null,
@@ -28,8 +46,8 @@ export const projectsData = [
     title: "Everli - E-Commerce Mobile App",
     category: "Mobile Development",
     description: "A comprehensive e-commerce mobile application for grocery delivery and shopping. Built with Flutter for cross-platform compatibility and seamless user experience.",
-    imageUrl: "/images/Everli_Image.webp",
-    smallImage: "/images/Everli_Small.webp",
+    imageUrl: Everli_Image,
+    smallImage: Everli_Small,
     technologies: ["Flutter", "Dart", "Firebase", "Google Maps API", "Payment Gateway"],
     timeline: "January 2024 - May 2024",
     process: "Market Research, Prototyping, Development, Testing",
@@ -41,7 +59,7 @@ export const projectsData = [
       quote: "Our mobile app has transformed the grocery shopping experience for our customers. The intuitive design and reliable performance have exceeded our expectations.",
       author: "JEAN-LUC BESSET",
       position: "CEO & Founder of Everli",
-      avatar: "/images/JEAN_LUC_BESSET.webp"
+      avatar: JEAN_LUC_BESSET
     },
     videoUrl: null,
     github_link: null,
@@ -53,8 +71,8 @@ export const projectsData = [
     title: "Trust Broker - Business Brokerage Platform",
     category: "Business Solutions",
     description: "A mobile and web application designed for Relife Business Center in Ethiopia, built to streamline brokerage activities and connect businesses with trusted partners, buyers, and service providers.",
-    imageUrl: "/images/TrustBroker_Image.webp",
-    smallImage: "/images/Trust-Broker.jpeg",
+    imageUrl: TrustBroker_Image,
+    smallImage: Trust_Broker,
     technologies: ["React", "React Native", "Node.js", "MongoDB", "Socket.io"],
     timeline: "October 2023 - March 2024",
     process: "Business Analysis, Platform Design, Development, Deployment",
@@ -66,7 +84,6 @@ export const projectsData = [
       quote: "Trust Broker has revolutionized our brokerage operations. The platform's comprehensive features have increased our deal closure rate by 150% and improved client satisfaction significantly.",
       author: "Bereket Alemayehu",
       position: "CEO of Relife Business Center",
-      avatar: "/images/bereket_profile.jpg"
     },
     videoUrl: null,
     github_link: "https://github.com/orgs/ReliefeBusinessCenter/repositories",
@@ -77,8 +94,8 @@ export const projectsData = [
     title: "CSV E-Commerce Platform",
     category: "E-Commerce Development",
     description: "A scalable e-commerce platform designed for modern online retail operations. Features advanced inventory management, analytics, and customer engagement tools.",
-    imageUrl: "/images/CSV_ECommerce_Image.webp",
-    smallImage: "/images/CSVECommerce.jpeg",
+    imageUrl: CSV_ECommerce_Image,
+    smallImage: CSVECommerce,
     technologies: ["React", "Node.js", "PostgreSQL", "Redis", "AWS"],
     timeline: "June 2023 - December 2023",
     process: "Requirements Analysis, Architecture Design, Development, Deployment",
@@ -90,7 +107,6 @@ export const projectsData = [
       quote: "The e-commerce platform has significantly boosted our online sales and improved our operational efficiency. The scalable architecture handles our growing customer base seamlessly.",
       author: "Jennifer Chen",
       position: "CTO of CSV Retail Group",
-      avatar: "/images/jennifer_profile.jpg"
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/csv-eccomerce",
@@ -101,8 +117,8 @@ export const projectsData = [
     title: "Hospital Management System (HMS)",
     category: "Healthcare Solutions",
     description: "A comprehensive web application designed to streamline healthcare operations by digitizing patient management, doctor scheduling, billing, and medical records.",
-    imageUrl: "/images/Hospital_Management_System_Image.webp",
-    smallImage: "/images/HospitalManagementSystem_Small.jpeg",
+    imageUrl: Hospital_Management_System_Image,
+    smallImage: HospitalManagementSystem_Small,
     technologies: ["React", "Node.js", "MySQL", "Express.js", "Chart.js"],
     timeline: "August 2023 - January 2024",
     process: "Healthcare Analysis, System Design, Development, Testing",
@@ -114,7 +130,6 @@ export const projectsData = [
       quote: "The Hospital Management System has streamlined our operations significantly. Patient management and scheduling have become much more efficient, reducing wait times by 40%.",
       author: "Dr. Samira Hassan",
       position: "Chief Medical Officer",
-      avatar: "/images/samira_profile.jpg"
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/Hospital-Management-System",
@@ -125,8 +140,8 @@ export const projectsData = [
     title: "FixIt - Service Management Platform",
     category: "Business Solutions",
     description: "A comprehensive service management platform for home repair and maintenance services. Connects customers with verified service providers efficiently.",
-    imageUrl: "/images/FixIt_Image.webp",
-    smallImage: "/images/FixIt_Small.webp",
+    imageUrl: FixIt_Image,
+    smallImage: FixIt_Small,
     technologies: ["Vue.js", "Laravel", "MySQL", "WebRTC", "Google Maps"],
     timeline: "September 2023 - February 2024",
     process: "Market Analysis, Design, Development, Testing",
@@ -138,7 +153,6 @@ export const projectsData = [
       quote: "FixIt has transformed our service delivery model. The platform's efficiency and user-friendly interface have resulted in a 200% increase in customer satisfaction.",
       author: "David Rodriguez",
       position: "Operations Director at FixIt Services",
-      avatar: "/images/david_profile.jpg"
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/FixIt",
@@ -149,8 +163,8 @@ export const projectsData = [
     title: "WeSafe - Comprehensive Safety Management System",
     category: "Safety & Security",
     description: "A comprehensive safety management system with mobile and web components, featuring real-time monitoring, incident reporting, emergency response, and workplace safety management.",
-    imageUrl: "/images/WeSafe_Image.webp",
-    smallImage: "/images/WeSafe_Small.webp",
+    imageUrl: WeSafe_Image,
+    smallImage: WeSafe_Small,
     technologies: ["React Native", "React", "Node.js", "MongoDB", "Socket.io", "GPS Tracking", "Push Notifications"],
     timeline: "April 2023 - August 2023",
     process: "Safety Analysis, System Design, Mobile & Web Development, Testing",
@@ -162,7 +176,6 @@ export const projectsData = [
       quote: "WeSafe has significantly improved our workplace safety protocols. The real-time monitoring and quick emergency response features have been game-changers for our operations, while the mobile app has empowered our workers to take an active role in workplace safety.",
       author: "Amanda Thompson",
       position: "Safety Director at WeSafe Technologies",
-      avatar: "/images/amanda_profile.jpg"
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/We_safe_user_app",
