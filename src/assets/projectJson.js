@@ -1,7 +1,7 @@
 import GigPoint_App_Image from "/images/GigPoint_App_Image.webp";
-import GigPoint_Small from "/images/GigPoint_Small.webp";
+import GigPoint_Small from "/images/gigpointlogo.png";
 import Everli_Image from "/images/Everli_Image.webp";
-import Everli_Small from "/images/Everli_Small.webp";
+import Everli_Small from "/images/everliLogo.webp";
 import TrustBroker_Image from "/images/TrustBroker_Image.webp";
 import Trust_Broker from "/images/Trust-Broker.jpeg";
 import CSV_ECommerce_Image from "/images/CSV_ECommerce_Image.webp";
@@ -39,7 +39,9 @@ export const projectsData = [
     },
     videoUrl: "https://www.youtube.com/embed/DVFQP764G50?si=60FlL3wopKtoSBo0",
     github_link: null,
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   },
   {
     id: 2,
@@ -63,7 +65,9 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: null,
-    other_link: "https://play.google.com/store/apps/details?id=com.everli.ever_li&hl=fr&pli=1"
+    other_link: null,
+    appStore: "https://apps.apple.com/us/app/ever-li/id1453443659?l=fr-FR&platform=iphone",
+    playStore: "https://play.google.com/store/apps/details?id=com.everli.ever_li&hl=fr&pli=1"
 
   },
   {
@@ -87,7 +91,9 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: "https://github.com/orgs/ReliefeBusinessCenter/repositories",
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   },
   {
     id: 4,
@@ -110,7 +116,9 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/csv-eccomerce",
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   },
   {
     id: 5,
@@ -133,7 +141,9 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/Hospital-Management-System",
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   },
   {
     id: 6,
@@ -156,7 +166,9 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/FixIt",
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   },
   {
     id: 7,
@@ -179,6 +191,8 @@ export const projectsData = [
     },
     videoUrl: null,
     github_link: "https://github.com/yared123yared/We_safe_user_app",
-    other_link: null
+    other_link: null,
+    appStore: null,
+    playStore: null
   }
 ];
